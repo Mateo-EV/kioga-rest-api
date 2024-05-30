@@ -1,0 +1,4530 @@
+[
+    {
+        "name": "CASE C/FUENTE TEROS TE-1025 + 600W",
+        "price": "S/ 90.00",
+        "brand": "TEROS",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-cfuente-teros-te-1025-600w7089.png"
+    },
+    {
+        "name": "CASE C/FUENTE TEROS TE-1075 + 250W",
+        "price": "S/ 95.00",
+        "brand": "TEROS",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "teros-te-1075-250w3945.png"
+    },
+    {
+        "name": "CASE C/FUENTE TEROS TE-1149N + 450W",
+        "price": "S/ 155.00",
+        "brand": "TEROS",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-c-fuente-teros-te-1149n-450w4512.png"
+    },
+    {
+        "name": "CASE C/FUENTE HALION STUKA CR11 BLACK +500W",
+        "price": "S/ 215.00",
+        "brand": "HALION",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-cfuente-halion-stuka-cr11-black-500w5784.png"
+    },
+    {
+        "name": "CASE C/FUENTE HALION POLARIS CR13 BLACK +500W",
+        "price": "S/ 219.00",
+        "brand": "HALION",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "halion-polaris-cr13-black-500w2151.png"
+    },
+    {
+        "name": "CASE C/FUENTE ANTRYX XTREME NC-257 + B500W",
+        "price": "S/ 245.00",
+        "brand": "ANTRYX",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-cfuente-antryx-xtreme-nc-257-b500w8892.png"
+    },
+    {
+        "name": "CASE C/FUENTE HALION SCARLET RGB +500W",
+        "price": "S/ 285.00",
+        "brand": "HALION",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-cfuente-halion-scarlet-rgb-500w0783.png"
+    },
+    {
+        "name": "CASE C/FUENTE ANTRYX XTREME NC-253 + B500W",
+        "price": "S/ 245.00",
+        "brand": "ANTRYX",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-c-fuente-antryx-xtreme-nc-253-b500w5011.png"
+    },
+    {
+        "name": "CASE C/FUENTE GAMEMAX SHINE G517 + 550W",
+        "price": "S/ 305.00",
+        "brand": "GAMEMAX",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-c-fuente-gamemax-shine-g517-550w9712.png"
+    },
+    {
+        "name": "CASE C/FUENTE ANTEC NX4155 + 550W",
+        "price": "S/ 330.00",
+        "brand": "ANTEC",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-cfuente-antec-nx4155-550w4571.png"
+    },
+    {
+        "name": "CASE C/FUENTE HALION DELTA 110 +600W",
+        "price": "S/ 135.00",
+        "brand": "HALION",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-cfuente-halion-delta-110-600w3301.png"
+    },
+    {
+        "name": "CASE C/FUENTE TEROS TE11411N + 450W",
+        "price": "S/ 219.00",
+        "brand": "TEROS",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-cfuente-teros-te11411n-450w9795.png"
+    },
+    {
+        "name": "CASE C/FUENTE TEROS TE11412N + 450W (MIDTOWER)",
+        "price": "S/ 219.00",
+        "brand": "TEROS",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "teros-te11412n-450w-midtower1109.png"
+    },
+    {
+        "name": "CASE C/FUENTE HALION STUKA CR11 WHITE +500W",
+        "price": "S/ 220.00",
+        "brand": "HALION",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-cfuente-halion-stuka-cr11-white-500w8556.png"
+    },
+    {
+        "name": "CASE C/FUENTE HALION MAVERICK CR12 +450W",
+        "price": "S/ 225.00",
+        "brand": "HALION",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-c-fuente-halion-maverick-cr12-450w8196.png"
+    },
+    {
+        "name": "CASE C/FUENTE HALION LIGHTING +500W",
+        "price": "S/ 240.00",
+        "brand": "HALION",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-c-fuente-halion-lighting-500w5051.png"
+    },
+    {
+        "name": "CASE C/FUENTE HALION FALCON +500W",
+        "price": "S/ 245.00",
+        "brand": "HALION",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-c-fuente-halion-falcon-500w5492.png"
+    },
+    {
+        "name": "CASE C/FUENTE HALION FURY +500W",
+        "price": "S/ 245.00",
+        "brand": "HALION",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-c-fuente-halion-fury-500w6402.png"
+    },
+    {
+        "name": "CASE C/FUENTE HALION FLASH +500W",
+        "price": "S/ 267.00",
+        "brand": "HALION",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-c-fuente-halion-flash-500w9533.png"
+    },
+    {
+        "name": "CASE C/FUENTE ANTEC NX2555 + 550W",
+        "price": "S/ 310.00",
+        "brand": "ANTEC",
+        "category": "CASE CON FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-c-fuente-antec-nx2555-550w3805.png"
+    },
+    {
+        "name": "CASE DEEPCOOL MATREXX 30 MINI TOWER",
+        "price": "S/ 155.00",
+        "brand": "DEEPCOOL",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-deepcool-matrexx-30-mini-tower5628.png"
+    },
+    {
+        "name": "CASE GAMEMAX EDGE BLACK RAINBOW",
+        "price": "S/ 155.00",
+        "brand": "GAMEMAX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-gamemax-edge-black-rainbow6594.png"
+    },
+    {
+        "name": "CASE GAMEMAX STORM BK GB BLACK 4 FAN RAINBOW",
+        "price": "S/ 155.00",
+        "brand": "GAMEMAX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-gamemax-storm-bk-gb-black-4-fan-rainbow3094.png"
+    },
+    {
+        "name": "CASE AEROCOOL TRINITY MINI WHITE",
+        "price": "S/ 195.00",
+        "brand": "AEROCOOL",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-aerocool-trinity-mini-white1391.png"
+    },
+    {
+        "name": "CASE ANTRYX RX 450 BLACK",
+        "price": "S/ 225.00",
+        "brand": "ANTRYX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-antryx-rx-450-black6904.png"
+    },
+    {
+        "name": "CASE ANTRYX RX 470 BLACK",
+        "price": "S/ 225.00",
+        "brand": "ANTRYX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-antryx-rx-470-black-29232.png"
+    },
+    {
+        "name": "CASE AEROCOOL BLADE BLACK",
+        "price": "S/ 189.00",
+        "brand": "AEROCOOL",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-aerocool-blade-black5009.png"
+    },
+    {
+        "name": "CASE GAMEMAX REVOLT 4xRGB",
+        "price": "S/ 235.00",
+        "brand": "GAMEMAX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-gamemax-revolt-4xrgb4608.png"
+    },
+    {
+        "name": "CASE GAMEMAX DEFENDER TG ARGB (M-ATX)",
+        "price": "S/ 235.00",
+        "brand": "GAMEMAX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-gamemax-defender-tg-argb-m-atx3289.png"
+    },
+    {
+        "name": "CASE ANTRYX RX 430U BLACK",
+        "price": "S/ 239.00",
+        "brand": "ANTRYX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-antryx-rx-430u-black6946.png"
+    },
+    {
+        "name": "CASE GAMEMAX SIEGE BLACK ARGB",
+        "price": "S/ 250.00",
+        "brand": "GAMEMAX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-gamemax-siege-black-argb7389.png"
+    },
+    {
+        "name": "CASE GAMEMAX DESTROYER TGB BLACK ARGB",
+        "price": "S/ 250.00",
+        "brand": "GAMEMAX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-gamemax-destroyer-tgb-black-argb-49157.png"
+    },
+    {
+        "name": "CASE DEEPCOOL MATREXX 40 3FS MINI TOWER",
+        "price": "S/ 255.00",
+        "brand": "DEEPCOOL",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-deepcool-matrexx-40-3fs-mini-tower9328.png"
+    },
+    {
+        "name": "CASE GAMEMAX DESTROYER TGW WHITE ARGB",
+        "price": "S/ 255.00",
+        "brand": "GAMEMAX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-gamemax-destroyer-tgw-white-argb-41349.png"
+    },
+    {
+        "name": "CASE GAMEMAX CONTACT COC TURBO BLACK/RED",
+        "price": "S/ 270.00",
+        "brand": "GAMEMAX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-gamemax-contact-coc-turbo-black-red8329.png"
+    },
+    {
+        "name": "CASE ANTRYX RX 460 MESH BLACK",
+        "price": "S/ 280.00",
+        "brand": "ANTRYX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-antryx-rx-460-mesh-black6916.png"
+    },
+    {
+        "name": "CASE ANTRYX RX 460 MESH WHITE",
+        "price": "S/ 290.00",
+        "brand": "ANTRYX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-antryx-rx-460-mesh-white7294.png"
+    },
+    {
+        "name": "CASE GAMEMAX BRUFFEN C1 4xRGB COC",
+        "price": "S/ 295.00",
+        "brand": "GAMEMAX",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-gamemax-bruffen-c1-4xrgb-coc3779.png"
+    },
+    {
+        "name": "CASE ANTEC DF600 FLUX",
+        "price": "S/ 315.00",
+        "brand": "ANTEC",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-antec-df600-flux8347.png"
+    },
+    {
+        "name": "CASE ANTEC NX800 BLACK",
+        "price": "S/ 359.00",
+        "brand": "ANTEC",
+        "category": "CASE SIN FUENTE",
+        "subcategory": "case con fuente",
+        "image": "case-antec-nx800-black6548.png"
+    },
+    {
+        "name": "FAN GAMEMAX RINGFORCE 120MM RED",
+        "price": "S/ 28.00",
+        "brand": "GAMEMAX",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-gamemax-ringforce-120mm-red8850.png"
+    },
+    {
+        "name": "FAN AEROCOOL SPECTRO 12 FRGB MOLEX",
+        "price": "S/ 29.00",
+        "brand": "AEROCOOL",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-aerocool-spectro-12-frgb-molex4140.png"
+    },
+    {
+        "name": "FAN ANTRYX DF260 ARGB",
+        "price": "S/ 39.00",
+        "brand": "ANTRYX",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-antryx-df260-argb5367.png"
+    },
+    {
+        "name": "FAN ANTRYX DF310 WHITE ARGB",
+        "price": "S/ 49.00",
+        "brand": "ANTRYX",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-antryx-df310-white-argb1465.png"
+    },
+    {
+        "name": "CONTROLADOR ARGB ANTRYX SPECTRUM",
+        "price": "S/ 59.00",
+        "brand": "ANTRYX",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "controlador-argb-antryx-spectrum9784.png"
+    },
+    {
+        "name": "KIT P/VIDEO VERTICAL ATRYX DESTROYER",
+        "price": "S/ 92.00",
+        "brand": "ANTRYX",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "kit-p-video-vertical-atryx-destroyer5771.png"
+    },
+    {
+        "name": "CABLE EXTENSOR ANTRYX SPECTRUM 8X2 ARGB",
+        "price": "S/ 135.00",
+        "brand": "ANTRYX",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "cable-extensor-antryx-spectrum-8x2-argb2066.png"
+    },
+    {
+        "name": "FAN KIT(3 FAN + CONTROLLER) AEROCOOL MIRAGE 12 ARGB PRO",
+        "price": "S/ 155.00",
+        "brand": "AEROCOOL",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-kit-3-fan-controller-aerocool-mirage-12-argb-pro2997.png"
+    },
+    {
+        "name": "CABLE EXTENSOR ANTRYX SPECTRUM 24X1 ARGB",
+        "price": "S/ 155.00",
+        "brand": "ANTRYX",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "cable-extensor-antryx-spectrum-24x1-argb4177.png"
+    },
+    {
+        "name": "FAN KIT(3 FAN + CONTROLLER) ANTRYX LYNK FAN LF120 WHITE",
+        "price": "S/ 162.00",
+        "brand": "ANTRYX",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-kit-3-fan-controller-antryx-lynk-fan-lf120-white9731.png"
+    },
+    {
+        "name": "FAN KIT(3 FAN + CONTROLLER) ANTRYX SPECTRUM 310 ARGB",
+        "price": "S/ 165.00",
+        "brand": "ANTRYX",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-kit-3-fan-controller-antryx-spectrum-310-argb7822.png"
+    },
+    {
+        "name": "FAN KIT(3 FAN + CONTROLLER) COOLER MASTER SICKLEFLOW WHITE 120MM",
+        "price": "S/ 175.00",
+        "brand": "COOLER MASTER",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-kit-3-fan-controller-cooler-master-sickleflow-white-120mm7188.png"
+    },
+    {
+        "name": "FAN KIT(3 FAN + CONTROLLER) LIAN LI ST120 WHITE ARGB",
+        "price": "S/ 199.00",
+        "brand": "LIAN LI",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-kit-3-fan-controller-lian-li-st120-white-argb7432.png"
+    },
+    {
+        "name": "FAN KIT(3 FAN + CONTROLLER) LIAN LI ST120 BLACK ARGB",
+        "price": "S/ 199.00",
+        "brand": "LIAN LI",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-kit-3-fan-controller-lian-li-st120-black-argb3325.png"
+    },
+    {
+        "name": "FAN KIT(3 FAN + CONTROLLER) DEEPCOOL MF120 GT ARGB",
+        "price": "S/ 230.00",
+        "brand": "DEEPCOOL",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-kit-3-fan-controller-deepcool-mf120-gt-argb0619.png"
+    },
+    {
+        "name": "FAN GAMEMAX RINGFORCE 120MM GREEN",
+        "price": "S/ 28.00",
+        "brand": "GAMEMAX",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-gamemax-ringforce-120mm-green0433.png"
+    },
+    {
+        "name": "FAN XPG VENTO 120 ARGB",
+        "price": "S/ 35.00",
+        "brand": "XPG",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-xpg-vento-120-argb4095.png"
+    },
+    {
+        "name": "FAN ANTRYX DF310 BLACK ARGB",
+        "price": "S/ 45.00",
+        "brand": "ANTRYX",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-antryx-df310-argb5925.png"
+    },
+    {
+        "name": "FAN KIT(3 FAN + CONTROLLER) COOLER MASTER SICKLEFLOW BLACK 120MM",
+        "price": "S/ 165.00",
+        "brand": "COOLER MASTER",
+        "category": "CASE FANS/ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "fan-kit-3-fan-controller-cooler-master-sickleflow-black-120mm7760.png"
+    },
+    {
+        "name": "PLACA AMD AM4 MSI A520M-A PRO",
+        "price": "S/ 250.00",
+        "brand": "MSI",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-msi-a520m-a-pro2631.png"
+    },
+    {
+        "name": "PLACA AMD AM5 MSI PRO A620M-E DDR5",
+        "price": "S/ 352.00",
+        "brand": "MSI",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am5-msi-pro-a620m-e-ddr53402.png"
+    },
+    {
+        "name": "PLACA AMD AM4 MSI B550M PRO-VDH",
+        "price": "S/ 370.00",
+        "brand": "MSI",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-msi-b550m-pro-vdh0219.png"
+    },
+    {
+        "name": "PLACA AMD AM4 GIGABYTE B450M DS3H WIFI",
+        "price": "S/ 385.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-gigabyte-b450m-ds3h-wifi9861.png"
+    },
+    {
+        "name": "PLACA AMD AM4 MSI B550M PRO-VDH WIFI",
+        "price": "S/ 410.00",
+        "brand": "MSI",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-msi-b550m-pro-vdh-wifi0171.png"
+    },
+    {
+        "name": "PLACA AMD AM4 GIGABYTE B550M DS3H AC",
+        "price": "S/ 435.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-gigabyte-b550m-ds3h-ac4693.png"
+    },
+    {
+        "name": "PLACA AMD AM5 MSI PRO B650M-P DDR5",
+        "price": "S/ 535.00",
+        "brand": "MSI",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am5-msi-pro-b650m-p-ddr56876.png"
+    },
+    {
+        "name": "PLACA AMD AM4 ASUS X570-P",
+        "price": "S/ 775.00",
+        "brand": "ASUS",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-asus-x570-p3675.png"
+    },
+    {
+        "name": "PLACA AMD AM4 GIGABYTE B550 AORUS ELITE AX V2",
+        "price": "S/ 855.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-gigabyte-b550-aorus-elite-ax-v24586.png"
+    },
+    {
+        "name": "PLACA AMD AM5 ASUS PRIME B650M-A- AX WIFI/BLUETOOTH DDR5",
+        "price": "S/ 885.00",
+        "brand": "ASUS",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am5-asus-prime-b650m-a-ax-wifibluetooth-ddr55441.png"
+    },
+    {
+        "name": "PLACA AMD AM4 MSI A520M PRO-VH",
+        "price": "S/ 268.00",
+        "brand": "MSI",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-msi-a520m-pro-vh6788.png"
+    },
+    {
+        "name": "PLACA AMD AM4 GIGABYTE B450M-DS3H V2",
+        "price": "S/ 329.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-gigabyte-b450m-ds3h-v20757.png"
+    },
+    {
+        "name": "PLACA AMD AM4 ASUS PRIME B450M-A II",
+        "price": "S/ 355.00",
+        "brand": "ASUS",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-asus-prime-b450m-a-ii7340.png"
+    },
+    {
+        "name": "PLACA AMD AM4 MSI PRO B550M-P GEN3",
+        "price": "S/ 380.00",
+        "brand": "MSI",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-msi-pro-b550m-p-gen38915.png"
+    },
+    {
+        "name": "PLACA AMD AM4 MSI B550M-A PRO",
+        "price": "S/ 405.00",
+        "brand": "MSI",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-msi-b550m-a-pro5422.png"
+    },
+    {
+        "name": "PLACA AMD AM4 ASUS TUF GAMING B450M-PLUS II",
+        "price": "S/ 405.00",
+        "brand": "ASUS",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-asus-tuf-gaming-b450m-plus-ii3168.png"
+    },
+    {
+        "name": "PLACA AMD AM4 GIGABYTE B450M AORUS ELITE",
+        "price": "S/ 430.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-gigabyte-b450m-aorus-elite-22758.png"
+    },
+    {
+        "name": "PLACA AMD AM4 GIGABYTE B550M-DS3H",
+        "price": "S/ 475.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-gigabyte-b550m-ds3h5269.png"
+    },
+    {
+        "name": "PLACA AMD AM4 ASUS PRIME B550M-K",
+        "price": "S/ 495.00",
+        "brand": "ASUS",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-asus-prime-b550m-k3186.png"
+    },
+    {
+        "name": "PLACA AMD AM4 ASUS PRIME B550M-A AC",
+        "price": "S/ 510.00",
+        "brand": "ASUS",
+        "category": "PLACAS AMD AM4/AM5",
+        "subcategory": "case con fuente",
+        "image": "placa-amd-am4-asus-prime-b550m-a-ac-35057.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1200 MSI B560M PRO-E",
+        "price": "S/ 315.00",
+        "brand": "MSI",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1200-msi-b560m-pro-e6275.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1700 MSI H610M-G DDR4",
+        "price": "S/ 430.00",
+        "brand": "MSI",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1700-msi-h610m-g-ddr43552.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1700 MSI PRO B760M-P DDR4",
+        "price": "S/ 445.00",
+        "brand": "MSI",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1700-msi-pro-b760m-p-ddr46990.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1700 GIGABYTE B760M DS3H DDR4",
+        "price": "S/ 525.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1700-gigabyte-b760m-ds3h-ddr4-29600.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1700 GIGABYTE B760M DS3H AX DDR4",
+        "price": "S/ 592.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1700-gigabyte-b760m-ds3h-ax-ddr47293.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1700 GIGABYTE B760M DS3H AX DDR5",
+        "price": "S/ 690.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1700-gigabyte-b760m-ds3h-ax-ddr53652.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1700 MSI MAG B660M MORTAR WIFI DDR4",
+        "price": "S/ 769.00",
+        "brand": "MSI",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1700-msi-mag-b660m-mortar-wifi-ddr47075.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1700 GIGABYTE B760 GAMING X AX DDR5",
+        "price": "S/ 889.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1700-gigabyte-b760-gaming-x-ax-ddr54693.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1700 GIGABYTE Z790 AORUS ELITE AX DDR5",
+        "price": "S/ 1, 369.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1700-gigabyte-z790-aorus-elite-ax-ddr54137.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1200 GIGABYTE H510M-H",
+        "price": "S/ 310.00",
+        "brand": "",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1200-gigabyte-h510m-h7935.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1200 GIGABYTE H470M-H",
+        "price": "S/ 310.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1200-gigabyte-h470m-h-32662.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1200 MSI H510M PRO-E",
+        "price": "S/ 315.00",
+        "brand": "MSI",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1200-msi-h510m-pro-e-27735.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1200 ASUS H510M-E",
+        "price": "S/ 320.00",
+        "brand": "ASUS",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1200-asus-h510m-e4841.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1200 MSI B560M PRO-VDH",
+        "price": "S/ 355.00",
+        "brand": "MSI",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1200-msi-b560m-pro-vdh0683.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1200 MSI B460M PRO-VDH",
+        "price": "S/ 445.00",
+        "brand": "MSI",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1200-msi-b460m-pro-vdh9731.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1200 ASUS PRIME B460M-A R2.0",
+        "price": "S/ 475.00",
+        "brand": "ASUS",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1200-asus-prime-b460m-a-r2-07831.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1200 ASUS PRIME B560-PLUS",
+        "price": "S/ 535.00",
+        "brand": "ASUS",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1200-asus-prime-b560-plus7889.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1700 MSI PRO B660M-A DDR4",
+        "price": "S/ 575.00",
+        "brand": "MSI",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1700-msi-pro-b660m-a-ddr45158.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1700 ASUS B660M-A WIFI D4 DDR4",
+        "price": "S/ 775.00",
+        "brand": "ASUS",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1700-asus-b660m-a-wifi-d4-ddr48817.png"
+    },
+    {
+        "name": "PLACA INTEL LGA1700 GIGABYTE B660M GAMING AX DDR4",
+        "price": "S/ 835.00",
+        "brand": "GIGABYTE",
+        "category": "PLACAS INTEL",
+        "subcategory": "case con fuente",
+        "image": "placa-intel-lga1700-gigabyte-b660m-gaming-ax-ddr46577.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 4500",
+        "price": "S/ 350.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-45000080.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 4600G",
+        "price": "S/ 415.00",
+        "brand": "",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-4600g2571.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 5600G",
+        "price": "S/ 595.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-5600g8661.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 5600",
+        "price": "S/ 640.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-56006554.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 5700G",
+        "price": "S/ 789.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-5700g2676.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 5700X",
+        "price": "S/ 879.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-5700x2946.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 7600",
+        "price": "S/ 895.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-76003595.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 5800X",
+        "price": "S/ 1, 099.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-5800x8300.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 8600G",
+        "price": "S/ 1, 099.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-8600g3135.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 7700",
+        "price": "S/ 1, 445.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-77008783.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 9 5900X",
+        "price": "S/ 1, 475.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-9-5900x2624.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 5800X3D",
+        "price": "S/ 1, 495.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-5800x3d4361.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 8700G",
+        "price": "S/ 1, 579.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-8700g0723.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 9 7900",
+        "price": "S/ 1, 985.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-79000560.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 7800X3D",
+        "price": "S/ 2, 035.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-7800x3d1165.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 9 7950X",
+        "price": "S/ 2, 639.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-9-7950x8632.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 9 7950X3D",
+        "price": "S/ 3, 185.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-9-7950x3d7681.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 3 3200G",
+        "price": "S/ 345.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-3-3200g9527.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 5500",
+        "price": "S/ 429.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-55008392.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 5600X",
+        "price": "S/ 759.00",
+        "brand": "AMD",
+        "category": "Procesadores AMD",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-5600x8090.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I3 10105F",
+        "price": "S/ 320.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i3-10105f4737.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I3 12100F",
+        "price": "S/ 465.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i3-12100f0037.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I3 10105",
+        "price": "S/ 525.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i3-101054649.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I5 11400F",
+        "price": "S/ 579.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i5-11400f0697.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I5 12400F",
+        "price": "S/ 619.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i5-12400f4546.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I5 10400",
+        "price": "S/ 629.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i5-104009280.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I5 11400",
+        "price": "S/ 659.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i5-114002107.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I7 12700F",
+        "price": "S/ 1, 250.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i7-12700f2575.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I5 13600KF",
+        "price": "S/ 1, 409.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i5-13600kf6821.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I7 13700KF",
+        "price": "S/ 1, 939.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i7-13700kf9469.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I9 13900K",
+        "price": "S/ 2, 900.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i9-13900k2102.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I3 10100F",
+        "price": "S/ 285.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i3-10100f6311.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I5 10400F",
+        "price": "S/ 490.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i5-10400f5464.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I7 11700F",
+        "price": "S/ 869.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i7-11700f4043.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I5 13400F",
+        "price": "S/ 996.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i5-13400f0828.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I7 10700F",
+        "price": "S/ 1, 290.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i7-10700f1130.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I5 12600KF",
+        "price": "S/ 1, 325.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i5-12600kf2988.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I7 12700KF",
+        "price": "S/ 1, 750.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i7-12700kf3879.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I7 13700F",
+        "price": "S/ 1, 795.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i7-13700f9017.png"
+    },
+    {
+        "name": "PROCESADOR INTEL CORE I9 12900F",
+        "price": "S/ 2, 505.00",
+        "brand": "INTEL",
+        "category": "Procesadores Intel",
+        "subcategory": "case con fuente",
+        "image": "procesador-intel-core-i9-12900f0163.png"
+    },
+    {
+        "name": "RAM TEAM GROUP ELITE PLUS 8GB DDR3 1600MHz",
+        "price": "S/ 95.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-elite-plus-8gb-ddr3-1600mhz2077.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE VULCANZ RED 8GB DDR4 3200MHz",
+        "price": "S/ 99.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-vulcanz-red-8gb-ddr4-3200mhz7817.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE VULCANZ TUF 8GB DDR4 3200MHz",
+        "price": "S/ 99.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-vulcanz-tuf-8gb-ddr4-3200mhz2852.png"
+    },
+    {
+        "name": "RAM KINGSTON FURY BEAST 8GB DDR4 3200Mhz CL16",
+        "price": "S/ 105.00",
+        "brand": "KINGSTON",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-kingston-fury-beast-8gb-ddr4-3200mhz-cl165280.png"
+    },
+    {
+        "name": "RAM PNY XLR8 RGB SILVER 8GB DDR4 3200MHz",
+        "price": "S/ 150.00",
+        "brand": "PNY",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-pny-xlr8-rgb-8gb-ddr4-3200mhz0462.png"
+    },
+    {
+        "name": "RAM XPG SPECTRIX D41 TUF 8GB DDR4 3200MHZ",
+        "price": "S/ 170.00",
+        "brand": "XPG",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-xpg-spectrix-d41-tuf-8gb-ddr4-3200mhz4676.png"
+    },
+    {
+        "name": "RAM KINGSTON FURY BEAST 8GB DDR5 6000MHz CL40",
+        "price": "S/ 175.00",
+        "brand": "KINGSTON",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-kingston-fury-beast-8gb-ddr5-6000mhz-cl407368.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE DELTA R BLACK 16GB DDR4 3200MHz",
+        "price": "S/ 189.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-delta-r-black-16gb-ddr4-3200mhz9553.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE DELTA R WHITE 16GB DDR4 3200MHz",
+        "price": "S/ 189.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-delta-r-white-16gb-ddr4-3200mhz3474.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE DELTA R BLACK 16GB(2X8) DDR4 3600MHz",
+        "price": "S/ 210.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-delta-r-black-16gb-2x8-ddr4-3600mhz7465.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE DELTA R WHITE 16GB(2X8) DDR4 3600MHz",
+        "price": "S/ 210.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-delta-r-white-16gb-2x8-ddr4-3600mhz9127.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE NIGHT HAWK WHITE 16GB(2x8) DDR4 3200MHz",
+        "price": "S/ 325.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-night-hawk-white-16gb-2x8-ddr4-3200mhz3365.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE VULCANZ GRAY 8GB DDR4 3200MHz",
+        "price": "S/ 99.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-vulcanz-gray-8gb-ddr4-3200mhz5007.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE DELTA R BLACK 8GB DDR4 3200MHz",
+        "price": "S/ 112.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-delta-r-black-8gb-ddr4-3200mhz2851.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE DELTA R TUF 8GB DDR4 3200MHz",
+        "price": "S/ 112.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-delta-r-tuf-8gb-ddr4-3200mhz1611.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE DELTA R WHITE 8GB DDR4 3200MHz",
+        "price": "S/ 112.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-delta-r-white-8gb-ddr4-3200mhz1760.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE VULCANZ GRAY 16GB DDR4 3200MHz",
+        "price": "S/ 179.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-vulcanz-gray-16gb-ddr4-3200mhz0303.png"
+    },
+    {
+        "name": "RAM KINGSTON FURY BEAST 16GB DDR4 3200Mhz CL16",
+        "price": "S/ 185.00",
+        "brand": "KINGSTON",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-kingston-fury-beast-16gb-ddr4-3200mhz-cl160303.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE DELTA R TUF 16GB DDR4 3200MHz",
+        "price": "S/ 189.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-delta-r-tuf-8gb-ddr4-3200mhz1157.png"
+    },
+    {
+        "name": "RAM TEAM GROUP T-FORCE VULCANZ RED 16GB DDR4 3200MHz",
+        "price": "S/ 199.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM DIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-team-group-t-force-vulcanz-red-16gb-ddr4-3200mhz5355.png"
+    },
+    {
+        "name": "RAM SODIMM KINGSTON 4GB DDR4 2666MHz",
+        "price": "S/ 85.00",
+        "brand": "KINGSTON",
+        "category": "MEMORIA RAM SODIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-sodimm-kingston-4gb-ddr4-2666mhz6818.png"
+    },
+    {
+        "name": "RAM SODIMM HP S1 8GB DDR4 3200Mhz",
+        "price": "S/ 89.00",
+        "brand": "HP",
+        "category": "MEMORIA RAM SODIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-sodimm-hp-s1-8gb-ddr4-3200mhz8066.png"
+    },
+    {
+        "name": "RAM SODIMM KINGSTON FURY IMPACT 8GB DDR4 3200MHz",
+        "price": "S/ 105.00",
+        "brand": "KINGSTON",
+        "category": "MEMORIA RAM SODIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-sodimm-kingston-fury-impact-ddr4-32008647.png"
+    },
+    {
+        "name": "RAM SODIMM TEAM GROUP ELITE 8GB DDR3L 1600Mhz",
+        "price": "S/ 95.00",
+        "brand": "TEAM GROUP",
+        "category": "MEMORIA RAM SODIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-sodimm-team-group-elite-8gb-ddr3l-1600mhz4235.png"
+    },
+    {
+        "name": "RAM SODIMM KINGSTON KVR 8GB DDR5 4800Mhz",
+        "price": "S/ 155.00",
+        "brand": "KINGSTON",
+        "category": "MEMORIA RAM SODIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-sodimm-kingston-kvr-16gb-ddr5-4800mhz8233.png"
+    },
+    {
+        "name": "RAM SODIMM HP S1 16GB DDR4 3200Mhz",
+        "price": "S/ 165.00",
+        "brand": "HP",
+        "category": "MEMORIA RAM SODIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-sodimm-hp-s1-16gb-ddr4-3200mhz2877.png"
+    },
+    {
+        "name": "RAM SODIMM KINGSTON FURY IMPACT 16GB DDR4 3200MHz",
+        "price": "S/ 189.00",
+        "brand": "KINGSTON",
+        "category": "MEMORIA RAM SODIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-sodimm-kingston-fury-impact-ddr4-32008299.png"
+    },
+    {
+        "name": "RAM SODIMM KINGSTON KVR 16GB DDR5 4800Mhz",
+        "price": "S/ 255.00",
+        "brand": "KINGSTON",
+        "category": "MEMORIA RAM SODIMM",
+        "subcategory": "case con fuente",
+        "image": "ram-sodimm-kingston-kvr-16gb-ddr5-4800mhz5055.png"
+    },
+    {
+        "name": "SSD 2.5 SATA PNY CS900 120GB",
+        "price": "S/ 75.00",
+        "brand": "PNY",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-sata-pny-cs900-120gb9424.png"
+    },
+    {
+        "name": "SSD 2.5 SATA TEAM GROUP T-FORCE VULCANZ 256GB",
+        "price": "S/ 105.00",
+        "brand": "TEAM GROUP",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-sata-team-group-t-force-vulcanz-1tb6949.png"
+    },
+    {
+        "name": "SSD 2.5 SATA TEAM GROUP T-FORCE VULCANZ 512GB",
+        "price": "S/ 155.00",
+        "brand": "TEAM GROUP",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-sata-team-group-t-force-vulcanz-1tb5596.png"
+    },
+    {
+        "name": "SSD 2.5 SATA TEAM GROUP T-FORCE VULCANZ 1TB",
+        "price": "S/ 285.00",
+        "brand": "TEAM GROUP",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-sata-team-group-t-force-vulcanz-1tb1958.png"
+    },
+    {
+        "name": "SSD 2.5 SATA MSI SPATIUM S270 240GB",
+        "price": "S/ 75.00",
+        "brand": "MSI",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-sata-msi-spatium-s270-240gb0379.png"
+    },
+    {
+        "name": "SSD 2.5 SATA TEAM GROUP T-FORCE VULCANZ 240GB",
+        "price": "S/ 79.00",
+        "brand": "TEAM GROUP",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-sata-team-group-t-force-vulcanz-1tb1007.png"
+    },
+    {
+        "name": "SSD 2.5 GIGABYTE 240GB",
+        "price": "S/ 85.00",
+        "brand": "GIGABYTE",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-gigabyte-240gb2759.png"
+    },
+    {
+        "name": "SSD 2.5 SATA TEAM GROUP CX2 256GB",
+        "price": "S/ 89.00",
+        "brand": "",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-sata-team-group-cx2-256gb8786.png"
+    },
+    {
+        "name": "SSD 2.5 SATA TEAM GROUP T-FORCE VULCANZ 480GB",
+        "price": "S/ 105.00",
+        "brand": "TEAM GROUP",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-sata-team-group-t-force-vulcanz-1tb5606.png"
+    },
+    {
+        "name": "SSD 2.5 SATA TEAM GROUP CX1 480GB",
+        "price": "S/ 169.00",
+        "brand": "TEAM GROUP",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-team-group-cx1-480gb6525.png"
+    },
+    {
+        "name": "SSD 2.5 SATA PNY CS900 1TB",
+        "price": "S/ 299.00",
+        "brand": "PNY",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-sata-pny-cs900-1tb0633.png"
+    },
+    {
+        "name": "SSD 2.5 SATA TEAM GROUP CX2 2TB",
+        "price": "S/ 345.00",
+        "brand": "TEAM GROUP",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-sata-team-group-cx2-256gb7559.png"
+    },
+    {
+        "name": "SSD 2.5 SATA TEAM GROUP CX2 1TB",
+        "price": "S/ 375.00",
+        "brand": "TEAM GROUP",
+        "category": "SSD 2.5\" SATA",
+        "subcategory": "case con fuente",
+        "image": "ssd-2-5-sata-team-group-cx2-1tb8465.png"
+    },
+    {
+        "name": "HDD 3.5 WESTERN DIGITAL BLUE 1TB",
+        "price": "S/ 185.00",
+        "brand": "WESTERN DIGITAL",
+        "category": "HDD",
+        "subcategory": "case con fuente",
+        "image": "hdd-3-5-western-digital-blue-1tb9475.png"
+    },
+    {
+        "name": "HDD 2.5 WESTERN DIGITAL BLUE 1TB",
+        "price": "S/ 240.00",
+        "brand": "WESTERN DIGITAL",
+        "category": "HDD",
+        "subcategory": "case con fuente",
+        "image": "hdd-2-5-western-digital-blue-1tb5719.png"
+    },
+    {
+        "name": "HDD 3.5 WESTERN DIGITAL BLUE 2TB",
+        "price": "S/ 280.00",
+        "brand": "WESTERN DIGITAL",
+        "category": "HDD",
+        "subcategory": "case con fuente",
+        "image": "hdd-3-5-western-digital-blue-2tb6503.png"
+    },
+    {
+        "name": "HDD 3.5 SEAGATE BARRACUDA 2TB",
+        "price": "S/ 285.00",
+        "brand": "SEAGATE",
+        "category": "HDD",
+        "subcategory": "case con fuente",
+        "image": "hdd-3-5-seagate-barracuda-2tb3592.png"
+    },
+    {
+        "name": "SSD M.2 NVMe TEAM GROUP MP33 256GB",
+        "price": "S/ 115.00",
+        "brand": "",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-team-group-mp33-512gb2495.png"
+    },
+    {
+        "name": "SSD M.2 NVMe WESTERN DIGITAL GREEN SN350 500GB",
+        "price": "S/ 175.00",
+        "brand": "WESTERN DIGITAL",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-western-digital-green-sn350-500gb4281.png"
+    },
+    {
+        "name": "SSD M.2 NVMe KINGSTON NV2 500GB - PCIe 4.0",
+        "price": "S/ 192.00",
+        "brand": "KINGSTON",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-kingston-nv2-500gb-pcie-4-08460.png"
+    },
+    {
+        "name": "SSD M.2 NVMe TEAM GROUP MP44L 500GB PCIe 4.0",
+        "price": "S/ 245.00",
+        "brand": "TEAM GROUP",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-team-group-mp44l-500gb-pcie-4-01823.png"
+    },
+    {
+        "name": "SSD M.2 NVMe KINGSTON NV2 1TB - PCIe 4.0",
+        "price": "S/ 285.00",
+        "brand": "KINGSTON",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-kingston-nv2-1tb-pcie-4-0-39014.png"
+    },
+    {
+        "name": "SSD M.2 NVMe HP EX950 512GB",
+        "price": "S/ 345.00",
+        "brand": "HP",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-hp-ex950-512gb9145.png"
+    },
+    {
+        "name": "SSD M.2 NVMe KINGSTON NV2 2TB - PCIe 4.0",
+        "price": "S/ 512.00",
+        "brand": "KINGSTON",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-kingston-nv2-1tb-pcie-4-05907.png"
+    },
+    {
+        "name": "SSD M.2 NVMe KINGSTON NV2 250GB - PCIe 4.0",
+        "price": "S/ 138.00",
+        "brand": "KINGSTON",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-kingston-nv2-250gb-pcie-4-00379.png"
+    },
+    {
+        "name": "SSD M.2 NVMe WESTERN DIGITAL GREEN SN350 480GB",
+        "price": "S/ 145.00",
+        "brand": "WESTERN DIGITAL",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-western-digital-green-sn350-480gb0298.png"
+    },
+    {
+        "name": "SSD M.2 NVMe TEAM GROUP MP33 512GB",
+        "price": "S/ 175.00",
+        "brand": "TEAM GROUP",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-team-group-mp33-512gb6615.png"
+    },
+    {
+        "name": "SSD M.2 NVMe WESTERN DIGITAL GREEN SN350 1TB",
+        "price": "S/ 190.00",
+        "brand": "WESTERN DIGITAL",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-western-digital-green-sn350-1tb9072.png"
+    },
+    {
+        "name": "SSD M.2 NVMe XPG SX6000 PRO 512GB",
+        "price": "S/ 200.00",
+        "brand": "XPG",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-xpg-sx6000-pro-512gb0328.png"
+    },
+    {
+        "name": "SSD M.2 NVMe TEAM GROUP MP33 1TB",
+        "price": "S/ 279.00",
+        "brand": "TEAM GROUP",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-team-group-mp33-512gb2842.png"
+    },
+    {
+        "name": "SSD M.2 NVMe TEAM GROUP MP44L 1TB PCIe 4.0",
+        "price": "S/ 410.00",
+        "brand": "TEAM GROUP",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-team-group-mp44l-1tb-pcie-4-07161.png"
+    },
+    {
+        "name": "SSD M.2 NVMe KINGSTON FURY RENEGADE 1TB WITH HEATSINK - PCIe 4.0",
+        "price": "S/ 459.00",
+        "brand": "KINGSTON",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-kingston-fury-renegade-1tb-with-heatsink-pcie-4-0-26043.png"
+    },
+    {
+        "name": "SSD M.2 NVMe KINGSTON FURY RENEGADE 1TB - PCIe 4.0",
+        "price": "S/ 475.00",
+        "brand": "KINGSTON",
+        "category": "SSD M.2 NVME",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-kingston-fury-renegade-1tb-pcie-4-0-23295.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO EVGA GT N210 1GB GDDR3",
+        "price": "S/ 175.00",
+        "brand": "EVGA",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-evga-gt-n210-1gb-gddr32907.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS XS OC D6 GEFORCE GTX 1650 4GB GDDR6",
+        "price": "S/ 649.00",
+        "brand": "MSI",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-xs-oc-d6-geforce-gtx-1650-4gb-gddr69116.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ASUS DUAL OC GEFORCE RTX 3050 6GB GDDR6",
+        "price": "S/ 839.00",
+        "brand": "ASUS",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-asus-dual-oc-geforce-rtx-3050-6gb-gddr68812.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS 2X 6G OC GEFORCE RTX 3050 6GB GDDR6",
+        "price": "S/ 855.00",
+        "brand": "MSI",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-2x-6g-oc-geforce-rtx-3050-6gb-gddr61704.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS 2X XS OC GEFORCE RTX 3050 8GB GDDR6",
+        "price": "S/ 999.00",
+        "brand": "MSI",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-2x-xs-oc-geforce-rtx-3050-8gb-gddr62162.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ZOTAC TWIN FAN GEFORCE GTX 1660 SUPER 6GB GDDR6",
+        "price": "S/ 1, 082.00",
+        "brand": "ZOTAC",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-zotac-twin-fan-geforce-gtx-1660-super-6gb-gddr60803.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ASUS DUAL WHITE OC GEFORCE RTX 3060 8GB GDDR6",
+        "price": "S/ 1, 350.00",
+        "brand": "ASUS",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-asus-dual-white-oc-geforce-rtx-3060-8gb-gddr60394.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS 2X OC GEFORCE RTX 4060 8GB GDDR6",
+        "price": "S/ 1, 360.00",
+        "brand": "MSI",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-2x-oc-geforce-rtx-4060-8gb-gddr64363.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ASUS DUAL EVO OC GEFORCE RTX 4060 8GB GDDR6",
+        "price": "S/ 1, 385.00",
+        "brand": "ASUS",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-asus-dual-evo-oc-geforce-rtx-4060-8gb-gddr64444.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS 2X OC GEFORCE RTX 4070 12GB GDDR6X",
+        "price": "S/ 2, 869.00",
+        "brand": "MSI",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-2x-oc-geforce-rtx-4070-12gb-gddr6x5405.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO GIGABYTE EAGLE OC GEFORCE RTX 4070 12GB GDDR6X",
+        "price": "S/ 3, 120.00",
+        "brand": "GIGABYTE",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-gigabyte-eagle-oc-geforce-rtx-4070-12gb-gddr6x1658.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ASUS TUF GAMING GEFORCE RTX 4070Ti 12GB GDDR6X",
+        "price": "S/ 3, 739.00",
+        "brand": "ASUS",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-asus-tuf-gaming-geforce-rtx-4070ti-12gb-gddr6x5507.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO GIGABYTE GAMING OC GEFORCE RTX 4070Ti 12GB GDDR6X",
+        "price": "S/ 3, 919.00",
+        "brand": "GIGABYTE",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-gigabyte-gaming-oc-geforce-rtx-4070ti-12gb-gddr6x9202.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS X3 OC GEFORCE RTX 4070Ti 12GB GDDR6X",
+        "price": "S/ 3, 959.00",
+        "brand": "MSI",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-x3-oc-geforce-rtx-4070ti-12gb-gddr6x4728.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS XS GEFORCE GTX 1630 4GB GDDR6",
+        "price": "S/ 665.00",
+        "brand": "MSI",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-xs-geforce-gtx-1630-4gb-gddr61086.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO GIGABYTE OC GEFORCE GTX 1650 4GB GDDR6",
+        "price": "S/ 685.00",
+        "brand": "GIGABYTE",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-gigabyte-oc-geforce-gtx-1650-4gb-gddr65974.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ZOTAC GAMING GEFORCE GTX 1650 4GB GDDR6",
+        "price": "S/ 732.00",
+        "brand": "ZOTAC",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-zotac-gaming-geforce-gtx-1650-4gb-gddr66208.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO GIGABYTE WINDFORCE D6 GEFORCE GTX 1660 TI 6GB GDDR6",
+        "price": "S/ 999.00",
+        "brand": "GIGABYTE",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-gigabyte-windforce-d6-geforce-gtx-1660-ti-6gb-gddr63589.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ASUS DUAL OC GEFORCE RTX 3050 8GB GDDR6",
+        "price": "S/ 1, 150.00",
+        "brand": "ASUS",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-asus-dual-oc-geforce-rtx-3050-8gb-gddr67213.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ZOTAC TWIN EDGE GEFORCE RTX 3060 8GB GDDR6",
+        "price": "S/ 1, 250.00",
+        "brand": "ZOTAC",
+        "category": "TARJETAS DE VIDEO NVIDIA",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-zotac-twin-edge-geforce-rtx-3060-8gb-gddr68307.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ASROCK PHANTOM GAMING D RX 6500XT 4GB GDDR6",
+        "price": "S/ 960.00",
+        "brand": "ASROCK",
+        "category": "TARJETAS DE VIDEO AMD",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-asrock-phantom-gaming-d-rx-6500xt-4gb-gddr69003.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI MECH 2X OC RX 6500XT 4GB GDDR6",
+        "price": "S/ 980.00",
+        "brand": "MSI",
+        "category": "TARJETAS DE VIDEO AMD",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-mech-2x-oc-rx-6500xt-4gb-gddr65374.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI MECH 2X CLASSIC OC RX 7600 8GB GDDR6",
+        "price": "S/ 1, 380.00",
+        "brand": "MSI",
+        "category": "TARJETAS DE VIDEO AMD",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-mech-2x-classic-oc-rx-7600-8gb-gddr67855.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO GIGABYTE GAMING OC RX 7600 8GB GDDR6",
+        "price": "S/ 1, 570.00",
+        "brand": "GIGABYTE",
+        "category": "TARJETAS DE VIDEO AMD",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-gigabyte-gaming-oc-rx-7600-8gb-gddr63858.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI MECH 2X OC RX 6650XT 8GB GDDR6",
+        "price": "S/ 1, 150.00",
+        "brand": "MSI",
+        "category": "TARJETAS DE VIDEO AMD",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-mech-2x-oc-rx-6650xt-8gb-gddr63513.png"
+    },
+    {
+        "name": "LIQUID COOLER ANTRYX TRITON 120C ARGB",
+        "price": "S/ 239.00",
+        "brand": "ANTRYX",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "liquid-cooler-antryx-triton-120c-argb2331.png"
+    },
+    {
+        "name": "LIQUID COOLER EVGA CLC 120 ENTRY LEVEL",
+        "price": "S/ 239.00",
+        "brand": "EVGA",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "liquid-cooler-evga-clc-120-entry-level4817.png"
+    },
+    {
+        "name": "SISTEMA DE ENFRIAMIENTO LIQUIDO ANTRYX TRITON EVO 240 BLACK ARGB",
+        "price": "S/ 320.00",
+        "brand": "ANTRYX",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "sistema-de-enfriamiento-liquido-antryx-triton-evo-240-black-argb2992.png"
+    },
+    {
+        "name": "LIQUID COOLER AEROCOOL MIRAGE L240 PWM WHITE",
+        "price": "S/ 325.00",
+        "brand": "AEROCOOL",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "liquid-cooler-aerocool-mirage-l240-pwm-white0943.png"
+    },
+    {
+        "name": "SISTEMA DE ENFRIAMIENTO LIQUIDO ANTRYX TRITON EVO 240 WHITE ARGB",
+        "price": "S/ 330.00",
+        "brand": "ANTRYX",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "sistema-de-enfriamiento-liquido-antryx-triton-evo-240-white-argb-21584.png"
+    },
+    {
+        "name": "SISTEMA DE ENFRIAMIENTO LIQUIDO ANTRYX TRITON INFINITY 240 BLACK ARGB",
+        "price": "S/ 375.00",
+        "brand": "ANTRYX",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "sistema-de-enfriamiento-liquido-antryx-triton-infinity-240-black-argb-38507.png"
+    },
+    {
+        "name": "SISTEMA DE ENFRIAMIENTO LIQUIDO ANTRYX TRITON INFINITY 240 WHITE ARGB",
+        "price": "S/ 375.00",
+        "brand": "ANTRYX",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "sistema-de-enfriamiento-liquido-antryx-triton-infinity-240-white-argb-30085.png"
+    },
+    {
+        "name": "LIQUID COOLER CM MASTERLIQUID ML240L V2 BLACK ARGB",
+        "price": "S/ 399.00",
+        "brand": "COOLER MASTER",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "liquid-cooler-cm-masterliquid-ml240l-v2-black-argb1650.png"
+    },
+    {
+        "name": "LIQUID COOLER CM MASTERLIQUID ML240L V2 WHITE ARGB",
+        "price": "S/ 389.00",
+        "brand": "COOLER MASTER",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "liquid-cooler-cm-masterliquid-ml240l-v2-white-argb2519.png"
+    },
+    {
+        "name": "SISTEMA DE ENFRIAMIENTO LIQUIDO ANTRYX TRITON EVO 360 WHITE ARGB",
+        "price": "S/ 429.00",
+        "brand": "ANTRYX",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "sistema-de-enfriamiento-liquido-antryx-triton-evo-360-white-argb-26629.png"
+    },
+    {
+        "name": "SISTEMA DE ENFRIAMIENTO LIQUIDO ANTRYX TRITON INFINITY 360 BLACK ARGB",
+        "price": "S/ 449.00",
+        "brand": "ANTRYX",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "sistema-de-enfriamiento-liquido-antryx-triton-infinity-360-black-argb-37146.png"
+    },
+    {
+        "name": "SISTEMA DE ENFRIAMIENTO LIQUIDO ANTRYX TRITON INFINITY 360 WHITE ARGB",
+        "price": "S/ 459.00",
+        "brand": "ANTRYX",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "sistema-de-enfriamiento-liquido-antryx-triton-infinity-360-white-argb-34715.png"
+    },
+    {
+        "name": "LIQUID COOLER LIAN LI GALAHAD 240 BLACK ARGB",
+        "price": "S/ 495.00",
+        "brand": "LIAN LI",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "liquid-cooler-lian-li-galahad-240-black-argb3527.png"
+    },
+    {
+        "name": "LIQUID COOLER LIAN LI GALAHAD 240 WHITE ARGB",
+        "price": "S/ 505.00",
+        "brand": "LIAN LI",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "liquid-cooler-lian-li-galahad-240-white-argb7664.png"
+    },
+    {
+        "name": "LIQUID COOLER EVGA CLC 360 RGB",
+        "price": "S/ 619.00",
+        "brand": "EVGA",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "liquid-cooler-evga-clc-360-rgb8311.png"
+    },
+    {
+        "name": "LIQUID COOLER CORSAIR iCUE H115i ELITE CAPELLIX",
+        "price": "S/ 779.00",
+        "brand": "CORSAIR",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "liquid-cooler-corsair-icue-h115i-elite-capellix9169.png"
+    },
+    {
+        "name": "LIQUID COOLER AEROCOOL MIRAGE L240 PWM BLACK",
+        "price": "S/ 315.00",
+        "brand": "AEROCOOL",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "liquid-cooler-aerocool-mirage-l240-pwm-black9125.png"
+    },
+    {
+        "name": "LIQUID COOLER ANTRYX TRITON 240C ARGB",
+        "price": "S/ 335.00",
+        "brand": "ANTRYX",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "liquid-cooler-antryx-triton-240c-argb7430.png"
+    },
+    {
+        "name": "LIQUID COOLER ANTRYX TRITON 360C ARGB",
+        "price": "S/ 435.00",
+        "brand": "ANTRYX",
+        "category": "Refrigeración Líquida",
+        "subcategory": "case con fuente",
+        "image": "liquid-cooler-antryx-triton-360c-argb2849.png"
+    },
+    {
+        "name": "AIR COOLER ANTRYX MIRAGE 210 ARGB",
+        "price": "S/ 79.00",
+        "brand": "ANTRYX",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-antryx-mirage-210-argb-33560.png"
+    },
+    {
+        "name": "AIR COOLER ANTRYX MIRAGE 410 ARGB",
+        "price": "S/ 115.00",
+        "brand": "ANTRYX",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-antryx-mirage-410-argb6165.png"
+    },
+    {
+        "name": "AIR COOLER DEEPCOOL GAMMAXX GTE V2 WHITE",
+        "price": "S/ 135.00",
+        "brand": "DEEPCOOL",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-deepcool-gammaxx-gte-v2-white9263.png"
+    },
+    {
+        "name": "AIR COOLER ANTEC A400 RGB",
+        "price": "S/ 145.00",
+        "brand": "ANTEC",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-antec-a400-rgb6795.png"
+    },
+    {
+        "name": "AIR COOLER ANTRYX MIRAGE INFINITY BLACK ARGB",
+        "price": "S/ 155.00",
+        "brand": "ANTRYX",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-antryx-mirage-infinity-black-argb3801.png"
+    },
+    {
+        "name": "AIR COOLER ANTRYX MIRAGE INFINITY WHITE ARGB",
+        "price": "S/ 155.00",
+        "brand": "ANTRYX",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-antryx-mirage-infinity-white-argb7727.png"
+    },
+    {
+        "name": "AIR COOLER REDRAGON CC-2000",
+        "price": "S/ 159.00",
+        "brand": "REDRAGON",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-redragon-cc-20004890.png"
+    },
+    {
+        "name": "AIR COOLER AEROCOOL CYLON 4F ARGB PWM 4P BLACK",
+        "price": "S/ 159.00",
+        "brand": "AEROCOOL",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-aerocool-cylon-4f-argb-pwm-4p-black3550.png"
+    },
+    {
+        "name": "AIR COOLER AEROCOOL CYLON 4F ARGB PWM 4P WHITE",
+        "price": "S/ 169.00",
+        "brand": "AEROCOOL",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-aerocool-cylon-4f-argb-pwm-4p-white2511.png"
+    },
+    {
+        "name": "AIR COOLER COOLER MASTER HYPER 212 RGB BLACK EDITION",
+        "price": "S/ 225.00",
+        "brand": "COOLER MASTER",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-cooler-master-hyper-212-rgb-black-edition2821.png"
+    },
+    {
+        "name": "AIR COOLER COOLER MASTER MASTERAIR G100M GM",
+        "price": "S/ 235.00",
+        "brand": "COOLER MASTER",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-cooler-master-masterair-g100m-gm5026.png"
+    },
+    {
+        "name": "AIR COOLER COOLER MASTER MA410M ARGB",
+        "price": "S/ 309.00",
+        "brand": "COOLER MASTER",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-cooler-master-ma410m-argb8465.png"
+    },
+    {
+        "name": "AIR COOLER GIGABYTE AORUS GP-ATC800",
+        "price": "S/ 445.00",
+        "brand": "GIGABYTE",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-gigabyte-aorus-gp-atc8003053.png"
+    },
+    {
+        "name": "AIR COOLER DEEPCOOL GAMMAXX 300R RED LED",
+        "price": "S/ 89.00",
+        "brand": "DEEPCOOL",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-deepcool-gammaxx-300r-red-led9454.png"
+    },
+    {
+        "name": "AIR COOLER COOLER MASTER HYPER H410R RED",
+        "price": "S/ 99.00",
+        "brand": "COOLER MASTER",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-cooler-master-hyper-h410r-red1163.png"
+    },
+    {
+        "name": "AIR COOLER DEEPCOOL GAMMAXX AG400 ARGB",
+        "price": "S/ 125.00",
+        "brand": "DEEPCOOL",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-deepcool-gammaxx-ag400-argb9795.png"
+    },
+    {
+        "name": "AIR COOLER COOLER MASTER HYPER H410R RGB",
+        "price": "S/ 135.00",
+        "brand": "COOLER MASTER",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-cooler-master-hyper-h410r-rgb7227.png"
+    },
+    {
+        "name": "AIR COOLER DEEPCOOL GAMMAXX 400 V2 BLUE",
+        "price": "S/ 135.00",
+        "brand": "DEEPCOOL",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-deepcool-gammaxx-400-v2-blue8974.png"
+    },
+    {
+        "name": "AIR COOLER DEEPCOOL GAMMAXX GTE V2 RGB",
+        "price": "S/ 145.00",
+        "brand": "DEEPCOOL",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-deepcool-gammaxx-gte-v2-rgb6674.png"
+    },
+    {
+        "name": "AIR COOLER COOLER MASTER HYPER 212 SPECTRUM V2",
+        "price": "S/ 150.00",
+        "brand": "COOLER MASTER",
+        "category": "CPU AIR COOLER",
+        "subcategory": "case con fuente",
+        "image": "air-cooler-cooler-master-hyper-212-spectrum-v2-33679.png"
+    },
+    {
+        "name": "FUENTE GAMEMAX GP SERIES GP-650 650W 80+ BRONZE",
+        "price": "S/ 210.00",
+        "brand": "GAMEMAX",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-gamemax-gp-series-gp-650-650w-80-bronze-21490.png"
+    },
+    {
+        "name": "FUENTE GAMEMAX GP SERIES GP-650 650W 80+ BRONZE WHITE",
+        "price": "S/ 210.00",
+        "brand": "GAMEMAX",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-gamemax-gp-series-gp-650-650w-80-bronze-white-33583.png"
+    },
+    {
+        "name": "FUENTE DEEPCOOL PF650 650W 80+ WHITE",
+        "price": "S/ 212.00",
+        "brand": "DEEPCOOL",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-deepcool-pf650-650w-80-white-25890.png"
+    },
+    {
+        "name": "FUENTE SEASONIC A12 600W 80+ WHITE",
+        "price": "S/ 225.00",
+        "brand": "SEASONIC",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-seasonic-a12-600w-80-white2061.png"
+    },
+    {
+        "name": "FUENTE GAMEMAX GP SERIES GP-750 750W 80+ BRONZE",
+        "price": "S/ 249.00",
+        "brand": "GAMEMAX",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-gamemax-gp-series-gp-750-750w-80-bronze3792.png"
+    },
+    {
+        "name": "FUENTE GAMEMAX GP SERIES GP-750 750W 80+ BRONZE WHITE",
+        "price": "S/ 249.00",
+        "brand": "GAMEMAX",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-gamemax-gp-series-gp-750-750w-80-bronze-white-23754.png"
+    },
+    {
+        "name": "FUENTE MSI MAG A650BN 650W 80+ BRONZE",
+        "price": "S/ 269.00",
+        "brand": "MSI",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-msi-mag-a650bn-650w-80-bronze2140.png"
+    },
+    {
+        "name": "FUENTE MSI MAG A750BN PCIE5 750W 80+ BRONZE",
+        "price": "S/ 325.00",
+        "brand": "MSI",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-msi-mag-a750bn-pcie5-750w-80-bronze7968.png"
+    },
+    {
+        "name": "FUENTE SEMI MODULAR EVGA 600BQ 600W 80+ BRONZE",
+        "price": "S/ 349.00",
+        "brand": "EVGA",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-semi-modular-evga-600bq-600w-80-bronze5357.png"
+    },
+    {
+        "name": "FUENTE GIGABYTE UD850GM 850W 80+ GOLD FULL MODULAR",
+        "price": "S/ 490.00",
+        "brand": "GIGABYTE",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-gigabyte-ud850gm-850w-80-gold-full-modular-32310.png"
+    },
+    {
+        "name": "FUENTE FULL MODULAR EVGA SUPERNOVA G5 850W 80+ GOLD",
+        "price": "S/ 740.00",
+        "brand": "EVGA",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-full-modular-evga-supernova-g5-850w-80-gold5163.png"
+    },
+    {
+        "name": "FUENTE GIGABYTE P450B 450W 80+ BRONZE",
+        "price": "S/ 170.00",
+        "brand": "GIGABYTE",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-gigabyte-p450b-450w-80-bronze3752.png"
+    },
+    {
+        "name": "FUENTE DEEPCOOL PF500 500W 80+ WHITE",
+        "price": "S/ 195.00",
+        "brand": "DEEPCOOL",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-deepcool-pf500-500w-80-white-44704.png"
+    },
+    {
+        "name": "FUENTE GIGABYTE P550B 550W 80+ BRONZE",
+        "price": "S/ 200.00",
+        "brand": "GIGABYTE",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-gigabyte-p550b-550w-80-bronze6757.png"
+    },
+    {
+        "name": "FUENTE MSI MAG A600DN 600W 80+ WHITE",
+        "price": "S/ 215.00",
+        "brand": "MSI",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-msi-mag-a600dn-600w-80-white7907.png"
+    },
+    {
+        "name": "FUENTE DEEPCOOL PF600 600W 80+ WHITE",
+        "price": "S/ 220.00",
+        "brand": "DEEPCOOL",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-deepcool-pf600-600w-80-white-43407.png"
+    },
+    {
+        "name": "FUENTE AEROCOOL CYLON RGB 600W 80+ BRONZE",
+        "price": "S/ 220.00",
+        "brand": "AEROCOOL",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-aerocool-cylon-rgb-600w-80-bronze-22295.png"
+    },
+    {
+        "name": "FUENTE SEMI MODULAR ANTEC NEOECO 650W 80+ BRONZE",
+        "price": "S/ 250.00",
+        "brand": "ANTEC",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-semi-modular-antec-neoeco-650w-80-bronze-28841.png"
+    },
+    {
+        "name": "FUENTE DEEPCOOL PF700 700W 80+ WHITE",
+        "price": "S/ 250.00",
+        "brand": "DEEPCOOL",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-deepcool-pf700-700w-80-white2946.png"
+    },
+    {
+        "name": "FUENTE GIGABYTE P650B 650W 80+ BRONZE",
+        "price": "S/ 269.00",
+        "brand": "GIGABYTE",
+        "category": "FUENTES",
+        "subcategory": "case con fuente",
+        "image": "fuente-gigabyte-p650b-650w-80-bronze9451.png"
+    },
+    {
+        "name": "PASTA TERMICA ARCTIC MX-4 4G (EDICION 2022)",
+        "price": "S/ 48.00",
+        "brand": "ARCTIC",
+        "category": "PASTA TÉRMICA",
+        "subcategory": "case con fuente",
+        "image": "pasta-termica-arctic-mx-4-4g-edicion-2021-28366.png"
+    },
+    {
+        "name": "PASTA TERMICA DEEPCOOL Z10",
+        "price": "S/ 45.00",
+        "brand": "DEEPCOOL",
+        "category": "PASTA TÉRMICA",
+        "subcategory": "case con fuente",
+        "image": "pasta-termica-deepcool-z104970.png"
+    },
+    {
+        "name": "ALMOHADILLA TERMICA COOLER MASTER THERMAL PAD PRO 1.00MM",
+        "price": "S/ 55.00",
+        "brand": "COOLER MASTER",
+        "category": "PASTA TÉRMICA",
+        "subcategory": "case con fuente",
+        "image": "almohadilla-termica-cooler-master-thermal-pad-pro-1-00mm0942.png"
+    },
+    {
+        "name": "PASTA TERMICA COOLER MASTER CRYOFUZE NANO",
+        "price": "S/ 55.00",
+        "brand": "COOLER MASTER",
+        "category": "PASTA TÉRMICA",
+        "subcategory": "case con fuente",
+        "image": "pasta-termica-cooler-master-cryofuze-22826.png"
+    },
+    {
+        "name": "PASTA TERMICA DEEPCOOL EX750 5g",
+        "price": "S/ 59.00",
+        "brand": "DEEPCOOL",
+        "category": "PASTA TÉRMICA",
+        "subcategory": "case con fuente",
+        "image": "pasta-termica-deepcool-ex750-5g0197.png"
+    },
+    {
+        "name": "PASTA TERMICA ARCTIC MX-6 4G (EDICION 2022)",
+        "price": "S/ 65.00",
+        "brand": "ARCTIC",
+        "category": "PASTA TÉRMICA",
+        "subcategory": "case con fuente",
+        "image": "pasta-termica-arctic-mx-6-4g-edicion-20224966.png"
+    },
+    {
+        "name": "PASTA TERMICA ARCTIC MX-4 8G (EDICION 2022)",
+        "price": "S/ 68.00",
+        "brand": "ARCTIC",
+        "category": "PASTA TÉRMICA",
+        "subcategory": "case con fuente",
+        "image": "pasta-termica-arctic-mx-4-8g-edicion-20211897.png"
+    },
+    {
+        "name": "PASTA TERMICA DEEPCOOL Z5",
+        "price": "S/ 30.00",
+        "brand": "DEEPCOOL",
+        "category": "PASTA TÉRMICA",
+        "subcategory": "case con fuente",
+        "image": "pasta-termica-deepcool-z57602.png"
+    },
+    {
+        "name": "PASTA TERMICA COOLER MASTER MASTERGEL PRO",
+        "price": "S/ 58.00",
+        "brand": "COOLER MASTER",
+        "category": "PASTA TÉRMICA",
+        "subcategory": "case con fuente",
+        "image": "pasta-termica-cooler-master-mastergel-pro6843.png"
+    },
+    {
+        "name": "PASTA TERMICA COOLER MASTER MASTERGEL MAKER",
+        "price": "S/ 65.00",
+        "brand": "COOLER MASTER",
+        "category": "PASTA TÉRMICA",
+        "subcategory": "case con fuente",
+        "image": "pasta-termica-cooler-master-mastergel-maker8329.png"
+    },
+    {
+        "name": "PASTA TERMICA ARCTIC MX-4 45G (EDICION 2022)",
+        "price": "S/ 240.00",
+        "brand": "ARCTIC",
+        "category": "PASTA TÉRMICA",
+        "subcategory": "case con fuente",
+        "image": "pasta-termica-arctic-mx-4-45g-edicion-2022-25400.png"
+    },
+    {
+        "name": "MOUSE WIRELESS LOGITECH M170 BLACK",
+        "price": "S/ 45.00",
+        "brand": "LOGITECH",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-wireless-logitech-m170-black5088.png"
+    },
+    {
+        "name": "MOUSE ANTRYX CHROME STORM M750 (DPI 4200)",
+        "price": "S/ 75.00",
+        "brand": "ANTRYX",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-antryx-chrome-storm-m750-dpi-42008861.png"
+    },
+    {
+        "name": "MOUSE ANTRYX M650",
+        "price": "S/ 79.00",
+        "brand": "ANTRYX",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-antryx-m6509915.png"
+    },
+    {
+        "name": "MOUSE REDRAGON GRIFFIN BLACK",
+        "price": "S/ 79.00",
+        "brand": "REDRAGON",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-redragon-griffin-black8282.png"
+    },
+    {
+        "name": "MOUSE REDRAGON GRIFFIN WHITE",
+        "price": "S/ 89.00",
+        "brand": "REDRAGON",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-redragon-griffin-white0547.png"
+    },
+    {
+        "name": "MOUSE VSG AURORA PÚRPURA AUSTRAL",
+        "price": "S/ 99.00",
+        "brand": "VSG",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-vsg-aurora-p-rpura-austral4371.png"
+    },
+    {
+        "name": "MOUSE VSG AURORA VERDE BOREAL",
+        "price": "S/ 99.00",
+        "brand": "VSG",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-vsg-aurora-verde-boreal6317.png"
+    },
+    {
+        "name": "MOUSE REDRAGON COBRA WHITE",
+        "price": "S/ 109.00",
+        "brand": "REDRAGON",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-redragon-cobra-white0614.png"
+    },
+    {
+        "name": "MOUSE CORSAIR KATAR PRO ULTRA LIGHT",
+        "price": "S/ 109.00",
+        "brand": "CORSAIR",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-corsair-katar-pro-ultra-light1507.png"
+    },
+    {
+        "name": "MOUSE RAZER DEATHADDER ESSENTIAL BLACK",
+        "price": "S/ 115.00",
+        "brand": "RAZER",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-razer-deathadder-essencial-black5560.png"
+    },
+    {
+        "name": "MOUSE LOGITECH G203 LIGHTSYNC BLACK RGB",
+        "price": "S/ 122.00",
+        "brand": "LOGITECH",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-logitech-g203-lightsync-black-rgb7975.png"
+    },
+    {
+        "name": "MOUSE LOGITECH G203 LIGHTSYNC WHITE RGB",
+        "price": "S/ 122.00",
+        "brand": "LOGITECH",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-logitech-g203-lightsync-white-rgb1642.png"
+    },
+    {
+        "name": "MOUSE LOGITECH G203 LIGHTSYNC LILA RGB",
+        "price": "S/ 122.00",
+        "brand": "LOGITECH",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-logitech-g203-lightsync-lila-rgb7859.png"
+    },
+    {
+        "name": "MOUSE LOGITECH G203 LIGHTSYNC BLUE RGB",
+        "price": "S/ 122.00",
+        "brand": "LOGITECH",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-logitech-g203-lightsync-blue-rgb2344.png"
+    },
+    {
+        "name": "MOUSE WIRELESS ANTRYX CHROME STORM SCORPIO II",
+        "price": "S/ 125.00",
+        "brand": "ANTRYX",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-wireless-antryx-chrome-storm-scorpio-ii5833.png"
+    },
+    {
+        "name": "MOUSE VSG AQUILA",
+        "price": "S/ 125.00",
+        "brand": "VSG",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-vsg-aquila0565.png"
+    },
+    {
+        "name": "MOUSE DEEPCOOL MC310 ULTRALIGHT GAMING MOUSE",
+        "price": "S/ 130.00",
+        "brand": "DEEPCOOL",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-deepcool-mc310-ultralight-gaming-mouse-36719.png"
+    },
+    {
+        "name": "MOUSE LOGITECH MX518 LEGENDARY HERO",
+        "price": "S/ 139.00",
+        "brand": "LOGITECH",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-logitech-mx518-legendary-hero9034.png"
+    },
+    {
+        "name": "MOUSE REDRAGON COBRA FPS",
+        "price": "S/ 155.00",
+        "brand": "REDRAGON",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-redragon-cobra-fps8756.png"
+    },
+    {
+        "name": "MOUSE WIRELESS LOGITECH G305 HERO LIGHTSPEED BLACK",
+        "price": "S/ 159.00",
+        "brand": "LOGITECH",
+        "category": "MOUSE",
+        "subcategory": "case con fuente",
+        "image": "mouse-wireless-logitech-g305-hero-lightspeed-black2632.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER ARENA BLACK RAINBOW - BROWN SWITCH",
+        "price": "S/ 129.00",
+        "brand": "T-DAGGER",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-arena-black-rainbow-brown-switch-22589.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER ARENA WHITE RAINBOW - BROWN SWITCH",
+        "price": "S/ 129.00",
+        "brand": "T-DAGGER",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-arena-white-rainbow-brown-switch0966.png"
+    },
+    {
+        "name": "TECLADO BLUETOOTH LOGITECH K380 MULTIDEVICE BLACK",
+        "price": "S/ 142.00",
+        "brand": "LOGITECH",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-bluetooth-logitech-k380-multidevice-black0967.png"
+    },
+    {
+        "name": "TECLADO BLUETOOTH LOGITECH K380 MULTIDEVICE WHITE",
+        "price": "S/ 142.00",
+        "brand": "LOGITECH",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-bluetooth-logitech-k380-multidevice-white3941.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER BORA BLACK RAINBOW BLUE SWITCH",
+        "price": "S/ 149.00",
+        "brand": "T-DAGGER",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-bora-rainbow-blue-switch-20668.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER ARENA WHITE/GREEN RAINBOW - BROWN SWITCH",
+        "price": "S/ 139.00",
+        "brand": "T-DAGGER",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-arena-white-green-rainbow-brown-switch2658.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER BORA WHITE RAINBOW - RED SWITCH",
+        "price": "S/ 149.00",
+        "brand": "T-DAGGER",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-bora-white-rainbow-red-switch0170.png"
+    },
+    {
+        "name": "TECLADO REDRAGON KUMARA BLACK RAINBOW - RED SWITCH",
+        "price": "S/ 169.00",
+        "brand": "REDRAGON",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-redragon-kumara-black-rainbow-red-switch-25468.png"
+    },
+    {
+        "name": "TECLADO REDRAGON KUMARA WHITE RAINBOW - RED SWITCH",
+        "price": "S/ 169.00",
+        "brand": "REDRAGON",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-redragon-kumara-white-rainbow-red-switch-20963.png"
+    },
+    {
+        "name": "TECLADO VSG QUASAR BLACK RGB - RED SWITCH",
+        "price": "S/ 179.00",
+        "brand": "VSG",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-vsg-quasar-black-rgb-red-switch-27734.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER BORA BLACK RGB BLUE SWITCH",
+        "price": "S/ 179.00",
+        "brand": "T-DAGGER",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-bora-black-rgb-blue-switch-32752.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER BORA WHITE RGB - BLUE SWITCH",
+        "price": "S/ 179.00",
+        "brand": "T-DAGGER",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-bora-white-rgb-blue-switch3776.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER NAXOS RAINBOW BLUE SWITCH",
+        "price": "S/ 189.00",
+        "brand": "T-DAGGER",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-naxos-rainbow-blue-switch-47542.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER NAXOS RAINBOW RED SWITCH",
+        "price": "S/ 189.00",
+        "brand": "T-DAGGER",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-naxos-rainbow-red-switch-48214.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER BORA BLACK RGB - RED SWITCH",
+        "price": "S/ 179.00",
+        "brand": "T-DAGGER",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-bora-black-rgb-red-switch4057.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER BORA WHITE RGB - RED SWITCH",
+        "price": "S/ 179.00",
+        "brand": "T-DAGGER",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-bora-white-rgb-red-switch8495.png"
+    },
+    {
+        "name": "TECLADO ANTRYX MK830 RGB - BLUE SWITCH",
+        "price": "S/ 199.00",
+        "brand": "ANTRYX",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-antryx-mk830-rgb-blue-switch4485.png"
+    },
+    {
+        "name": "TECLADO ANTRYX MK830 RGB - BROWN SWITCH",
+        "price": "S/ 199.00",
+        "brand": "ANTRYX",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-antryx-mk830-rgb-brown-switch7403.png"
+    },
+    {
+        "name": "TECLADO ANTRYX MK830 RGB - RED SWITCH",
+        "price": "S/ 199.00",
+        "brand": "ANTRYX",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-antryx-mk830-rgb-red-switch2319.png"
+    },
+    {
+        "name": "TECLADO REDRAGON DRAGONBORN BLACK - BROWN SWITCH",
+        "price": "S/ 199.00",
+        "brand": "REDRAGON",
+        "category": "TECLADOS",
+        "subcategory": "case con fuente",
+        "image": "teclado-redragon-dragonborn-black-brown-switch-39658.png"
+    },
+    {
+        "name": "AUDIFONO TEROS GAMING TE-8171N ESTEREO RGB",
+        "price": "S/ 49.00",
+        "brand": "TEROS",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-teros-gaming-te-8171n-estereo-rgb7335.png"
+    },
+    {
+        "name": "AUDIFONO XBLADE BANSHEE",
+        "price": "S/ 59.00",
+        "brand": "XBLADE",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-xblade-banshee8122.png"
+    },
+    {
+        "name": "AUDIFONO REDRAGON HYLAS BLACK",
+        "price": "S/ 79.00",
+        "brand": "REDRAGON",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-redragon-hylas-black4039.png"
+    },
+    {
+        "name": "AUDIFONO REDRAGON HYLAS PINK",
+        "price": "S/ 79.00",
+        "brand": "REDRAGON",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-redragon-hylas-pink0433.png"
+    },
+    {
+        "name": "AUDIFONO PRIMUS GAMING ARCUS 90T IN-EAR 3.5MM",
+        "price": "S/ 79.00",
+        "brand": "PRIMUS GAMING",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-primus-gaming-arcus-90t-in-ear-3-5mm7435.png"
+    },
+    {
+        "name": "AUDIFONO XBLADE ORCUS",
+        "price": "S/ 85.00",
+        "brand": "XBLADE",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-xblade-orcus6805.png"
+    },
+    {
+        "name": "AUDIFONO REDRAGON HYLAS WHITE",
+        "price": "S/ 79.00",
+        "brand": "REDRAGON",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-redragon-hylas-white5068.png"
+    },
+    {
+        "name": "AUDIFONO ANTRYX CHROME STORM GH-530",
+        "price": "S/ 95.00",
+        "brand": "ANTRYX",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-antryx-chrome-storm-gh-5309823.png"
+    },
+    {
+        "name": "AUDIFONO T-DAGGER SONA 7.1 BLACK",
+        "price": "S/ 109.00",
+        "brand": "T-DAGGER",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-t-dagger-sona-7-1-black8167.png"
+    },
+    {
+        "name": "AUDIFONO HAVIT TW-952 PRO GAMER RGB NEGRO TWS",
+        "price": "S/ 109.00",
+        "brand": "HAVIT",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-havit-tw-952-pro-gamer-rgb-negro-tws-24148.png"
+    },
+    {
+        "name": "AUDIFONO VSG GEMINI WHITE",
+        "price": "S/ 115.00",
+        "brand": "VSG",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-vsg-gemini-white4915.png"
+    },
+    {
+        "name": "AUDIFONO T-DAGGER SONA 7.1 WHITE",
+        "price": "S/ 115.00",
+        "brand": "T-DAGGER",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-t-dagger-sona-7-1-white4518.png"
+    },
+    {
+        "name": "AUDIFONO T-DAGGER SONA 7.1 PINK",
+        "price": "S/ 115.00",
+        "brand": "T-DAGGER",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-t-dagger-sona-7-1-pink-24950.png"
+    },
+    {
+        "name": "AUDIFONO PRIMUS GAMING ARCUS 200S-BT TWS EARBUDS BLUETOOTH USB-C",
+        "price": "S/ 125.00",
+        "brand": "PRIMUS GAMING",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-primus-gaming-arcus-200s-bt-tws-earbuds-bluetooth-usb-c-22088.png"
+    },
+    {
+        "name": "AUDIFONO VSG SHAKE 7.1",
+        "price": "S/ 129.00",
+        "brand": "VSG",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-vsg-shake-7-15556.png"
+    },
+    {
+        "name": "AUDIFONO WIRELESS T-DAGGER GENEVE 7.1 PC/PS4",
+        "price": "S/ 139.00",
+        "brand": "T-DAGGER",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-wireless-t-dagger-geneve-7-1-28720.png"
+    },
+    {
+        "name": "AUDIFONO REDRAGON PANDORA RGB 7.1",
+        "price": "S/ 149.00",
+        "brand": "REDRAGON",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-redragon-pandora-rgb-7-19460.png"
+    },
+    {
+        "name": "AUDIFONO PRIMUS GAMING MANDALORIAN ARCUS 210S-BT TWS EARBUDS BLUETOOTH USB-C",
+        "price": "S/ 150.00",
+        "brand": "PRIMUS GAMING",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-primus-gaming-mandalorian-arcus-210s-bt-tws-earbuds-bluetooth-usb-c-52636.png"
+    },
+    {
+        "name": "AUDIFONO RAZER BLACKSHARK V2 X MULTIPLATFORM 7.1",
+        "price": "S/ 155.00",
+        "brand": "RAZER",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-razer-blackshark-v2-x-multiplatform-7-12821.png"
+    },
+    {
+        "name": "AUDIFONO FIFINE AMPLIGAME H9 BLACK SONIDO 7.1 PC/CONSOLA",
+        "price": "S/ 165.00",
+        "brand": "FIFINE",
+        "category": "AUDIFONOS",
+        "subcategory": "case con fuente",
+        "image": "audifono-fifine-ampligame-h9-black-sonido-7-16224.png"
+    },
+    {
+        "name": "MOUSEPAD REDRAGON FLICK M",
+        "price": "S/ 35.00",
+        "brand": "REDRAGON",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-redragon-flick-m7248.png"
+    },
+    {
+        "name": "MOUSEPAD REDRAGON FLICK L",
+        "price": "S/ 55.00",
+        "brand": "REDRAGON",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-redragon-flick-l6645.png"
+    },
+    {
+        "name": "MOUSEPAD ANTRYX ACCURA 80A XL",
+        "price": "S/ 59.00",
+        "brand": "ANTRYX",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-antryx-accura-80a-xl-21598.png"
+    },
+    {
+        "name": "MOUSEPAD DEEPCOOL GM810",
+        "price": "S/ 62.00",
+        "brand": "DEEPCOOL",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-deepcool-gm810-23752.png"
+    },
+    {
+        "name": "MOUSEPAD LOGITECH DESKPAD LIGHT GREY",
+        "price": "S/ 72.00",
+        "brand": "LOGITECH",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-logitech-deskpad-light-grey1996.png"
+    },
+    {
+        "name": "MOUSEPAD LOGITECH G440 HARD MEDIUM BLACK",
+        "price": "S/ 75.00",
+        "brand": "LOGITECH",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-logitech-g440-hard-medium-black2945.png"
+    },
+    {
+        "name": "MOUSEPAD GENIUS GX 800S RGB BLACK",
+        "price": "S/ 80.00",
+        "brand": "GENIUS",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-genius-gx-800s-rgb-black0148.png"
+    },
+    {
+        "name": "MOUSEPAD REDRAGON FLICK XL",
+        "price": "S/ 85.00",
+        "brand": "REDRAGON",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-redragon-flick-xl4149.png"
+    },
+    {
+        "name": "MOUSEPAD DEEPCOOL GM820",
+        "price": "S/ 89.00",
+        "brand": "DEEPCOOL",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-deepcool-gm8201311.png"
+    },
+    {
+        "name": "MOUSEPAD PRIMUS GAMING MANDALORIAN ARENA XXL",
+        "price": "S/ 92.00",
+        "brand": "PRIMUS GAMING",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-primus-gaming-mandalorian-arena-xxl-31826.png"
+    },
+    {
+        "name": "MOUSEPAD LOGITECH G640 CLOTH LARGE BLACK",
+        "price": "S/ 95.00",
+        "brand": "LOGITECH",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-logitech-g640-cloth-large-black1541.png"
+    },
+    {
+        "name": "MOUSEPAD HYPERX FURY S SPEED EDITION (XL)",
+        "price": "S/ 99.00",
+        "brand": "HYPERX",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-hyperx-fury-s-speed-edition-xl-21062.png"
+    },
+    {
+        "name": "MOUSEPAD ANTRYX ACCURA 80 RGB",
+        "price": "S/ 119.00",
+        "brand": "ANTRYX",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-antryx-accura-80-rgb6542.png"
+    },
+    {
+        "name": "MOUSEPAD RAZER GIGANTUS V2 SOFT XXL BLACK",
+        "price": "S/ 120.00",
+        "brand": "RAZER",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-razer-gigantus-v2-soft-xxl-black5698.png"
+    },
+    {
+        "name": "MOUSEPAD LOGITECH G840 CLOTH XL BLACK",
+        "price": "S/ 149.00",
+        "brand": "LOGITECH",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-logitech-g840-cloth-xl-black6408.png"
+    },
+    {
+        "name": "MOUSEPAD LOGITECH G840 CLOTH XL KDA",
+        "price": "S/ 149.00",
+        "brand": "LOGITECH",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-logitech-g840-cloth-xl-kda0520.png"
+    },
+    {
+        "name": "MOUSEPAD LOGITECH G840 CLOTH XL LOL 2 EDITION",
+        "price": "S/ 149.00",
+        "brand": "LOGITECH",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-logitech-g840-cloth-xl-lol-2-edition2113.png"
+    },
+    {
+        "name": "MOUSEPAD RAZER GIGANTUS V2 SOFT 3XL BLACK",
+        "price": "S/ 190.00",
+        "brand": "RAZER",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-razer-gigantus-v2-soft-3xl-black5266.png"
+    },
+    {
+        "name": "MOUSEPAD VSG ARMAGEDON",
+        "price": "S/ 32.00",
+        "brand": "VSG",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-vsg-armagedon8969.png"
+    },
+    {
+        "name": "MOUSEPAD HYPERX FURY S SPEED EDITION (M)",
+        "price": "S/ 48.00",
+        "brand": "HYPERX",
+        "category": "MousePads",
+        "subcategory": "case con fuente",
+        "image": "mousepad-hyperx-fury-s-speed-edition-m6642.png"
+    },
+    {
+        "name": "MICROFONO PEDESTAL HALION TM-4",
+        "price": "S/ 35.00",
+        "brand": "HALION",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-pedestal-halion-tm-49280.png"
+    },
+    {
+        "name": "MICROFONO SOLAPERO K9 USB TYPE-C WIRELESS *2",
+        "price": "S/ 79.00",
+        "brand": "KIOGA",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-solapero-k9-usb-type-c-wireless-25834.png"
+    },
+    {
+        "name": "MICROFONO RAZER SEIREN MINI USB BLACK",
+        "price": "S/ 205.00",
+        "brand": "RAZER",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-razer-seiren-mini-usb-black6371.png"
+    },
+    {
+        "name": "MICROFONO RAZER SEIREN MINI USB MERCURY",
+        "price": "S/ 205.00",
+        "brand": "RAZER",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-razer-seiren-mini-usb-mercury5951.png"
+    },
+    {
+        "name": "MICROFONO RAZER SEIREN MINI USB QUARTZ",
+        "price": "S/ 205.00",
+        "brand": "RAZER",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-razer-seiren-mini-usb-quartz5289.png"
+    },
+    {
+        "name": "MICROFONO BLUE SNOWBALL ICE USB CARDIOIDE BLACK",
+        "price": "S/ 209.00",
+        "brand": "BLUE",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-blue-snowball-ice-usb-cardioide-black4778.png"
+    },
+    {
+        "name": "MICROFONO BLUE SNOWBALL ICE USB CARDIOIDE WHITE",
+        "price": "S/ 209.00",
+        "brand": "BLUE",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-blue-snowball-ice-usb-cardioide-white2017.png"
+    },
+    {
+        "name": "MICROFONO HYPERX SOLOCAST",
+        "price": "S/ 209.00",
+        "brand": "HYPERX",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-hyperx-solocast3444.png"
+    },
+    {
+        "name": "MICROFONO BLUE YETI NANO USB STREAMING CARDIOIDE",
+        "price": "S/ 375.00",
+        "brand": "BLUE",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-blue-yeti-nano-usb-streaming-cardioide1593.png"
+    },
+    {
+        "name": "MICROFONO HYPERX QUADCAST",
+        "price": "S/ 449.00",
+        "brand": "HYPERX",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-hyperx-quadcast2922.png"
+    },
+    {
+        "name": "MICROFONO STREAMPLIFY MIC ARM - MICRO + BRAZO + FILTRO ANTI POP",
+        "price": "S/ 259.00",
+        "brand": "STREAMPLIFY",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-streamplify-mic-arm-micro-brazo-filtro-anti-pop7352.png"
+    },
+    {
+        "name": "MICROFONO REDRAGON BLAZAR",
+        "price": "S/ 275.00",
+        "brand": "REDRAGON",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-redragon-blazar0556.png"
+    },
+    {
+        "name": "MICROFONO BLUE YETI BLACKOUT USB STREAMING CARDIOIDE",
+        "price": "S/ 425.00",
+        "brand": "BLUE",
+        "category": "MICROFONOS",
+        "subcategory": "case con fuente",
+        "image": "microfono-blue-yeti-blackout-usb-streaming-cardioide2524.png"
+    },
+    {
+        "name": "PARLANTES GENIUS SP-HF180 6W USB BLACK",
+        "price": "S/ 49.00",
+        "brand": "GENIUS",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-genius-sp-hf180-6w-usb-black0561.png"
+    },
+    {
+        "name": "PARLANTES GENIUS SOUND BAR 100 MINI 6W USB BLACK",
+        "price": "S/ 55.00",
+        "brand": "GENIUS",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-genius-sound-bar-100-mini-6w-usb-black6172.png"
+    },
+    {
+        "name": "PARLANTES REDRAGON DARKNETS",
+        "price": "S/ 129.00",
+        "brand": "REDRAGON",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-redragon-darknets0249.png"
+    },
+    {
+        "name": "PARLANTES CREATIVE PEBBLE PLUS 2.1 USB BLACK",
+        "price": "S/ 169.00",
+        "brand": "CREATIVE",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-creative-pebble-plus-2-1-usb-black9185.png"
+    },
+    {
+        "name": "PARLANTES FIFINE A16 BLACK",
+        "price": "S/ 179.00",
+        "brand": "FIFINE",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-fifine-a16-black-29074.png"
+    },
+    {
+        "name": "PARLANTES LOGITECH Z313 2.1 25W 220V BLACK",
+        "price": "S/ 219.00",
+        "brand": "LOGITECH",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-logitech-z313-2-1-25w-220v-black6658.png"
+    },
+    {
+        "name": "PARLANTES GENIUS SW-G2.1 1200 36W BLUE LIGHT BLACK",
+        "price": "S/ 255.00",
+        "brand": "GENIUS",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-genius-sw-g2-1-1200-36w-blue-light-black3409.png"
+    },
+    {
+        "name": "PARLANTES CREATIVE E2900 2.1 60W BT/FM/USB/SD/3.5MM BLACK",
+        "price": "S/ 275.00",
+        "brand": "CREATIVE",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-creative-e2900-2-11964.png"
+    },
+    {
+        "name": "PARLANTES LOGITECH Z407 2.1 80W BLUETOOTH BLACK",
+        "price": "S/ 379.00",
+        "brand": "LOGITECH",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-logitech-z407-2-1-80w-bluetooth-black6219.png"
+    },
+    {
+        "name": "PARLANTES GENIUS SW-2.1 300X 10W BLACK",
+        "price": "S/ 89.00",
+        "brand": "GENIUS",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-genius-sw-2-1-300x-10w-black3796.png"
+    },
+    {
+        "name": "PARLANTES GENIUS SW-2.1 350 15W BLACK",
+        "price": "S/ 152.00",
+        "brand": "GENIUS",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-genius-sw-2-1-350-15w-black9509.png"
+    },
+    {
+        "name": "PARLANTES LOGITECH Z337 2.1 40W BLUETOOTH BLACK",
+        "price": "S/ 225.00",
+        "brand": "LOGITECH",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-logitech-z337-2-1-40w-bluetooth-black5231.png"
+    },
+    {
+        "name": "PARLANTES GENIUS SW-G2.1 1000 26W BLUE LIGHT BLACK",
+        "price": "S/ 225.00",
+        "brand": "GENIUS",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-genius-sw-g2-1-1000-26w-blue-light-black5764.png"
+    },
+    {
+        "name": "PARLANTES LOGITECH Z607 5.1 160W BLUETOOTH BLACK",
+        "price": "S/ 390.00",
+        "brand": "LOGITECH",
+        "category": "PARLANTES",
+        "subcategory": "case con fuente",
+        "image": "parlantes-logitech-z607-5-1-160w-bluetooth-black9012.png"
+    },
+    {
+        "name": "MANDO INALAMBRICO LOGITECH F710",
+        "price": "S/ 170.00",
+        "brand": "LOGITECH",
+        "category": "Mandos",
+        "subcategory": "case con fuente",
+        "image": "mando-inalambrico-logitech-f7102979.png"
+    },
+    {
+        "name": "MANDO INALAMBRICO MICROSOFT XBOX SHOCK BLUE (COLOR AZUL)",
+        "price": "S/ 239.00",
+        "brand": "MICROSOFT",
+        "category": "Mandos",
+        "subcategory": "case con fuente",
+        "image": "mando-inalambrico-microsoft-xbox-shock-blue-color-azul6181.png"
+    },
+    {
+        "name": "MANDO INALAMBRICO MICROSOFT XBOX ROBOT WHITE (COLOR BLANCO)",
+        "price": "S/ 239.00",
+        "brand": "MICROSOFT",
+        "category": "Mandos",
+        "subcategory": "case con fuente",
+        "image": "mando-inalambrico-microsoft-xbox-robot-white-color-blanco-28255.png"
+    },
+    {
+        "name": "MANDO INALAMBRICO MICROSOFT XBOX PULSE RED (COLOR ROJO)",
+        "price": "S/ 239.00",
+        "brand": "MICROSOFT",
+        "category": "Mandos",
+        "subcategory": "case con fuente",
+        "image": "mando-inalambrico-microsoft-xbox-pulse-red-color-rojo-24680.png"
+    },
+    {
+        "name": "MANDO INALAMBRICO MICROSOFT XBOX + CABLE USB-C",
+        "price": "S/ 245.00",
+        "brand": "MICROSOFT",
+        "category": "Mandos",
+        "subcategory": "case con fuente",
+        "image": "mando-inalambrico-microsoft-xbox-cable-usb-c1201.png"
+    },
+    {
+        "name": "TIMON C/PEDAL LOGITECH G29 RACING WHEELPS3/PS4/PS5/PC USB",
+        "price": "S/ 1, 050.00",
+        "brand": "LOGITECH",
+        "category": "Mandos",
+        "subcategory": "case con fuente",
+        "image": "timon-cpedal-logitech-g29-racing-wheelps3ps4ps5pc-usb0148.png"
+    },
+    {
+        "name": "MANDO INALAMBRICO T-DAGGER SCORPIO BLACK",
+        "price": "S/ 145.00",
+        "brand": "T-DAGGER",
+        "category": "Mandos",
+        "subcategory": "case con fuente",
+        "image": "mando-inalambrico-t-dagger-scorpio-black4310.png"
+    },
+    {
+        "name": "MANDO INALAMBRICO T-DAGGER SCORPIO WHITE",
+        "price": "S/ 145.00",
+        "brand": "T-DAGGER",
+        "category": "Mandos",
+        "subcategory": "case con fuente",
+        "image": "mando-inalambrico-t-dagger-scorpio-white6792.png"
+    },
+    {
+        "name": "MANDO INALAMBRICO MSI FORCE GC30 V2 WHITE",
+        "price": "S/ 179.00",
+        "brand": "MSI",
+        "category": "Mandos",
+        "subcategory": "case con fuente",
+        "image": "mando-inalambrico-msi-force-gc30-v2-white5661.png"
+    },
+    {
+        "name": "MANDO INALAMBRICO MICROSOFT XBOX ELECTRIC VOLT (COLOR VERDE CLARO)",
+        "price": "S/ 239.00",
+        "brand": "MICROSOFT",
+        "category": "Mandos",
+        "subcategory": "case con fuente",
+        "image": "mando-inalambrico-microsoft-xbox-electric-volt-color-verde-claro-21652.png"
+    },
+    {
+        "name": "PALANCA DE CAMBIOS LOGITECH DRIVING FORCE SHIFTER P/ G29 & G920 6 VELOCIDADES",
+        "price": "S/ 249.00",
+        "brand": "LOGITECH",
+        "category": "Mandos",
+        "subcategory": "case con fuente",
+        "image": "palanca-de-cambios-logitech-driving-force-shifter-p-g29-g920-6-velocidades6849.png"
+    },
+    {
+        "name": "WEBCAM LOGITECH C270 HD 720P",
+        "price": "S/ 115.00",
+        "brand": "LOGITECH",
+        "category": "WEBCAM",
+        "subcategory": "case con fuente",
+        "image": "webcam-logitech-c270-hd-720p7136.png"
+    },
+    {
+        "name": "WEBCAM REDRAGON FOBOS 720P GW600",
+        "price": "S/ 149.00",
+        "brand": "REDRAGON",
+        "category": "WEBCAM",
+        "subcategory": "case con fuente",
+        "image": "webcam-redragon-fobos-720p-gw6000216.png"
+    },
+    {
+        "name": "WEBCAM REDRAGON HITMAN 1080P GW800",
+        "price": "S/ 209.00",
+        "brand": "REDRAGON",
+        "category": "WEBCAM",
+        "subcategory": "case con fuente",
+        "image": "webcam-redragon-hitman-1080p-gw8006460.png"
+    },
+    {
+        "name": "WEBCAM LOGITECH C922 PRO STREAM FHD 1080P BLACK",
+        "price": "S/ 315.00",
+        "brand": "LOGITECH",
+        "category": "WEBCAM",
+        "subcategory": "case con fuente",
+        "image": "webcam-logitech-c922-pro-stream-fhd-1080p-black2616.png"
+    },
+    {
+        "name": "WEBCAM LOGITECH STREAMCAM PLUS FULL HD 60FPS BLACK",
+        "price": "S/ 495.00",
+        "brand": "LOGITECH",
+        "category": "WEBCAM",
+        "subcategory": "case con fuente",
+        "image": "webcam-logitech-streamcam-plus-full-hd-black3595.png"
+    },
+    {
+        "name": "WEBCAM GENIUS FACECAM 1000X USB BLACK",
+        "price": "S/ 89.00",
+        "brand": "GENIUS",
+        "category": "WEBCAM",
+        "subcategory": "case con fuente",
+        "image": "webcam-genius-facecam-1000x-usb-black4093.png"
+    },
+    {
+        "name": "WEBCAM GENIUS ECAM 8000 FHD 1080P USB BLACK",
+        "price": "S/ 150.00",
+        "brand": "GENIUS",
+        "category": "WEBCAM",
+        "subcategory": "case con fuente",
+        "image": "webcam-genius-ecam-8000-fhd-1080p-usb-black6854.png"
+    },
+    {
+        "name": "WEBCAM STREAMPLIFY CAM 1080P 60FPS",
+        "price": "S/ 249.00",
+        "brand": "STREAMPLIFY",
+        "category": "WEBCAM",
+        "subcategory": "case con fuente",
+        "image": "webcam-streamplify-cam-1080p-60fps-38530.png"
+    },
+    {
+        "name": "WEBCAM LOGITECH B2B C930E BLACK",
+        "price": "S/ 305.00",
+        "brand": "LOGITECH",
+        "category": "WEBCAM",
+        "subcategory": "case con fuente",
+        "image": "webcam-logitech-b2b-c930e-black5718.png"
+    },
+    {
+        "name": "WEBCAM LOGITECH B2B BRIO ULTRA HD 4K BLACK",
+        "price": "S/ 580.00",
+        "brand": "LOGITECH",
+        "category": "WEBCAM",
+        "subcategory": "case con fuente",
+        "image": "webcam-logitech-b2b-brio-ultra-hd-4k-black0242.png"
+    },
+    {
+        "name": "PACK LOGITECH TECLADO + MOUSE MK120 USB BLACK",
+        "price": "S/ 55.00",
+        "brand": "LOGITECH",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-logitech-teclado-mouse-mk120-usb-black1628.png"
+    },
+    {
+        "name": "PACK LOGITECH TECLADO + MOUSE WIRELESS MK220 BLACK",
+        "price": "S/ 85.00",
+        "brand": "LOGITECH",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-logitech-teclado-mouse-wireless-mk220-black7178.png"
+    },
+    {
+        "name": "PACK HALION MACK HA-875C RGB 4 EN 1",
+        "price": "S/ 130.00",
+        "brand": "HALION",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-halion-mack-ha-875c-rgb-4-en-17268.png"
+    },
+    {
+        "name": "PACK ANTRYX TECLADO + MOUSE CHROME STORM GC1200",
+        "price": "S/ 139.00",
+        "brand": "ANTRYX",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-antryx-teclado-mouse-chrome-storm-gc12007806.png"
+    },
+    {
+        "name": "PACK TECLADO+MOUSE T-DAGGER ADVANCE FORCE TGK313+TGM206 BLACK - RED SWITCH",
+        "price": "S/ 179.00",
+        "brand": "ADVANCE",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-teclado-mouse-t-dagger-advance-force-tgk313-tgm206-black-red-switch-36840.png"
+    },
+    {
+        "name": "PACK TECLADO+MOUSE T-DAGGER ADVANCE FORCE TGK313+TGM206 WHITE - RED SWITCH",
+        "price": "S/ 179.00",
+        "brand": "ADVANCE",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-teclado-mouse-t-dagger-advance-force-tgk313-tgm206-white-red-switch-32953.png"
+    },
+    {
+        "name": "KIT GAMING ANTRYX GC-5100 BLACK (TECLADO MECANICO + MOUSE) - PURPLE SWITCH",
+        "price": "S/ 199.00",
+        "brand": "ANTRYX",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "kit-gaming-antryx-gc-5100-black-teclado-mecanico-mouse-purple-switch5096.png"
+    },
+    {
+        "name": "KIT GAMING ANTRYX GC-5100 BLACK (TECLADO MECANICO + MOUSE) - BLUE SWITCH",
+        "price": "S/ 204.00",
+        "brand": "ANTRYX",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "kit-gaming-antryx-gc5100-teclado-mecanico-mouse-blue-switch4331.png"
+    },
+    {
+        "name": "KIT GAMING ANTRYX GC-5100 BLACK (TECLADO MECANICO + MOUSE) - RED SWITCH",
+        "price": "S/ 204.00",
+        "brand": "ANTRYX",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "kit-gaming-antryx-gc5100-teclado-mecanico-mouse-red-switch-24721.png"
+    },
+    {
+        "name": "KIT GAMING ANTRYX GC-5100 WHITE (TECLADO MECANICO + MOUSE) - RED SWITCH",
+        "price": "S/ 209.00",
+        "brand": "ANTRYX",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "kit-gaming-antryx-gc-5100-white-teclado-mecanico-mouse-red-switch-23179.png"
+    },
+    {
+        "name": "KIT GAMING ANTRYX GC-5100 WHITE (TECLADO MECANICO + MOUSE) - BLUE SWITCH",
+        "price": "S/ 209.00",
+        "brand": "ANTRYX",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "kit-gaming-antryx-gc-5100-white-teclado-mecanico-mouse-blue-switch-28803.png"
+    },
+    {
+        "name": "PACK REDRAGON 2 EN 1 KUMARA + GRIFFIN - SPANISH",
+        "price": "S/ 259.00",
+        "brand": "REDRAGON",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-redragon-2-en-1-kumara-griffin-spanish-25449.png"
+    },
+    {
+        "name": "PACK XBLADE 4 EN 1 REAPER V2",
+        "price": "S/ 135.00",
+        "brand": "XBLADE",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-xblade-4-en-1-reaper-v29893.png"
+    },
+    {
+        "name": "PACK VSG CRUX 4 EN 1",
+        "price": "S/ 179.00",
+        "brand": "VSG",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-vsg-crux-4-en-15829.png"
+    },
+    {
+        "name": "KIT GAMING ANTRYX GC-5400 PINK (TECLADO MECANICO + MOUSE) - RED SWITCH",
+        "price": "S/ 230.00",
+        "brand": "ANTRYX",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "kit-gaming-antryx-gc-5400-pink-teclado-mecanico-mouse-red-switch7972.png"
+    },
+    {
+        "name": "PACK REDRAGON 2 EN 1 MITRA + GRIFFIN - SPANISH",
+        "price": "S/ 269.00",
+        "brand": "REDRAGON",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-redragon-2-en-1-mitra-griffin-spanish-34327.png"
+    },
+    {
+        "name": "PACK REDRAGON 2 EN 1 KUMARA + GRIFFIN WHITE - SPANISH",
+        "price": "S/ 279.00",
+        "brand": "REDRAGON",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-redragon-2-en-1-kumara-griffin-white-spanish-32705.png"
+    },
+    {
+        "name": "PACK LOGITECH AUDIFONO + MOUSE - G435 + G305 BLACK/WHITE/GREEN",
+        "price": "S/ 385.00",
+        "brand": "LOGITECH",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-logitech-audifono-mouse-g435-g305-black-white-green9196.png"
+    },
+    {
+        "name": "PACK RAZER BATTLE BUNDLE (DEATHADDER V2 + BLACKSAHRK V2 X GIGANTUS M)",
+        "price": "S/ 390.00",
+        "brand": "RAZER",
+        "category": "COMBOS/PACKS",
+        "subcategory": "case con fuente",
+        "image": "pack-razer-battle-bundle-deathadder-v2-blacksahrk-v2-x-gigantus-m2124.png"
+    },
+    {
+        "name": "KIT SWITCH REDRAGON OUTEMO RED",
+        "price": "S/ 35.00",
+        "brand": "REDRAGON",
+        "category": "TECLADO ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "kit-switch-redragon-outemo-red3095.png"
+    },
+    {
+        "name": "KIT SWITCH REDRAGON OUTEMO BLUE",
+        "price": "S/ 35.00",
+        "brand": "REDRAGON",
+        "category": "TECLADO ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "kit-switch-redragon-outemo-blue5419.png"
+    },
+    {
+        "name": "KEYCAPS REDRAGON BLACK ROUND",
+        "price": "S/ 50.00",
+        "brand": "REDRAGON",
+        "category": "TECLADO ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "keycaps-redragon-black-round7784.png"
+    },
+    {
+        "name": "KEYCAPS REDRAGON BLACK CRYSTAL",
+        "price": "S/ 59.00",
+        "brand": "REDRAGON",
+        "category": "TECLADO ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "keycaps-redragon-black-crystal9637.png"
+    },
+    {
+        "name": "KIT SWITCH REDRAGON A113 BULLET QL",
+        "price": "S/ 65.00",
+        "brand": "REDRAGON",
+        "category": "TECLADO ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "kit-switch-redragon-a113-bullet-ql6762.png"
+    },
+    {
+        "name": "KIT SWITCH REDRAGON A113 BULLET QT",
+        "price": "S/ 65.00",
+        "brand": "REDRAGON",
+        "category": "TECLADO ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "kit-switch-redragon-a113-bullet-qt1845.png"
+    },
+    {
+        "name": "KEYCAPS REDRAGON SCARAB BLACK",
+        "price": "S/ 69.00",
+        "brand": "REDRAGON",
+        "category": "TECLADO ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "keycaps-redragon-scarab-black0749.png"
+    },
+    {
+        "name": "KEYCAPS REDRAGON SCARAB PINK",
+        "price": "S/ 69.00",
+        "brand": "REDRAGON",
+        "category": "TECLADO ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "keycaps-redragon-scarab-pink0614.png"
+    },
+    {
+        "name": "KEYCAPS REDRAGON SCARAB WHITE",
+        "price": "S/ 69.00",
+        "brand": "REDRAGON",
+        "category": "TECLADO ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "keycaps-redragon-scarab-white1526.png"
+    },
+    {
+        "name": "KIT SWITCH REDRAGON OUTEMO BROWN",
+        "price": "S/ 35.00",
+        "brand": "REDRAGON",
+        "category": "TECLADO ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "kit-switch-redragon-outemo-brown4891.png"
+    },
+    {
+        "name": "KEYCAPS REDRAGON SCARAB BLACK - INGLES",
+        "price": "S/ 65.00",
+        "brand": "REDRAGON",
+        "category": "TECLADO ACCESORIOS",
+        "subcategory": "case con fuente",
+        "image": "keycaps-redragon-scarab-black-ingles4235.png"
+    },
+    {
+        "name": "MONITOR LG 22MN430M-B 21.5'' FHD IPS 75Hz 5Ms",
+        "price": "S/ 285.00",
+        "brand": "LG",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "22mn430m-b8151.png"
+    },
+    {
+        "name": "MONITOR LG 24MQ400-B 24'' FHD IPS 75Hz 5Ms",
+        "price": "S/ 360.00",
+        "brand": "LG",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-lg-24mq400-b-24-fhd-ips-75hz-5ms0658.png"
+    },
+    {
+        "name": "MONITOR TEROS 24'' CURVO IPS TE-2470G FHD 165Hz 1MS",
+        "price": "S/ 465.00",
+        "brand": "TEROS",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-teros-24-curvo-ips-te-3132-fhd-165hz3661.png"
+    },
+    {
+        "name": "MONITOR MSI G2422C 24'' CURVO VA FHD 1MS 180Hz",
+        "price": "S/ 589.00",
+        "brand": "",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-msi-g2422c-24-curvo-va-fhd-1ms-180hz-20464.png"
+    },
+    {
+        "name": "MONITOR MSI G244F 24'' PLANO IPS FHD 1MS 170Hz",
+        "price": "S/ 600.00",
+        "brand": "MSI",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-msi-g244f-24-plano-ips-fhd-1ms-170hz9774.png"
+    },
+    {
+        "name": "MONITOR SAMSUNG ODYSSEY G3 24'' FHD 165Hz LS24AG320NLXPE",
+        "price": "S/ 629.00",
+        "brand": "SAMSUNG",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-samsung-odyssey-g3-24-fhd-165hz-ls24ag320nlxpe9879.png"
+    },
+    {
+        "name": "MONITOR TEROS 27\" TE-3194N VA FHD 165Hz CURVO SOPORTE AJUSTABLE",
+        "price": "S/ 639.00",
+        "brand": "TEROS",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-teros-27-te-3194n-va-fhd-165hz-curvo-soporte-ajustable1195.png"
+    },
+    {
+        "name": "MONITOR TEROS 25\" PLANO VA TE-2410G FHD 240Hz 1MS",
+        "price": "S/ 695.00",
+        "brand": "TEROS",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "te-2410g4780.png"
+    },
+    {
+        "name": "MONITOR TEROS 27\" CURVO VA TE-2765G QHD 165Hz 1Ms - BASE AJUSTABLE",
+        "price": "S/ 799.00",
+        "brand": "TEROS",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "te-2765g0754.png"
+    },
+    {
+        "name": "MONITOR GIGABYTE 27'' FHD C27FC 165Hz 1MS",
+        "price": "S/ 819.00",
+        "brand": "GIGABYTE",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-gigabyte-27-fhd-c27fc-165hz-1ms1049.png"
+    },
+    {
+        "name": "MONITOR LG 24'' ULTRAGEAR TN FHD 144Hz 1Ms 24GL600F",
+        "price": "S/ 869.00",
+        "brand": "LG",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-lg-24-ultragear-tn-fhd-144hz-1ms-24gl600f3435.png"
+    },
+    {
+        "name": "MONITOR TEROS 32\" CURVO VA TE-3214G 2K QHD 165Hz 1MS",
+        "price": "S/ 969.00",
+        "brand": "TEROS",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "te-3214g2302.png"
+    },
+    {
+        "name": "MONITOR BENQ ZOWIE XL2411P 24' FHD CURVO 144Hz 1Ms (BASE AJUSTABLE)",
+        "price": "S/ 985.00",
+        "brand": "ZOWIE BY BENQ",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-benq-zowie-xl2411p-24-fhd-curvo-144hz-1ms-base-ajustable2047.png"
+    },
+    {
+        "name": "MONITOR TEROS 34\" CURVO TE-3410G UWQHD 165Hz, 3440x1440, BASE AJUSTABLE",
+        "price": "S/ 1, 229.00",
+        "brand": "TEROS",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "te-3410g8367.png"
+    },
+    {
+        "name": "MONITOR TEROS 22\" TE-2121S IPS FHD 100Hz 1MS",
+        "price": "S/ 299.00",
+        "brand": "TEROS",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-teros-22-te-2121s-ips-fhd-100hz-1ms7639.png"
+    },
+    {
+        "name": "MONITOR TEROS 24\" TE-2412S IPS FHD 100Hz 1MS",
+        "price": "S/ 349.00",
+        "brand": "TEROS",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "te-2412s3928.png"
+    },
+    {
+        "name": "MONITOR SAMSUNG 24'' CURVO FHD 75Hz AMD FREESYNC LS24C360EALXPE",
+        "price": "S/ 399.00",
+        "brand": "SAMSUNG",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-samsung-24-curvo-fhd-75hz-amd-freesync-ls24c360ealxpe5597.png"
+    },
+    {
+        "name": "MONITOR MSI G2412 24'' IPS FHD 1MS 170Hz",
+        "price": "S/ 689.00",
+        "brand": "MSI",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-msi-g2412-24-ips-fhd-1ms-170hz4434.png"
+    },
+    {
+        "name": "MONITOR ASUS TUF GAMING 23.8'' CURVO FHD VG24VQ1B 165Hz 1MS",
+        "price": "S/ 699.00",
+        "brand": "ASUS",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-asus-tuf-gaming-23-8-curvo-fhd-vg24vq1b-165hz-1ms-22955.png"
+    },
+    {
+        "name": "MONITOR LG ULTRAGEAR 24GN65R-B 24'' FHD IPS 144Hz 1Ms",
+        "price": "S/ 729.00",
+        "brand": "LG",
+        "category": "MONITORES",
+        "subcategory": "case con fuente",
+        "image": "monitor-lg-ultragear-24gn65r-b-24-fhd-ips-144hz-1ms9368.png"
+    },
+    {
+        "name": "SILLA GAMING ANTRYX XTREME RACING NOVA BLUE",
+        "price": "S/ 569.00",
+        "brand": "ANTRYX",
+        "category": "SILLAS/ESCRITORIOS",
+        "subcategory": "case con fuente",
+        "image": "silla-gaming-antryx-xtreme-racing-nova-blue-33632.png"
+    },
+    {
+        "name": "GAMING DESK THUNDERX3 ED5",
+        "price": "S/ 589.00",
+        "brand": "KIOGA",
+        "category": "SILLAS/ESCRITORIOS",
+        "subcategory": "case con fuente",
+        "image": "gaming-desk-thunderx3-ed50845.png"
+    },
+    {
+        "name": "SILLA GAMING ANTRYX XTREME RACING NOVA BLACK",
+        "price": "S/ 569.00",
+        "brand": "ANTRYX",
+        "category": "SILLAS/ESCRITORIOS",
+        "subcategory": "case con fuente",
+        "image": "silla-gaming-antryx-xtreme-racing-nova-black-20109.png"
+    },
+    {
+        "name": "SILLA GAMING ANTRYX XTREME RACING NOVA RED",
+        "price": "S/ 569.00",
+        "brand": "ANTRYX",
+        "category": "SILLAS/ESCRITORIOS",
+        "subcategory": "case con fuente",
+        "image": "silla-gaming-antryx-xtreme-racing-nova-red4551.png"
+    },
+    {
+        "name": "SILLA GAMING HALION HA-S47 NEGRO/VERDE",
+        "price": "S/ 629.00",
+        "brand": "HALION",
+        "category": "SILLAS/ESCRITORIOS",
+        "subcategory": "case con fuente",
+        "image": "silla-gaming-halion-ha-s47-negro-verde0004.png"
+    },
+    {
+        "name": "SILLA GAMING HALION HA-S47 NEGRO/ROJO",
+        "price": "S/ 629.00",
+        "brand": "HALION",
+        "category": "SILLAS/ESCRITORIOS",
+        "subcategory": "case con fuente",
+        "image": "silla-gaming-halion-ha-s47-negro-rojo4846.png"
+    },
+    {
+        "name": "ESTABILIZADOR CDP RU-AVR604I 600VA/300W 4 SALIDAS 4 PUERTOS USB",
+        "price": "S/ 69.00",
+        "brand": "CDP",
+        "category": "ESTABILIZADOR/UPS",
+        "subcategory": "case con fuente",
+        "image": "estabilizador-cdp-ru-avr604i-600va-300w-4-salidas-4-puertos-usb9775.png"
+    },
+    {
+        "name": "ESTABILIZADOR CDP R2CU-AVR1008I 1000VA/500W 8 SALIDAS 4 PUERTOS USB",
+        "price": "S/ 89.00",
+        "brand": "CDP",
+        "category": "ESTABILIZADOR/UPS",
+        "subcategory": "case con fuente",
+        "image": "estabilizador-cdp-r2cu-avr1008i-1000va-500w-8-salidas-4-puertos-usb5396.png"
+    },
+    {
+        "name": "ESTABILIZADOR SOLIDO ELISE FASE FXE-10 1.0kVA 4 TOMAS + 1 BY-PASS",
+        "price": "S/ 145.00",
+        "brand": "ELISE",
+        "category": "ESTABILIZADOR/UPS",
+        "subcategory": "case con fuente",
+        "image": "estabilizador-solido-elise-fase-fxe-10-1-0kva-4-tomas-1-by-pass6529.png"
+    },
+    {
+        "name": "UPS CDP R-UPR758I 750VA/375W AUTONOMIA 20 MIN",
+        "price": "S/ 192.00",
+        "brand": "CDP",
+        "category": "ESTABILIZADOR/UPS",
+        "subcategory": "case con fuente",
+        "image": "ups-cdp-r-upr758i-750va-375w7995.png"
+    },
+    {
+        "name": "UPS CDP R-UPR1008I 1000VA/500W AUTONOMIA 40 MIN",
+        "price": "S/ 235.00",
+        "brand": "CDP",
+        "category": "ESTABILIZADOR/UPS",
+        "subcategory": "case con fuente",
+        "image": "ups-cdp-r-upr758i-750va-375w0351.png"
+    },
+    {
+        "name": "ESTABILIZADOR CDP R-AVR1808I 1800VA/1000W 8 SALIDAS",
+        "price": "S/ 109.00",
+        "brand": "CDP",
+        "category": "ESTABILIZADOR/UPS",
+        "subcategory": "case con fuente",
+        "image": "estabilizador-cdp-r-avr1808i-1800va1000w-8-salidas0017.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 4500",
+        "price": "S/ 350.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-45000080.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 4600G",
+        "price": "S/ 415.00",
+        "brand": "",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-4600g2571.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 5600G",
+        "price": "S/ 595.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-5600g8661.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 5600",
+        "price": "S/ 640.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-56006554.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 5700G",
+        "price": "S/ 789.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-5700g2676.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 5700X",
+        "price": "S/ 879.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-5700x2946.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 7600",
+        "price": "S/ 895.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-76003595.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 5800X",
+        "price": "S/ 1, 099.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-5800x8300.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 8600G",
+        "price": "S/ 1, 099.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-8600g3135.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 7700",
+        "price": "S/ 1, 445.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-77008783.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 9 5900X",
+        "price": "S/ 1, 475.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-9-5900x2624.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 5800X3D",
+        "price": "S/ 1, 495.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-5800x3d4361.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 8700G",
+        "price": "S/ 1, 579.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-8700g0723.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 9 7900",
+        "price": "S/ 1, 985.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-79000560.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 7 7800X3D",
+        "price": "S/ 2, 035.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-7-7800x3d1165.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 9 7950X",
+        "price": "S/ 2, 639.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-9-7950x8632.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 9 7950X3D",
+        "price": "S/ 3, 185.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-9-7950x3d7681.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 3 3200G",
+        "price": "S/ 345.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-3-3200g9527.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 5500",
+        "price": "S/ 429.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-55008392.png"
+    },
+    {
+        "name": "PROCESADOR AMD RYZEN 5 5600X",
+        "price": "S/ 759.00",
+        "brand": "AMD",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "procesador-amd-ryzen-5-5600x8090.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ASROCK PHANTOM GAMING D RX 6500XT 4GB GDDR6",
+        "price": "S/ 960.00",
+        "brand": "ASROCK",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-asrock-phantom-gaming-d-rx-6500xt-4gb-gddr69003.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI MECH 2X OC RX 6500XT 4GB GDDR6",
+        "price": "S/ 980.00",
+        "brand": "MSI",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-mech-2x-oc-rx-6500xt-4gb-gddr65374.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI MECH 2X CLASSIC OC RX 7600 8GB GDDR6",
+        "price": "S/ 1, 380.00",
+        "brand": "MSI",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-mech-2x-classic-oc-rx-7600-8gb-gddr67855.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO GIGABYTE GAMING OC RX 7600 8GB GDDR6",
+        "price": "S/ 1, 570.00",
+        "brand": "GIGABYTE",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-gigabyte-gaming-oc-rx-7600-8gb-gddr63858.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI MECH 2X OC RX 6650XT 8GB GDDR6",
+        "price": "S/ 1, 150.00",
+        "brand": "MSI",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-mech-2x-oc-rx-6650xt-8gb-gddr63513.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO EVGA GT N210 1GB GDDR3",
+        "price": "S/ 175.00",
+        "brand": "EVGA",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-evga-gt-n210-1gb-gddr32907.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS XS OC D6 GEFORCE GTX 1650 4GB GDDR6",
+        "price": "S/ 649.00",
+        "brand": "MSI",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-xs-oc-d6-geforce-gtx-1650-4gb-gddr69116.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ASUS DUAL OC GEFORCE RTX 3050 6GB GDDR6",
+        "price": "S/ 839.00",
+        "brand": "ASUS",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-asus-dual-oc-geforce-rtx-3050-6gb-gddr68812.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS 2X 6G OC GEFORCE RTX 3050 6GB GDDR6",
+        "price": "S/ 855.00",
+        "brand": "MSI",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-2x-6g-oc-geforce-rtx-3050-6gb-gddr61704.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS 2X XS OC GEFORCE RTX 3050 8GB GDDR6",
+        "price": "S/ 999.00",
+        "brand": "MSI",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-2x-xs-oc-geforce-rtx-3050-8gb-gddr62162.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ZOTAC TWIN FAN GEFORCE GTX 1660 SUPER 6GB GDDR6",
+        "price": "S/ 1, 082.00",
+        "brand": "ZOTAC",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-zotac-twin-fan-geforce-gtx-1660-super-6gb-gddr60803.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ASUS DUAL WHITE OC GEFORCE RTX 3060 8GB GDDR6",
+        "price": "S/ 1, 350.00",
+        "brand": "ASUS",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-asus-dual-white-oc-geforce-rtx-3060-8gb-gddr60394.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS 2X OC GEFORCE RTX 4060 8GB GDDR6",
+        "price": "S/ 1, 360.00",
+        "brand": "MSI",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-2x-oc-geforce-rtx-4060-8gb-gddr64363.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ASUS DUAL EVO OC GEFORCE RTX 4060 8GB GDDR6",
+        "price": "S/ 1, 385.00",
+        "brand": "ASUS",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-asus-dual-evo-oc-geforce-rtx-4060-8gb-gddr64444.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS 2X OC GEFORCE RTX 4070 12GB GDDR6X",
+        "price": "S/ 2, 869.00",
+        "brand": "MSI",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-2x-oc-geforce-rtx-4070-12gb-gddr6x5405.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO GIGABYTE EAGLE OC GEFORCE RTX 4070 12GB GDDR6X",
+        "price": "S/ 3, 120.00",
+        "brand": "GIGABYTE",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-gigabyte-eagle-oc-geforce-rtx-4070-12gb-gddr6x1658.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ASUS TUF GAMING GEFORCE RTX 4070Ti 12GB GDDR6X",
+        "price": "S/ 3, 739.00",
+        "brand": "ASUS",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-asus-tuf-gaming-geforce-rtx-4070ti-12gb-gddr6x5507.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO GIGABYTE GAMING OC GEFORCE RTX 4070Ti 12GB GDDR6X",
+        "price": "S/ 3, 919.00",
+        "brand": "GIGABYTE",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-gigabyte-gaming-oc-geforce-rtx-4070ti-12gb-gddr6x9202.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS X3 OC GEFORCE RTX 4070Ti 12GB GDDR6X",
+        "price": "S/ 3, 959.00",
+        "brand": "MSI",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-x3-oc-geforce-rtx-4070ti-12gb-gddr6x4728.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO MSI VENTUS XS GEFORCE GTX 1630 4GB GDDR6",
+        "price": "S/ 665.00",
+        "brand": "MSI",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-msi-ventus-xs-geforce-gtx-1630-4gb-gddr61086.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO GIGABYTE OC GEFORCE GTX 1650 4GB GDDR6",
+        "price": "S/ 685.00",
+        "brand": "GIGABYTE",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-gigabyte-oc-geforce-gtx-1650-4gb-gddr65974.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ZOTAC GAMING GEFORCE GTX 1650 4GB GDDR6",
+        "price": "S/ 732.00",
+        "brand": "ZOTAC",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-zotac-gaming-geforce-gtx-1650-4gb-gddr66208.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO GIGABYTE WINDFORCE D6 GEFORCE GTX 1660 TI 6GB GDDR6",
+        "price": "S/ 999.00",
+        "brand": "GIGABYTE",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-gigabyte-windforce-d6-geforce-gtx-1660-ti-6gb-gddr63589.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ASUS DUAL OC GEFORCE RTX 3050 8GB GDDR6",
+        "price": "S/ 1, 150.00",
+        "brand": "ASUS",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-asus-dual-oc-geforce-rtx-3050-8gb-gddr67213.png"
+    },
+    {
+        "name": "TARJ. DE VIDEO ZOTAC TWIN EDGE GEFORCE RTX 3060 8GB GDDR6",
+        "price": "S/ 1, 250.00",
+        "brand": "ZOTAC",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "tarj-de-video-zotac-twin-edge-geforce-rtx-3060-8gb-gddr68307.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER ARENA BLACK RAINBOW - BROWN SWITCH",
+        "price": "S/ 129.00",
+        "brand": "T-DAGGER",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-arena-black-rainbow-brown-switch-22589.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER ARENA WHITE RAINBOW - BROWN SWITCH",
+        "price": "S/ 129.00",
+        "brand": "T-DAGGER",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-arena-white-rainbow-brown-switch0966.png"
+    },
+    {
+        "name": "TECLADO BLUETOOTH LOGITECH K380 MULTIDEVICE BLACK",
+        "price": "S/ 142.00",
+        "brand": "LOGITECH",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-bluetooth-logitech-k380-multidevice-black0967.png"
+    },
+    {
+        "name": "TECLADO BLUETOOTH LOGITECH K380 MULTIDEVICE WHITE",
+        "price": "S/ 142.00",
+        "brand": "LOGITECH",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-bluetooth-logitech-k380-multidevice-white3941.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER BORA BLACK RAINBOW BLUE SWITCH",
+        "price": "S/ 149.00",
+        "brand": "T-DAGGER",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-bora-rainbow-blue-switch-20668.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER ARENA WHITE/GREEN RAINBOW - BROWN SWITCH",
+        "price": "S/ 139.00",
+        "brand": "T-DAGGER",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-arena-white-green-rainbow-brown-switch2658.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER BORA WHITE RAINBOW - RED SWITCH",
+        "price": "S/ 149.00",
+        "brand": "T-DAGGER",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-bora-white-rainbow-red-switch0170.png"
+    },
+    {
+        "name": "TECLADO REDRAGON KUMARA BLACK RAINBOW - RED SWITCH",
+        "price": "S/ 169.00",
+        "brand": "REDRAGON",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-redragon-kumara-black-rainbow-red-switch-25468.png"
+    },
+    {
+        "name": "TECLADO REDRAGON KUMARA WHITE RAINBOW - RED SWITCH",
+        "price": "S/ 169.00",
+        "brand": "REDRAGON",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-redragon-kumara-white-rainbow-red-switch-20963.png"
+    },
+    {
+        "name": "TECLADO VSG QUASAR BLACK RGB - RED SWITCH",
+        "price": "S/ 179.00",
+        "brand": "VSG",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-vsg-quasar-black-rgb-red-switch-27734.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER BORA BLACK RGB BLUE SWITCH",
+        "price": "S/ 179.00",
+        "brand": "T-DAGGER",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-bora-black-rgb-blue-switch-32752.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER BORA WHITE RGB - BLUE SWITCH",
+        "price": "S/ 179.00",
+        "brand": "T-DAGGER",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-bora-white-rgb-blue-switch3776.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER NAXOS RAINBOW BLUE SWITCH",
+        "price": "S/ 189.00",
+        "brand": "T-DAGGER",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-naxos-rainbow-blue-switch-47542.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER NAXOS RAINBOW RED SWITCH",
+        "price": "S/ 189.00",
+        "brand": "T-DAGGER",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-naxos-rainbow-red-switch-48214.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER BORA BLACK RGB - RED SWITCH",
+        "price": "S/ 179.00",
+        "brand": "T-DAGGER",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-bora-black-rgb-red-switch4057.png"
+    },
+    {
+        "name": "TECLADO T-DAGGER BORA WHITE RGB - RED SWITCH",
+        "price": "S/ 179.00",
+        "brand": "T-DAGGER",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-t-dagger-bora-white-rgb-red-switch8495.png"
+    },
+    {
+        "name": "TECLADO ANTRYX MK830 RGB - BLUE SWITCH",
+        "price": "S/ 199.00",
+        "brand": "ANTRYX",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-antryx-mk830-rgb-blue-switch4485.png"
+    },
+    {
+        "name": "TECLADO ANTRYX MK830 RGB - BROWN SWITCH",
+        "price": "S/ 199.00",
+        "brand": "ANTRYX",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-antryx-mk830-rgb-brown-switch7403.png"
+    },
+    {
+        "name": "TECLADO ANTRYX MK830 RGB - RED SWITCH",
+        "price": "S/ 199.00",
+        "brand": "ANTRYX",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-antryx-mk830-rgb-red-switch2319.png"
+    },
+    {
+        "name": "TECLADO REDRAGON DRAGONBORN BLACK - BROWN SWITCH",
+        "price": "S/ 199.00",
+        "brand": "REDRAGON",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "teclado-redragon-dragonborn-black-brown-switch-39658.png"
+    },
+    {
+        "name": "SSD M.2 NVMe TEAM GROUP MP33 256GB",
+        "price": "S/ 115.00",
+        "brand": "",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-team-group-mp33-512gb2495.png"
+    },
+    {
+        "name": "SSD M.2 NVMe WESTERN DIGITAL GREEN SN350 500GB",
+        "price": "S/ 175.00",
+        "brand": "WESTERN DIGITAL",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-western-digital-green-sn350-500gb4281.png"
+    },
+    {
+        "name": "SSD M.2 NVMe KINGSTON NV2 500GB - PCIe 4.0",
+        "price": "S/ 192.00",
+        "brand": "KINGSTON",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-kingston-nv2-500gb-pcie-4-08460.png"
+    },
+    {
+        "name": "SSD M.2 NVMe TEAM GROUP MP44L 500GB PCIe 4.0",
+        "price": "S/ 245.00",
+        "brand": "TEAM GROUP",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-team-group-mp44l-500gb-pcie-4-01823.png"
+    },
+    {
+        "name": "SSD M.2 NVMe KINGSTON NV2 1TB - PCIe 4.0",
+        "price": "S/ 285.00",
+        "brand": "KINGSTON",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-kingston-nv2-1tb-pcie-4-0-39014.png"
+    },
+    {
+        "name": "SSD M.2 NVMe HP EX950 512GB",
+        "price": "S/ 345.00",
+        "brand": "HP",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-hp-ex950-512gb9145.png"
+    },
+    {
+        "name": "SSD M.2 NVMe KINGSTON NV2 2TB - PCIe 4.0",
+        "price": "S/ 512.00",
+        "brand": "KINGSTON",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-kingston-nv2-1tb-pcie-4-05907.png"
+    },
+    {
+        "name": "SSD M.2 NVMe KINGSTON NV2 250GB - PCIe 4.0",
+        "price": "S/ 138.00",
+        "brand": "KINGSTON",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-kingston-nv2-250gb-pcie-4-00379.png"
+    },
+    {
+        "name": "SSD M.2 NVMe WESTERN DIGITAL GREEN SN350 480GB",
+        "price": "S/ 145.00",
+        "brand": "WESTERN DIGITAL",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-western-digital-green-sn350-480gb0298.png"
+    },
+    {
+        "name": "SSD M.2 NVMe TEAM GROUP MP33 512GB",
+        "price": "S/ 175.00",
+        "brand": "TEAM GROUP",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-team-group-mp33-512gb6615.png"
+    },
+    {
+        "name": "SSD M.2 NVMe WESTERN DIGITAL GREEN SN350 1TB",
+        "price": "S/ 190.00",
+        "brand": "WESTERN DIGITAL",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-western-digital-green-sn350-1tb9072.png"
+    },
+    {
+        "name": "SSD M.2 NVMe XPG SX6000 PRO 512GB",
+        "price": "S/ 200.00",
+        "brand": "XPG",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-xpg-sx6000-pro-512gb0328.png"
+    },
+    {
+        "name": "SSD M.2 NVMe TEAM GROUP MP33 1TB",
+        "price": "S/ 279.00",
+        "brand": "TEAM GROUP",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-team-group-mp33-512gb2842.png"
+    },
+    {
+        "name": "SSD M.2 NVMe TEAM GROUP MP44L 1TB PCIe 4.0",
+        "price": "S/ 410.00",
+        "brand": "TEAM GROUP",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-team-group-mp44l-1tb-pcie-4-07161.png"
+    },
+    {
+        "name": "SSD M.2 NVMe KINGSTON FURY RENEGADE 1TB WITH HEATSINK - PCIe 4.0",
+        "price": "S/ 459.00",
+        "brand": "KINGSTON",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-kingston-fury-renegade-1tb-with-heatsink-pcie-4-0-26043.png"
+    },
+    {
+        "name": "SSD M.2 NVMe KINGSTON FURY RENEGADE 1TB - PCIe 4.0",
+        "price": "S/ 475.00",
+        "brand": "KINGSTON",
+        "category": "",
+        "subcategory": "case con fuente",
+        "image": "ssd-m-2-nvme-kingston-fury-renegade-1tb-pcie-4-0-23295.png"
+    }
+]
