@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
@@ -21,7 +22,17 @@ class Category extends Model
         return $this->hasMany(Subcategory::class);
     }
 
-    public function brands(){
+    public function brands()
+    {
         return $this->hasManyThrough(Brand::class, Product::class);
+    }
+
+    protected function image()
+    {
+        return Attribute::get(
+            fn(string $value) => config("app.url") .
+                "/public/storage/categories" .
+                $value
+        );
     }
 }

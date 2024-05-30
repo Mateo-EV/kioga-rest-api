@@ -29,25 +29,27 @@ class Address extends Model
         return $this->hasMany(Order::class);
     }
 
-    public function user(){
+    public function user()
+    {
         return $this->belongsTo(User::class);
     }
 
-    protected function fullName(){
-        return Attribute::make(
-            get: fn(mixed $_, array $attr) => $attr["first_name"]." ".$attr["last_name"]
+    protected function fullName()
+    {
+        return Attribute::get(
+            fn(mixed $_, array $attr) => $attr["first_name"] .
+                " " .
+                $attr["last_name"]
         );
     }
 
-    protected function first_name(){
-        return Attribute::make(
-            set: fn(mixed $value) => ucwords(strtolower($value))
-        );
+    protected function first_name()
+    {
+        return Attribute::set(fn(mixed $value) => ucwords(strtolower($value)));
     }
 
-    protected function last_name(){
-        return Attribute::make(
-            set: fn(mixed $value) => ucwords(strtolower($value))
-        );
+    protected function last_name()
+    {
+        return Attribute::set(fn(mixed $value) => ucwords(strtolower($value)));
     }
 }

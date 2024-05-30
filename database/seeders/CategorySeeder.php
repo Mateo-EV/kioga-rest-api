@@ -76,7 +76,7 @@ class CategorySeeder extends Seeder
             fn($category) => [
                 "name" => $category["name"],
                 "slug" => Str::slug($category["name"]),
-                "image" => "",
+                "image" => Str::slug($category["name"]) . ".png",
                 "subcategories" => $category["subcategories"] ?? null
             ],
             $categoriesName
