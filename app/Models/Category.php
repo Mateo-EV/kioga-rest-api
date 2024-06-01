@@ -31,7 +31,7 @@ class Category extends Model
     {
         return Attribute::get(
             fn(string $value) => config("app.url") .
-                "/public/storage/categories" .
+                "/storage/categories/" .
                 $value
         );
     }

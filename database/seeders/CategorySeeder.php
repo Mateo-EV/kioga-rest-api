@@ -17,7 +17,7 @@ class CategorySeeder extends Seeder
         Subcategory::truncate();
         Category::truncate();
 
-        $categoriesName = [
+        $categories = [
             [
                 "name" => "Cases · Gabinetes",
                 "subcategories" => ["Con Fuente", "Sin Fuente", "Accesorios"]
@@ -34,7 +34,7 @@ class CategorySeeder extends Seeder
                 "name" => "Memoria Ram",
                 "subcategories" => [
                     "Ram Dimm (Escritorio)",
-                    "Ram Dimm (Laptops)"
+                    "Ram Sodimm (Laptops)"
                 ]
             ],
             [
@@ -79,7 +79,7 @@ class CategorySeeder extends Seeder
                 "image" => Str::slug($category["name"]) . ".png",
                 "subcategories" => $category["subcategories"] ?? null
             ],
-            $categoriesName
+            $categories
         );
 
         foreach ($categories as $categoryData) {
