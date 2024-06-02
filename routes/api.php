@@ -1,27 +1,33 @@
 <?php
 
 use App\Http\Controllers\AdminController;
-use Illuminate\Http\Request;
+use App\Http\Controllers\BrandController;
 use Illuminate\Support\Facades\Route;
 
-Route::middleware(["auth:sanctum"])->get("/user", function (Request $request) {
-    $user = $request->user();
+Route::middleware(["auth:sanctum"])->group(function () {
+    Route::get("/user", function () {
+        $auth = auth();
 
-    if ($user instanceof \App\Models\User) {
-        return $user;
-    }
+        if ($auth->guard("customers")->check()) {
+            return $auth->user();
+        }
 
-    return response()->json(["message" => "Unauthorized"], 401);
+        return response()->noContent(status: 404);
+    });
+    Route::get("/admin", function () {
+        $auth = auth();
+
+        if ($auth->guard("admins")->check()) {
+            return $auth->user();
+        }
+
+        return response()->noContent(status: 401);
+    });
+
+    Route::prefix("admin")
+        ->middleware("is_admin")
+        ->group(function () {
+            Route::apiResource("manage", AdminController::class);
+            Route::apiResource("brands", BrandController::class);
+        });
 });
-
-Route::middleware(["auth:sanctum"])->get("/admin", function (Request $request) {
-    $admin = $request->user();
-
-    if ($admin instanceof \App\Models\Admin) {
-        return $admin;
-    }
-
-    return response()->json(["message" => "Unauthorized"], 401);
-});
-
-Route::get("/admin/{admin}", [AdminController::class, "edit"]);

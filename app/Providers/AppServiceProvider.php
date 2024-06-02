@@ -41,7 +41,10 @@ class AppServiceProvider extends ServiceProvider
 
         if ($this->app->environment("local")) {
             DB::listen(function ($query) {
-                Log::info($query->sql);
+                Log::info(
+                    $query->sql,
+                    debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 10)
+                );
             });
         }
     }

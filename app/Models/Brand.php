@@ -17,10 +17,17 @@ class Brand extends Model
         return $this->hasMany(Product::class);
     }
 
-    protected function image()
+    protected function image(): Attribute
     {
         return Attribute::get(
             fn(string $value) => config("app.url") . "/storage/brands/" . $value
+        );
+    }
+
+    protected function originalImageUrl(): Attribute
+    {
+        return Attribute::get(
+            fn(mixed $_, array $attributes) => $attributes["image"]
         );
     }
 }
