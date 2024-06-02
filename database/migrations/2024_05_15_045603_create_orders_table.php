@@ -23,7 +23,6 @@ return new class extends Migration {
                 ->constrained("payment_methods")
                 ->restrictOnDelete()
                 ->cascadeOnUpdate();
-            $table->string("payment_status");
             $table->enum("status", [
                 "pendiente", // Creado
                 "en espera", // En espera para ser recogido

@@ -27,7 +27,33 @@ class AuthenticatedSessionController extends Controller
      */
     public function destroy(Request $request): Response
     {
-        Auth::guard('web')->logout();
+        Auth::guard("customers")->logout();
+
+        $request->session()->invalidate();
+
+        $request->session()->regenerateToken();
+
+        return response()->noContent();
+    }
+
+    /**
+     * Handle an incoming authentication request for admins.
+     */
+    public function store_admin(LoginRequest $request): Response
+    {
+        $request->authenticate("admins");
+
+        $request->session()->regenerate();
+
+        return response()->noContent();
+    }
+
+    /**
+     * Destroy an authenticated session for admin.
+     */
+    public function destroy_admin(Request $request): Response
+    {
+        Auth::guard("admins")->logout();
 
         $request->session()->invalidate();
 

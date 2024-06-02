@@ -12,7 +12,7 @@ class ProductSeeder extends Seeder
 {
     public function run(): void
     {
-        Product::truncate();
+        // Product::truncate();
 
         $products = [
             [

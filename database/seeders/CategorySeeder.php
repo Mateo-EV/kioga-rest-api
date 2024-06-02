@@ -14,8 +14,8 @@ class CategorySeeder extends Seeder
      */
     public function run(): void
     {
-        Subcategory::truncate();
-        Category::truncate();
+        // Subcategory::truncate();
+        // Category::truncate();
 
         $categories = [
             [

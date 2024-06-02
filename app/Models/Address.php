@@ -24,6 +24,8 @@ class Address extends Model
         "reference"
     ];
 
+    public $timestamps = false;
+
     public function order()
     {
         return $this->hasMany(Order::class);

@@ -13,7 +13,6 @@ class Order extends Model
         "amount",
         "user_id",
         "payment_method_id",
-        "payment_status",
         "status",
         "shipping_amount",
         "is_delivery",
