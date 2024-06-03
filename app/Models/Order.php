@@ -20,6 +20,15 @@ class Order extends Model
         "notes"
     ];
 
+    public static $status_enum = [
+        "pendiente", // Creado
+        "en espera", // En espera para ser recogido
+        "enviado", // Enviado al cliente
+        "entregado", // Entregado al cliente
+        "cancelado", // Pedido cancelado por el cliente
+        "reembolsado" // Reembolsado por el cliente
+    ];
+
     public function user()
     {
         return $this->belongsTo(User::class);

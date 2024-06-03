@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -14,6 +16,7 @@ class Product extends Model
         "slug",
         "description",
         "price",
+        "discount",
         "image",
         "stock",
         "category_id",
@@ -21,6 +24,24 @@ class Product extends Model
         "brand_id",
         "is_active"
     ];
+
+    protected function image(): Attribute
+    {
+        return Attribute::get(
+            fn(string $value) => config("app.url") .
+                "/storage/products/" .
+                $value
+        );
+    }
+
+    protected static function booted(): void
+    {
+        static::addGlobalScope("ancient", function (Builder $builder) {
+            $builder->selectRaw(
+                "CAST(products.price * (1 - products.discount) AS DECIMAL(10,2)) as price_discounted"
+            );
+        });
+    }
 
     public function category()
     {

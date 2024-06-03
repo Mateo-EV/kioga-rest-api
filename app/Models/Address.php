@@ -36,7 +36,7 @@ class Address extends Model
         return $this->belongsTo(User::class);
     }
 
-    protected function fullName()
+    protected function fullName(): Attribute
     {
         return Attribute::get(
             fn(mixed $_, array $attr) => $attr["first_name"] .
@@ -45,12 +45,12 @@ class Address extends Model
         );
     }
 
-    protected function first_name()
+    protected function first_name(): Attribute
     {
         return Attribute::set(fn(mixed $value) => ucwords(strtolower($value)));
     }
 
-    protected function last_name()
+    protected function last_name(): Attribute
     {
         return Attribute::set(fn(mixed $value) => ucwords(strtolower($value)));
     }

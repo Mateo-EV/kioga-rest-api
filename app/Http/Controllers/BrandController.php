@@ -28,7 +28,7 @@ class BrandController extends Controller
         $brand["image"] = $brand["slug"] . $request->file("image")->getType();
 
         $request->file("image")->storePubliclyAs("brands", $brand["image"]);
-        // response()->json($data);
+
         return Brand::create($brand);
     }
 

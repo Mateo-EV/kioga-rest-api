@@ -19,11 +19,11 @@ class CategorySeeder extends Seeder
 
         $categories = [
             [
-                "name" => "Cases · Gabinetes",
+                "name" => "Cases",
                 "subcategories" => ["Con Fuente", "Sin Fuente", "Accesorios"]
             ],
             [
-                "name" => "Placas · Motherboards",
+                "name" => "Placas",
                 "subcategories" => ["AMD", "Intel"]
             ],
             [
@@ -46,7 +46,7 @@ class CategorySeeder extends Seeder
                 "subcategories" => ["Nvidia", "Amd"]
             ],
             [
-                "name" => "Refrigeración · Enfriamiento",
+                "name" => "Refrigeración",
                 "subcategories" => ["Líquido", "Aire"]
             ],
             ["name" => "Fuentes"],

@@ -31,7 +31,7 @@ return new class extends Migration {
                 "cancelado", // Pedido cancelado por el cliente
                 "reembolsado" // Reembolsado por el cliente
             ]);
-            $table->decimal("shipping_amount", 10, 2);
+            $table->decimal("shipping_amount", 10, 2)->default(0);
             $table->boolean("is_delivery")->default(false);
             $table
                 ->foreignId("address_id")
