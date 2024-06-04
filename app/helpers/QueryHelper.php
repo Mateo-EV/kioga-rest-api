@@ -8,14 +8,15 @@ class QueryHelper
 {
     public static function buildQueryWithRelations(
         Builder $query,
-        array $relations
+        array $relations,
+        ?string $method = "join"
     ) {
         foreach ($relations as $relation) {
             $table = $relation["table"];
             $foreignKey = $relation["foreignKey"] ?? "{$relation["name"]}_id";
             $localKey = $relation["localKey"] ?? "id";
 
-            $query->join(
+            $query->$method(
                 $table,
                 "{$table}.{$localKey}",
                 "=",

@@ -7,9 +7,42 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    public function index()
+    public function indexForCustomers()
     {
-        return Category::all(["id", "name", "slug"]);
+        return Category::all(["id", "name", "image", "slug"]);
+    }
+
+    public function showForCustomersBySlug(string $slug)
+    {
+        $category = Category::where("categories.slug", $slug)
+            ->leftJoin("products", "products.category_id", "=", "categories.id")
+            ->leftJoin("brands", "brands.id", "=", "products.brand_id")
+            ->distinct()
+            ->get([
+                "categories.id",
+                "categories.name",
+                "categories.image",
+                "categories.slug",
+                "brands.id as brand_id",
+                "brands.name as brand_name",
+                "brands.slug as brand_slug"
+            ]);
+
+        $brands = $category->map(function ($item) {
+            return [
+                "id" => $item->brand_id,
+                "name" => $item->brand_name,
+                "slug" => $item->brand_slug
+            ];
+        });
+
+        $category = $category->first();
+        unset($category->brand_id);
+        unset($category->brand_name);
+        unset($category->brand_slug);
+        $category->brands = $brands;
+
+        return $category;
     }
 
     /**

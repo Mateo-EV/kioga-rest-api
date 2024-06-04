@@ -37,7 +37,21 @@ Route::middleware(["auth:sanctum"])->group(function () {
 });
 
 Route::middleware("guest")->group(function () {
-    Route::get("/products", [ProductController::class, "showForCustomers"]);
-    Route::get("/categories", [CategoryController::class, "index"]);
+    Route::get("/products", [ProductController::class, "indexForCustomers"]);
+    Route::get("/products/{slug}", [
+        ProductController::class,
+        "showForCustomer"
+    ]);
+    Route::get("/products/category/{slug}", [
+        ProductController::class,
+        "indexForCustomersByCategorySlug"
+    ]);
+
+    Route::get("/categories", [CategoryController::class, "indexForCustomers"]);
+    Route::get("/categories/{slug}", [
+        CategoryController::class,
+        "showForCustomersBySlug"
+    ]);
+
     Route::get("/brands", [BrandController::class, "index"]);
 });

@@ -25,6 +25,20 @@ class Product extends Model
         "is_active"
     ];
 
+    public static $fields_for_customers = [
+        "id",
+        "name",
+        "slug",
+        "description",
+        "price",
+        "discount",
+        "image",
+        "stock",
+        "category_id",
+        "subcategory_id",
+        "brand_id"
+    ];
+
     protected function image(): Attribute
     {
         return Attribute::get(
@@ -36,7 +50,7 @@ class Product extends Model
 
     protected static function booted(): void
     {
-        static::addGlobalScope("ancient", function (Builder $builder) {
+        static::addGlobalScope("price_discounted", function (Builder $builder) {
             $builder->selectRaw(
                 "CAST(products.price * (1 - products.discount) AS DECIMAL(10,2)) as price_discounted"
             );

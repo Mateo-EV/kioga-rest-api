@@ -22,12 +22,7 @@ class Category extends Model
         return $this->hasMany(Subcategory::class);
     }
 
-    public function brands()
-    {
-        return $this->hasManyThrough(Brand::class, Product::class);
-    }
-
-    protected function image()
+    protected function image(): Attribute
     {
         return Attribute::get(
             fn(string $value) => config("app.url") .
