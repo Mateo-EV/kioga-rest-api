@@ -60,11 +60,10 @@ class MacroServiceProvider extends ServiceProvider
             );
         });
 
-        EloquentBuilder::macro("cursorPaginationWith", function (
+        EloquentBuilder::macro("withRelations", function (
             array $relations,
             array $select = ["*"],
-            array $customSelect = [],
-            int $perPage = 10
+            array $customSelect = []
         ) {
             /** @var \Illuminate\Database\Eloquent\Builder $query */
             $query = $this;
@@ -82,14 +81,9 @@ class MacroServiceProvider extends ServiceProvider
             $selects = QueryHelper::buildSelects($relations, $select);
             $query->select($selects);
 
-            /** @var CursorPaginator $results */
-            $results = $query->cursorPaginate($perPage);
-
-            return $results->setCollection(
-                QueryHelper::transformWithRelations(
-                    $results->getCollection(),
-                    $relations
-                )
+            return QueryHelper::transformWithRelations(
+                $query->get(),
+                $relations
             );
         });
     }

@@ -13,9 +13,9 @@ class BrandController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function indexForCustomers()
     {
-        return Brand::all();
+        return Brand::all(["id", "name", "slug", "image"]);
     }
 
     /**

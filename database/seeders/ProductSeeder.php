@@ -214,15 +214,6 @@ class ProductSeeder extends Seeder
                     "Explora el increíble Case Gamemax Edge Black Rainbow, diseñado para ofrecer un rendimiento excepcional y un estilo único en tu equipo."
             ],
             [
-                "name" => "Case Gamemax Storm Bk Gb Black 4 Fan Rainbow",
-                "price" => 155.0,
-                "brand_id" => 20,
-                "category_id" => 1,
-                "subcategory_id" => 2,
-                "description" =>
-                    "Explora el increíble Case Gamemax Storm Bk Gb Black 4 Fan Rainbow, diseñado para ofrecer un rendimiento excepcional y un estilo único en tu equipo."
-            ],
-            [
                 "name" => "Case Aerocool Trinity Mini White",
                 "price" => 195.0,
                 "brand_id" => 1,
@@ -654,15 +645,6 @@ class ProductSeeder extends Seeder
                     "La Placa Amd Am4 Msi A520m Pro-vh te brinda la mejor tecnología para potenciar tu sistema con una estabilidad y eficiencia inigualables."
             ],
             [
-                "name" => "Placa Amd Am4 Gigabyte B450m-ds3h V2",
-                "price" => 329.0,
-                "brand_id" => 22,
-                "category_id" => 2,
-                "subcategory_id" => 4,
-                "description" =>
-                    "La Placa Amd Am4 Gigabyte B450m-ds3h V2 te brinda la mejor tecnología para potenciar tu sistema con una estabilidad y eficiencia inigualables."
-            ],
-            [
                 "name" => "Placa Amd Am4 Asus Prime B450m-a Ii",
                 "price" => 355.0,
                 "brand_id" => 8,
@@ -690,15 +672,6 @@ class ProductSeeder extends Seeder
                     "La Placa Amd Am4 Msi B550m-a Pro te brinda la mejor tecnología para potenciar tu sistema con una estabilidad y eficiencia inigualables."
             ],
             [
-                "name" => "Placa Amd Am4 Asus Tuf Gaming B450m-plus Ii",
-                "price" => 405.0,
-                "brand_id" => 8,
-                "category_id" => 2,
-                "subcategory_id" => 4,
-                "description" =>
-                    "La Placa Amd Am4 Asus Tuf Gaming B450m-plus Ii te brinda la mejor tecnología para potenciar tu sistema con una estabilidad y eficiencia inigualables."
-            ],
-            [
                 "name" => "Placa Amd Am4 Gigabyte B450m Aorus Elite",
                 "price" => 430.0,
                 "brand_id" => 22,
@@ -706,15 +679,6 @@ class ProductSeeder extends Seeder
                 "subcategory_id" => 4,
                 "description" =>
                     "La Placa Amd Am4 Gigabyte B450m Aorus Elite te brinda la mejor tecnología para potenciar tu sistema con una estabilidad y eficiencia inigualables."
-            ],
-            [
-                "name" => "Placa Amd Am4 Gigabyte B550m-ds3h",
-                "price" => 475.0,
-                "brand_id" => 22,
-                "category_id" => 2,
-                "subcategory_id" => 4,
-                "description" =>
-                    "La Placa Amd Am4 Gigabyte B550m-ds3h te brinda la mejor tecnología para potenciar tu sistema con una estabilidad y eficiencia inigualables."
             ],
             [
                 "name" => "Placa Amd Am4 Asus Prime B550m-k",
@@ -1409,15 +1373,6 @@ class ProductSeeder extends Seeder
                     "Disfruta del Ram Team Group T-force Delta R Black 8gb Ddr4 3200mhz, diseñado para ofrecer calidad y rendimiento excepcionales."
             ],
             [
-                "name" => "Ram Team Group T-force Delta R Tuf 8gb Ddr4 3200mhz",
-                "price" => 112.0,
-                "brand_id" => 44,
-                "category_id" => 4,
-                "subcategory_id" => 8,
-                "description" =>
-                    "Disfruta del Ram Team Group T-force Delta R Tuf 8gb Ddr4 3200mhz, diseñado para ofrecer calidad y rendimiento excepcionales."
-            ],
-            [
                 "name" =>
                     "Ram Team Group T-force Delta R White 8gb Ddr4 3200mhz",
                 "price" => 112.0,
@@ -1521,24 +1476,6 @@ class ProductSeeder extends Seeder
                     "Disfruta del Ram Sodimm Hp S1 16gb Ddr4 3200mhz, diseñado para ofrecer calidad y rendimiento excepcionales."
             ],
             [
-                "name" => "Ram Sodimm Kingston Fury Impact 16gb Ddr4 3200mhz",
-                "price" => 189.0,
-                "brand_id" => 26,
-                "category_id" => 4,
-                "subcategory_id" => 9,
-                "description" =>
-                    "Disfruta del Ram Sodimm Kingston Fury Impact 16gb Ddr4 3200mhz, diseñado para ofrecer calidad y rendimiento excepcionales."
-            ],
-            [
-                "name" => "Ram Sodimm Kingston Kvr 16gb Ddr5 4800mhz",
-                "price" => 255.0,
-                "brand_id" => 26,
-                "category_id" => 4,
-                "subcategory_id" => 9,
-                "description" =>
-                    "Disfruta del Ram Sodimm Kingston Kvr 16gb Ddr5 4800mhz, diseñado para ofrecer calidad y rendimiento excepcionales."
-            ],
-            [
                 "name" => "Ssd 2.5 SATA Pny Cs900 120gb",
                 "price" => 75.0,
                 "brand_id" => 35,
@@ -1557,24 +1494,6 @@ class ProductSeeder extends Seeder
                     "Disfruta del Ssd 2.5 SATA Team Group T-force Vulcanz 256gb, diseñado para ofrecer calidad y rendimiento excepcionales."
             ],
             [
-                "name" => "Ssd 2.5 SATA Team Group T-force Vulcanz 512gb",
-                "price" => 155.0,
-                "brand_id" => 44,
-                "category_id" => 5,
-                "subcategory_id" => 10,
-                "description" =>
-                    "Disfruta del Ssd 2.5 SATA Team Group T-force Vulcanz 512gb, diseñado para ofrecer calidad y rendimiento excepcionales."
-            ],
-            [
-                "name" => "Ssd 2.5 SATA Team Group T-force Vulcanz 1tb",
-                "price" => 285.0,
-                "brand_id" => 44,
-                "category_id" => 5,
-                "subcategory_id" => 10,
-                "description" =>
-                    "Disfruta del Ssd 2.5 SATA Team Group T-force Vulcanz 1tb, diseñado para ofrecer calidad y rendimiento excepcionales."
-            ],
-            [
                 "name" => "Ssd 2.5 SATA Msi Spatium S270 240gb",
                 "price" => 75.0,
                 "brand_id" => 32,
@@ -1582,15 +1501,6 @@ class ProductSeeder extends Seeder
                 "subcategory_id" => 10,
                 "description" =>
                     "Disfruta del Ssd 2.5 SATA Msi Spatium S270 240gb, diseñado para ofrecer calidad y rendimiento excepcionales."
-            ],
-            [
-                "name" => "Ssd 2.5 SATA Team Group T-force Vulcanz 240gb",
-                "price" => 79.0,
-                "brand_id" => 44,
-                "category_id" => 5,
-                "subcategory_id" => 10,
-                "description" =>
-                    "Disfruta del Ssd 2.5 SATA Team Group T-force Vulcanz 240gb, diseñado para ofrecer calidad y rendimiento excepcionales."
             ],
             [
                 "name" => "Ssd 2.5 Gigabyte 240gb",
@@ -1611,15 +1521,6 @@ class ProductSeeder extends Seeder
                     "Disfruta del Ssd 2.5 SATA Team Group Cx2 256gb, diseñado para ofrecer calidad y rendimiento excepcionales."
             ],
             [
-                "name" => "Ssd 2.5 SATA Team Group T-force Vulcanz 480gb",
-                "price" => 105.0,
-                "brand_id" => 44,
-                "category_id" => 5,
-                "subcategory_id" => 10,
-                "description" =>
-                    "Disfruta del Ssd 2.5 SATA Team Group T-force Vulcanz 480gb, diseñado para ofrecer calidad y rendimiento excepcionales."
-            ],
-            [
                 "name" => "Ssd 2.5 SATA Team Group Cx1 480gb",
                 "price" => 169.0,
                 "brand_id" => 44,
@@ -1636,15 +1537,6 @@ class ProductSeeder extends Seeder
                 "subcategory_id" => 10,
                 "description" =>
                     "Disfruta del Ssd 2.5 SATA Pny Cs900 1tb, diseñado para ofrecer calidad y rendimiento excepcionales."
-            ],
-            [
-                "name" => "Ssd 2.5 SATA Team Group Cx2 2tb",
-                "price" => 345.0,
-                "brand_id" => 44,
-                "category_id" => 5,
-                "subcategory_id" => 10,
-                "description" =>
-                    "Disfruta del Ssd 2.5 SATA Team Group Cx2 2tb, diseñado para ofrecer calidad y rendimiento excepcionales."
             ],
             [
                 "name" => "Ssd 2.5 SATA Team Group Cx2 1tb",
@@ -1773,15 +1665,6 @@ class ProductSeeder extends Seeder
                     "Disfruta del Ssd M.2 NVME Western Digital Green Sn350 480gb, diseñado para ofrecer calidad y rendimiento excepcionales."
             ],
             [
-                "name" => "Ssd M.2 NVME Team Group Mp33 512gb",
-                "price" => 175.0,
-                "brand_id" => 44,
-                "category_id" => 5,
-                "subcategory_id" => 11,
-                "description" =>
-                    "Disfruta del Ssd M.2 NVME Team Group Mp33 512gb, diseñado para ofrecer calidad y rendimiento excepcionales."
-            ],
-            [
                 "name" => "Ssd M.2 NVME Western Digital Green Sn350 1tb",
                 "price" => 190.0,
                 "brand_id" => 48,
@@ -1798,15 +1681,6 @@ class ProductSeeder extends Seeder
                 "subcategory_id" => 11,
                 "description" =>
                     "Disfruta del Ssd M.2 NVME Xpg Sx6000 Pro 512gb, diseñado para ofrecer calidad y rendimiento excepcionales."
-            ],
-            [
-                "name" => "Ssd M.2 NVME Team Group Mp33 1tb",
-                "price" => 279.0,
-                "brand_id" => 44,
-                "category_id" => 5,
-                "subcategory_id" => 11,
-                "description" =>
-                    "Disfruta del Ssd M.2 NVME Team Group Mp33 1tb, diseñado para ofrecer calidad y rendimiento excepcionales."
             ],
             [
                 "name" => "Ssd M.2 NVME Team Group Mp44l 1tb PCIE 4.0",
@@ -2957,15 +2831,6 @@ class ProductSeeder extends Seeder
                 "subcategory_id" => 18,
                 "description" =>
                     "Disfruta del Teclado T-dagger Arena White/green Rainbow - Brown Switch, diseñado para ofrecer calidad y rendimiento excepcionales."
-            ],
-            [
-                "name" => "Teclado T-dagger Bora White Rainbow - Red Switch",
-                "price" => 149.0,
-                "brand_id" => 43,
-                "category_id" => 10,
-                "subcategory_id" => 18,
-                "description" =>
-                    "Disfruta del Teclado T-dagger Bora White Rainbow - Red Switch, diseñado para ofrecer calidad y rendimiento excepcionales."
             ],
             [
                 "name" => "Teclado Redragon Kumara Black Rainbow - Red Switch",
@@ -4452,15 +4317,6 @@ class ProductSeeder extends Seeder
                 "subcategory_id" => null,
                 "description" =>
                     "Disfruta del Ups Cdp R-upr758i 750va/375w Autonomia 20 Min, diseñado para ofrecer calidad y rendimiento excepcionales."
-            ],
-            [
-                "name" => "Ups Cdp R-upr1008i 1000va/500w Autonomia 40 Min",
-                "price" => 235.0,
-                "brand_id" => 11,
-                "category_id" => 13,
-                "subcategory_id" => null,
-                "description" =>
-                    "Disfruta del Ups Cdp R-upr1008i 1000va/500w Autonomia 40 Min, diseñado para ofrecer calidad y rendimiento excepcionales."
             ],
             [
                 "name" => "Estabilizador Cdp R-avr1808i 1800va/1000w 8 Salidas",

@@ -107,6 +107,18 @@ class ProductController extends Controller
 
         $product->where("categories.slug", $slug);
 
+        $subcategory = $request->query("subcategory", []);
+        if ($subcategory) {
+            $product
+                ->join(
+                    "subcategories",
+                    "subcategories.id",
+                    "=",
+                    "products.subcategory_id"
+                )
+                ->whereIn("subcategories.slug", $subcategory);
+        }
+
         return $this->getPaginatedProductsWithFilters($request, $product);
     }
 
@@ -116,5 +128,77 @@ class ProductController extends Controller
             ->select(Product::$fields_for_customers)
             ->with(["brand:id,name,slug", "category:id,name,slug"])
             ->first();
+    }
+
+    public function showForCustomerSimilar(string $slug)
+    {
+        $product = Product::select(Product::$fields_for_customers)
+            ->where("slug", $slug)
+            ->first();
+
+        return Product::where("products.id", "!=", $product->id)
+            ->where(function (Builder $query) use ($product) {
+                $query
+                    ->where("category_id", $product->category_id)
+                    ->orWhere("brand_id", $product->brand_id);
+            })
+            ->orderByRaw("priority")
+            ->limit(10)
+            ->withRelations(
+                relations: [
+                    [
+                        "name" => "category",
+                        "table" => "categories",
+                        "properties" => ["id", "name", "slug"]
+                    ],
+                    [
+                        "name" => "brand",
+                        "table" => "brands",
+                        "properties" => ["id", "name", "slug"]
+                    ]
+                ],
+                select: Product::$fields_for_customers,
+                customSelect: [
+                    DB::raw("CASE
+                    WHEN subcategory_id = {$product->subcategory_id} THEN 1
+                    WHEN category_id = {$product->category_id} THEN 2
+                    WHEN brand_id = {$product->brand_id} THEN 3
+                    END AS priority")
+                ]
+            );
+    }
+
+    public function getTop10BestSellerWeeklyProducts()
+    {
+        $oneWeekAgo = now()->subWeek()->toDateTimeString();
+
+        return Product::leftJoin(
+            DB::raw("(SELECT product_id, SUM(quantity) as total
+                    FROM order_products
+                    JOIN orders ON order_products.order_id = orders.id
+                    WHERE orders.status = 'entregado'
+                    AND orders.created_at >= '{$oneWeekAgo}'
+                    GROUP BY product_id) as sells"),
+            "products.id",
+            "=",
+            "sells.product_id"
+        )
+            ->orderByRaw("sells.total desc")
+            ->limit(10)
+            ->withRelations(
+                relations: [
+                    [
+                        "name" => "category",
+                        "table" => "categories",
+                        "properties" => ["id", "name", "slug"]
+                    ],
+                    [
+                        "name" => "brand",
+                        "table" => "brands",
+                        "properties" => ["id", "name", "slug"]
+                    ]
+                ],
+                select: Product::$fields_for_customers
+            );
     }
 }
