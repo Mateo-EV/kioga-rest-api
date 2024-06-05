@@ -67,7 +67,10 @@ class CategoryController extends Controller
             "categories.id",
             "categories.name",
             "categories.slug",
-            "categories.image"
+            "categories.image",
+            DB::raw(
+                "COALESCE(SUM(order_products.total_quantity), 0) as total_quantity"
+            )
         )
             ->join("products", "products.category_id", "=", "categories.id")
             ->leftJoinSub($sells_query, "order_products", function (
@@ -81,7 +84,7 @@ class CategoryController extends Controller
                 "categories.slug",
                 "categories.image"
             )
-            ->orderBy("total_quantity", "desc")
+            ->orderByRaw("total_quantity desc")
             ->take(3)
             ->get();
 
