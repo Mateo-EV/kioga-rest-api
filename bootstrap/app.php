@@ -23,7 +23,7 @@ return Application::configure(basePath: dirname(__DIR__))
             "is_admin" => \App\Http\Middleware\EnsureUserIsAdmin::class
         ]);
 
-        //
+        $middleware->statefulApi();
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
