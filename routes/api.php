@@ -37,6 +37,10 @@ Route::middleware(["auth:sanctum"])->group(function () {
 });
 
 Route::get("/products", [ProductController::class, "indexForCustomers"]);
+Route::get("/products/utils/top-weekly-bestseller", [
+    ProductController::class,
+    "getTop10BestSellerWeeklyProducts"
+]);
 Route::get("/products/{slug}", [ProductController::class, "showForCustomer"]);
 Route::get("/products/{slug}/similar", [
     ProductController::class,
@@ -46,19 +50,15 @@ Route::get("/products/category/{slug}", [
     ProductController::class,
     "indexForCustomersByCategorySlug"
 ]);
-Route::get("/products/utils/top-weekly-bestseller", [
-    ProductController::class,
-    "getTop10BestSellerWeeklyProducts"
-]);
 
 Route::get("/categories", [CategoryController::class, "indexForCustomers"]);
-Route::get("/categories/{slug}", [
-    CategoryController::class,
-    "showForCustomersBySlug"
-]);
 Route::get("/categories/utils/top-bestseller", [
     CategoryController::class,
     "getTopCategories"
+]);
+Route::get("/categories/{slug}", [
+    CategoryController::class,
+    "showForCustomersBySlug"
 ]);
 
 Route::get("/brands", [BrandController::class, "indexForCustomers"]);
