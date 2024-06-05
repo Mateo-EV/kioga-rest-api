@@ -43,7 +43,13 @@ class CategoryController extends Controller
         unset($category->brand_id);
         unset($category->brand_name);
         unset($category->brand_slug);
-        $category->brands = $brands[0]["id"] == null ? [] : $brands;
+
+        if (!empty($brands) && isset($brands[0])) {
+            $category->brands = $brands[0]["id"] == null ? [] : $brands;
+        } else {
+            $category->brands = [];
+        }
+
         $category->subcategories;
 
         return $category;
