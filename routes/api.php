@@ -52,10 +52,13 @@ Route::get("/products/category/{slug}", [
 ]);
 
 Route::get("/categories", [CategoryController::class, "indexForCustomers"]);
-Route::get("/categories/utils/top-bestseller", [
-    CategoryController::class,
-    "getTopCategories"
-]);
+Route::prefix("categories/utils")->group(function () {
+    Route::get("/top-bestseller", [
+        CategoryController::class,
+        "getTopCategories"
+    ]);
+});
+
 Route::get("/categories/{slug}", [
     CategoryController::class,
     "showForCustomersBySlug"
