@@ -1,11 +1,9 @@
 <?php
 
-use App\Http\Controllers\AddressController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
-use App\Models\Category;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware(["auth:sanctum"])->group(function () {
@@ -36,32 +34,39 @@ Route::middleware(["auth:sanctum"])->group(function () {
         });
 });
 
-Route::get("/products", [ProductController::class, "indexForCustomers"]);
+Route::get("/products", [ProductController::class, "indexForCustomers"])->name(
+    "guest.products"
+);
 Route::get("/products/utils/top-weekly-bestseller", [
     ProductController::class,
     "getTop10BestSellerWeeklyProducts"
-]);
-Route::get("/products/{slug}", [ProductController::class, "showForCustomer"]);
+])->name("guest.products.utils.top-weekly-bestseller");
+Route::get("/products/{slug}", [
+    ProductController::class,
+    "showForCustomer"
+])->name("guest.products.slug");
 Route::get("/products/{slug}/similar", [
     ProductController::class,
     "showForCustomerSimilar"
-]);
+])->name("guest.products.slug.similar");
 Route::get("/products/category/{slug}", [
     ProductController::class,
     "indexForCustomersByCategorySlug"
-]);
+])->name("guest.products.category.slug");
 
-Route::get("/categories", [CategoryController::class, "indexForCustomers"]);
-Route::prefix("categories/utils")->group(function () {
-    Route::get("/top-bestseller", [
-        CategoryController::class,
-        "getTopCategories"
-    ]);
-});
-
+Route::get("/categories", [
+    CategoryController::class,
+    "indexForCustomers"
+])->name("guest.categories");
+Route::get("/categories/utils/top-bestseller", [
+    CategoryController::class,
+    "getTopCategories"
+])->name("guest.categories.utils.top-bestseller");
 Route::get("/categories/{slug}", [
     CategoryController::class,
     "showForCustomersBySlug"
-]);
+])->name("guest.categories.slug");
 
-Route::get("/brands", [BrandController::class, "indexForCustomers"]);
+Route::get("/brands", [BrandController::class, "indexForCustomers"])->name(
+    "guests.brands"
+);
