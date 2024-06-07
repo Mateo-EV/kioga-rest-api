@@ -13,13 +13,17 @@ class AuthenticatedSessionController extends Controller
     /**
      * Handle an incoming authentication request.
      */
-    public function store(LoginRequest $request): Response
+    public function store(LoginRequest $request)
     {
         $request->authenticate();
 
         $request->session()->regenerate();
 
-        return response()->noContent();
+        if (!$request->user()->hasVerifiedEmail()) {
+            return response()->json(["message" => "email-not-verified"]);
+        }
+
+        return response()->json(["message" => "Sesión Iniciada correctamente"]);
     }
 
     /**

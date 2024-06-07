@@ -12,18 +12,21 @@ return Application::configure(basePath: dirname(__DIR__))
         health: "/up"
     )
     ->withMiddleware(function (Middleware $middleware) {
-        $middleware->api(
-            prepend: [
-                \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class
-            ]
-        );
-
-        $middleware->alias([
-            "verified" => \App\Http\Middleware\EnsureEmailIsVerified::class,
-            "is_admin" => \App\Http\Middleware\EnsureUserIsAdmin::class
-        ]);
-
-        $middleware->statefulApi();
+        $middleware
+            ->append([
+                \Illuminate\Routing\Middleware\ThrottleRequests::class .
+                ":global"
+            ])
+            ->api(
+                prepend: [
+                    \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class
+                ]
+            )
+            ->alias([
+                "verified" => \App\Http\Middleware\EnsureEmailIsVerified::class,
+                "is_admin" => \App\Http\Middleware\EnsureUserIsAdmin::class
+            ])
+            ->statefulApi();
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

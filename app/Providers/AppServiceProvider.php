@@ -3,9 +3,11 @@
 namespace App\Providers;
 
 use Illuminate\Auth\Notifications\ResetPassword;
+use Illuminate\Auth\Notifications\VerifyEmail;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Http\Request;
+use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
@@ -33,11 +35,20 @@ class AppServiceProvider extends ServiceProvider
                 "/password-reset/$token?email={$notifiable->getEmailForPasswordReset()}";
         });
 
-        RateLimiter::for("api", function (Request $request) {
-            return Limit::perMinute(60)->by(
-                $request->user()?->id ?: $request->ip()
-            );
+        VerifyEmail::toMailUsing(function (object $notifiable, string $url) {
+            return (new MailMessage())
+                ->subject("Verificación de correo electrónico")
+                ->line(
+                    "Presiona el botón de abajo para verificar tu correo electrónico"
+                )
+                ->action("Verificar email", $url)
+                ->line(
+                    "Si no creó una cuenta, no es necesario realizar niguna otra acción"
+                )
+                ->salutation("");
         });
+
+        $this->createRateLimiters();
 
         if ($this->app->environment("local")) {
             DB::listen(function ($query) {
@@ -47,5 +58,18 @@ class AppServiceProvider extends ServiceProvider
                 );
             });
         }
+    }
+
+    private function createRateLimiters()
+    {
+        RateLimiter::for("global", function (Request $request) {
+            return Limit::perMinute(60)->by(
+                $request->user()?->id ?: $request->ip()
+            );
+        });
+
+        RateLimiter::for("admin", function (Request $request) {
+            return Limit::perMinute(1000);
+        });
     }
 }
