@@ -3,8 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Helpers\QueryHelper;
+use App\Models\Brand;
+use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
@@ -200,5 +203,42 @@ class ProductController extends Controller
                 ],
                 select: Product::$fields_for_customers
             );
+    }
+
+    public function searchForCustomer(string $search)
+    {
+        $categoriesSearchResult = Category::select(["id", "name", "image", "slug"])
+            ->addSelect(DB::raw("'categories' as type"))
+            ->where("name", "LIKE", "%{$search}%")
+            ->limit(3);
+        $brandsSearchResult = Brand::select(["id", "name", "image", "slug"])
+            ->addSelect(DB::raw("'brands' as type"))
+            ->where("name", "LIKE", "%{$search}%")
+            ->limit(3);
+
+        $productsSearchResult = DB::table("products")
+            ->select(["id", "name", "image", "slug"])
+            ->addSelect(DB::raw("'products' as type"))
+            ->where("name", "LIKE", "%{$search}%")
+            ->limit(3)
+            ->unionAll($categoriesSearchResult)
+            ->unionAll($brandsSearchResult)
+            ->get();
+
+        $response = [
+            "products" => [],
+            "categories" => [],
+            "brands" => []
+        ];
+
+        foreach ($productsSearchResult as $value) {
+            $actual_key = $value->type;
+            unset($value->type);
+            $value->image =
+                config("app.url") . "/storage/{$actual_key}/{$value->image}";
+            $response[$actual_key][] = $value;
+        }
+
+        return $response;
     }
 }

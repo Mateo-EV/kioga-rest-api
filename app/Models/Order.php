@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -28,6 +29,16 @@ class Order extends Model
         "cancelado", // Pedido cancelado por el cliente
         "reembolsado" // Reembolsado por el cliente
     ];
+
+    protected $appends = ["code"];
+
+    protected function code(): Attribute
+    {
+        return Attribute::get(
+            fn(mixed $_, array $attr) => "O" .
+                str_pad($attr["id"], 8, "0", STR_PAD_LEFT)
+        );
+    }
 
     public function user()
     {

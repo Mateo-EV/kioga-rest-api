@@ -13,10 +13,10 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware) {
         $middleware
-            ->append([
-                \Illuminate\Routing\Middleware\ThrottleRequests::class .
-                ":global"
-            ])
+            // ->append([
+            //     \Illuminate\Routing\Middleware\ThrottleRequests::class .
+            //     ":global"
+            // ])
             ->api(
                 prepend: [
                     \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class
@@ -24,7 +24,9 @@ return Application::configure(basePath: dirname(__DIR__))
             )
             ->alias([
                 "verified" => \App\Http\Middleware\EnsureEmailIsVerified::class,
-                "is_admin" => \App\Http\Middleware\EnsureUserIsAdmin::class
+                "is_admin" => \App\Http\Middleware\EnsureUserIsAdmin::class,
+                "is_customer" =>
+                    \App\Http\Middleware\EnsureUserIsCustomer::class
             ])
             ->statefulApi();
     })

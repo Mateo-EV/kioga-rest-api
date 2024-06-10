@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
@@ -32,6 +33,8 @@ Route::middleware(["auth:sanctum"])->group(function () {
             Route::apiResource("manage", AdminController::class);
             Route::apiResource("brands", BrandController::class);
         });
+
+    Route::get("/orders", [OrderController::class, "showForCustomer"]);
 });
 
 Route::get("/products", [ProductController::class, "indexForCustomers"]);
@@ -47,6 +50,10 @@ Route::get("/products/{slug}/similar", [
 Route::get("/products/category/{slug}", [
     ProductController::class,
     "indexForCustomersByCategorySlug"
+]);
+Route::get("/products/search/{search}", [
+    ProductController::class,
+    "searchForCustomer"
 ]);
 
 Route::get("/categories", [CategoryController::class, "indexForCustomers"]);

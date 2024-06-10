@@ -48,7 +48,7 @@ class AppServiceProvider extends ServiceProvider
                 ->salutation("");
         });
 
-        $this->createRateLimiters();
+        // $this->createRateLimiters();
 
         if ($this->app->environment("local")) {
             DB::listen(function ($query) {
@@ -63,7 +63,7 @@ class AppServiceProvider extends ServiceProvider
     private function createRateLimiters()
     {
         RateLimiter::for("global", function (Request $request) {
-            return Limit::perMinute(60)->by(
+            return Limit::perMinute(40)->by(
                 $request->user()?->id ?: $request->ip()
             );
         });

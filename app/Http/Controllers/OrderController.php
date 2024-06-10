@@ -6,6 +6,7 @@ use App\Http\Requests\OrderRequest;
 use App\Models\Address;
 use App\Models\Order;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 use function PHPUnit\Framework\isEmpty;
 
@@ -34,6 +35,11 @@ class OrderController extends Controller
         }
 
         return Order::create($order);
+    }
+
+    public function showForCustomer()
+    {
+        return Order::where("user_id", auth()->id())->with("details")->get();
     }
 
     // /**
