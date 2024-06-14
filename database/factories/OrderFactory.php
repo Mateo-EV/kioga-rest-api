@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Order;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -22,14 +23,7 @@ class OrderFactory extends Factory
             "amount" => 300.0,
             "user_id" => 1,
             "payment_method_id" => 1,
-            "status" => fake()->randomElement([
-                "pendiente",
-                "en espera",
-                "enviado",
-                "entregado",
-                "cancelado",
-                "reembolsado"
-            ]),
+            "status" => fake()->randomElement(Order::$status_enum),
             "shipping_amount" => $isDelivery ? 5 : 0,
             "is_delivery" => $isDelivery,
             "address_id" => $isDelivery ? 2 : 1

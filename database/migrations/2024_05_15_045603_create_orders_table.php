@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Order;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -23,14 +24,7 @@ return new class extends Migration {
                 ->constrained("payment_methods")
                 ->restrictOnDelete()
                 ->cascadeOnUpdate();
-            $table->enum("status", [
-                "pendiente", // Creado
-                "en espera", // En espera para ser recogido
-                "enviado", // Enviado al cliente
-                "entregado", // Entregado al cliente
-                "cancelado", // Pedido cancelado por el cliente
-                "reembolsado" // Reembolsado por el cliente
-            ]);
+            $table->enum("status", Order::$status_enum);
             $table->decimal("shipping_amount", 10, 2)->default(0);
             $table->boolean("is_delivery")->default(false);
             $table

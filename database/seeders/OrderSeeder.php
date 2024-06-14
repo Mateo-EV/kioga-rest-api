@@ -35,6 +35,7 @@ class OrderSeeder extends Seeder
                 "department" => "Ica",
                 "province" => "Ica",
                 "district" => "Ica",
+                "zip-code" => "990000",
                 "street_address" => "San Joaquin K-21"
             ]
         ];

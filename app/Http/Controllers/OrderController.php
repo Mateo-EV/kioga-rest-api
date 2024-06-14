@@ -5,10 +5,8 @@ namespace App\Http\Controllers;
 use App\Http\Requests\OrderRequest;
 use App\Models\Address;
 use App\Models\Order;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Log;
-
-use function PHPUnit\Framework\isEmpty;
+use App\Models\Product;
+use Illuminate\Database\Eloquent\Builder;
 
 class OrderController extends Controller
 {
@@ -27,7 +25,7 @@ class OrderController extends Controller
     {
         $order = $request->validated();
 
-        if (isEmpty($order["address_id"])) {
+        if (!isset($order["address_id"])) {
             $address = Address::create(
                 $order["address"] + ["user_id" => $order["user_id"]]
             );
@@ -39,7 +37,14 @@ class OrderController extends Controller
 
     public function showForCustomer()
     {
-        return Order::where("user_id", auth()->id())->with("details")->get();
+        return Order::where("user_id", auth()->id())
+            ->with([
+                "details" => [
+                    "product:" . implode(",", Product::$fields_for_customers)
+                ],
+                "address"
+            ])
+            ->get();
     }
 
     // /**

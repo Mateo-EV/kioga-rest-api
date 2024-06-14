@@ -22,12 +22,12 @@ class Order extends Model
     ];
 
     public static $status_enum = [
-        "pendiente", // Creado
-        "en espera", // En espera para ser recogido
-        "enviado", // Enviado al cliente
-        "entregado", // Entregado al cliente
-        "cancelado", // Pedido cancelado por el cliente
-        "reembolsado" // Reembolsado por el cliente
+        "Pendiente", // Creado
+        "En Espera", // En espera para ser recogido
+        "Enviado", // Enviado al cliente
+        "Entregado", // Entregado al cliente
+        "Cancelado", // Pedido cancelado por el cliente
+        "Reembolsado" // Reembolsado por el cliente
     ];
 
     protected $appends = ["code"];
@@ -35,7 +35,7 @@ class Order extends Model
     protected function code(): Attribute
     {
         return Attribute::get(
-            fn(mixed $_, array $attr) => "O" .
+            fn(mixed $_, array $attr) => "P" .
                 str_pad($attr["id"], 8, "0", STR_PAD_LEFT)
         );
     }
@@ -63,5 +63,14 @@ class Order extends Model
     public function products()
     {
         return $this->belongsToMany(Product::class);
+    }
+
+    protected function casts()
+    {
+        return [
+            "amount" => "double",
+            "shipping_amount" => "double",
+            "is_delivery" => "boolean"
+        ];
     }
 }
