@@ -44,7 +44,7 @@ class OrderController extends Controller
                 ],
                 "address"
             ])
-            ->get();
+            ->lazy();
     }
 
     // /**

@@ -20,6 +20,10 @@ Route::post("/forgot-password", [PasswordResetLinkController::class, "store"])
     ->middleware("guest")
     ->name("password.email");
 
+Route::post("/profile/edit", [AuthenticatedSessionController::class, "edit"])
+    ->middleware(["auth:sanctum", "verified"])
+    ->name("profile.edit");
+
 Route::post("/reset-password", [NewPasswordController::class, "store"])
     ->middleware("guest")
     ->name("password.store");

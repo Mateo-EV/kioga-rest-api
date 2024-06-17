@@ -4,9 +4,12 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\LoginRequest;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Validation\Rules\Password;
 
 class AuthenticatedSessionController extends Controller
 {
@@ -24,6 +27,30 @@ class AuthenticatedSessionController extends Controller
         }
 
         return response()->json(["message" => "Sesión Iniciada correctamente"]);
+    }
+
+    /**
+     * Edit profile information
+     */
+    public function edit(Request $request)
+    {
+        $user = auth()->user();
+
+        $request->validate([
+            "name" => ["required", "string", "max:255"],
+            "password" => ["nullable", "confirmed", Password::defaults()]
+        ]);
+
+        $user->name = $request->input("name");
+        if ($request->has("password")) {
+            $user->password = Hash::make($request->input("password"));
+        }
+
+        $user->save();
+
+        return response()->json([
+            "message" => "Información actualizada correctamente"
+        ]);
     }
 
     /**
