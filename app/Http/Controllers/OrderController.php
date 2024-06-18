@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\MakeOrderRequest;
 use App\Http\Requests\OrderRequest;
 use App\Models\Address;
 use App\Models\Order;
 use App\Models\Product;
+use App\Services\MercadoPagoService;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Facades\Log;
 
 class OrderController extends Controller
 {
@@ -45,6 +48,51 @@ class OrderController extends Controller
                 "address"
             ])
             ->lazy();
+    }
+
+    public function storeForCustomer(MakeOrderRequest $request)
+    {
+        $client = new MercadoPagoService();
+        $data = $request->validated();
+
+        $ids = array_map(
+            fn($detail) => $detail["product_id"],
+            $data["details"]
+        );
+        $products = Product::select(Product::$fields_for_customers)
+            ->whereIn("id", $ids)
+            ->get();
+
+        $products = $products
+            ->map(
+                fn(Product $product, int $key) => [
+                    "id" => $product->id,
+                    "title" => $product->name,
+                    "description" => $product->description,
+                    "quantity" => $data["details"][$key]["quantity"],
+                    "unit_price" => doubleval($product->price_discounted),
+                    "currency_id" => "PEN"
+                ]
+            )
+            ->toArray();
+
+        $address = isset($data["address_id"])
+            ? Address::where("id", $data["address_id"])->first()
+            : $data["address"];
+
+        $payer = [
+            "name" => $address["first_name"],
+            "surname" => $address["last_name"],
+            "email" => $request->user()->email
+        ];
+
+        $preference = $client->createPaymentPreference(
+            $products,
+            $payer,
+            $data["is_delivery"]
+        );
+
+        return response()->json($preference);
     }
 
     // /**

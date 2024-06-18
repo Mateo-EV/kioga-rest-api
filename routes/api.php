@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\AddressController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\MercadoPagoWebhookController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
@@ -34,8 +36,26 @@ Route::middleware(["auth:sanctum"])->group(function () {
             Route::apiResource("brands", BrandController::class);
         });
 
-    Route::get("/orders", [OrderController::class, "showForCustomer"]);
+    Route::get("/orders", [
+        OrderController::class,
+        "showForCustomer"
+    ])->middleware("is_customer");
+
+    Route::post("/orders/store", [
+        OrderController::class,
+        "storeForCustomer"
+    ])->middleware("is_customer");
+
+    Route::get("/addresses", [
+        AddressController::class,
+        "showForCustomer"
+    ])->middleware("is_customer");
 });
+
+Route::post("/webhook/mercadopago", [
+    MercadoPagoWebhookController::class,
+    "handle"
+]);
 
 Route::get("/products", [ProductController::class, "indexForCustomers"]);
 Route::get("/products/utils/top-weekly-bestseller", [

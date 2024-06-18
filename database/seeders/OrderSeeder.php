@@ -24,7 +24,9 @@ class OrderSeeder extends Seeder
                 "department" => null,
                 "province" => null,
                 "district" => null,
-                "street_address" => null
+                "street_address" => null,
+                "zip_code" => null,
+                "reference" => null
             ],
             [
                 "user_id" => 1,
@@ -35,8 +37,9 @@ class OrderSeeder extends Seeder
                 "department" => "Ica",
                 "province" => "Ica",
                 "district" => "Ica",
-                "zip-code" => "990000",
-                "street_address" => "San Joaquin K-21"
+                "zip_code" => "11000",
+                "street_address" => "San Joaquin K-21",
+                "reference" => "Donde hay un árbol"
             ]
         ];
 

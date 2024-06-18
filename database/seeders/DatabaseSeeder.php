@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\Models\Admin;
-use App\Models\PaymentMethod;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -22,10 +21,6 @@ class DatabaseSeeder extends Seeder
         Admin::factory()->create([
             "name" => "Mateo",
             "email" => "riojamatthew@gmail.com"
-        ]);
-
-        PaymentMethod::create([
-            "name" => "PayPal"
         ]);
 
         $this->call([

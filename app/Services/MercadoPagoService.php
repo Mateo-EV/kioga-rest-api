@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\Models\Order;
+use Illuminate\Support\Facades\Log;
 use MercadoPago\MercadoPagoConfig;
 use MercadoPago\Client\Preference\PreferenceClient;
 use MercadoPago\Exceptions\MPApiException;
@@ -21,8 +22,11 @@ class MercadoPagoService
         MercadoPagoConfig::setRuntimeEnviroment(MercadoPagoConfig::LOCAL);
     }
 
-    public function createPreferenceRequest(array $products, $payer)
-    {
+    protected function createPreferenceRequest(
+        array $products,
+        $payer,
+        bool $isDelivery
+    ) {
         $paymentMethods = [
             "excluded_payment_methods" => [],
             "installments" => 12,
@@ -30,9 +34,19 @@ class MercadoPagoService
         ];
 
         $backUrls = [
-            "success" => route("mercadopago.success"),
-            "failure" => route("mercadopago.failed")
+            "success" => config("app.frontend_url") . "/pedidos?success=true",
+            "failure" => config("app.frontend_url") . "/pedidos?error=true"
         ];
+
+        if ($isDelivery) {
+            $products[] = [
+                "id" => "delivery_fee",
+                "title" => "Delivery Fee",
+                "quantity" => 1,
+                "unit_price" => 5.0,
+                "currency_id" => "PEN"
+            ];
+        }
 
         $request = [
             "items" => $products,
@@ -48,48 +62,28 @@ class MercadoPagoService
         return $request;
     }
 
-    public function createPaymentPreference(Order $order): ?Preference
-    {
-        // Fill the data about the product(s) being pruchased
-        $product1 = [
-            "id" => "1234567890",
-            "title" => "Product 1 Title",
-            "description" => "Product 1 Description",
-            "currency_id" => "BRL",
-            "quantity" => 12,
-            "unit_price" => 9.9
-        ];
-
-        $product2 = [
-            "id" => "9012345678",
-            "title" => "Product 2 Title",
-            "description" => "Product 2 Description",
-            "currency_id" => "BRL",
-            "quantity" => 5,
-            "unit_price" => 19.9
-        ];
-
-        // Mount the array of products that will integrate the purchase amount
-        $items = [$product1, $product2];
-
-        // Retrieve information about the user (use your own function)
-        // $user = getSessionUser();
-
-        // $payer = [
-        //     "name" => $user->name,
-        //     "surname" => $user->surname,
-        //     "email" => $user->email,
-        // ];
-
-        // $request = createPreferenceRequest($item, $payer);
+    public function createPaymentPreference(
+        array $products,
+        $payer,
+        bool $isDelivery
+    ): ?Preference {
+        $request = $this->createPreferenceRequest(
+            $products,
+            $payer,
+            $isDelivery
+        );
 
         $client = new PreferenceClient();
 
         try {
-            // $preference = $client->create($request);
+            $preference = $client->create($request);
 
-            // return $preference;
+            return $preference;
         } catch (MPApiException $error) {
+            Log::error("MercadoPago API error", [
+                "message" => $error->getMessage(),
+                "response" => $error->getApiResponse()->getContent()
+            ]);
             return null;
         }
     }

@@ -16,7 +16,7 @@ class Address extends Model
         "last_name",
         "dni",
         "phone",
-        "departement",
+        "department",
         "province",
         "district",
         "street_address",

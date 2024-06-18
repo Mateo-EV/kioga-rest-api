@@ -200,6 +200,7 @@ return [
     "url" => "El campo :attribute debe ser una URL válida.",
     "ulid" => "El campo :attribute debe ser un ULID válido.",
     "uuid" => "El campo :attribute debe ser un UUID válido.",
+    "phone" => "The campo :attribute debe ser un número válido.",
 
     /*
     |--------------------------------------------------------------------------

@@ -19,11 +19,6 @@ return new class extends Migration {
                 ->constrained("users")
                 ->restrictOnDelete()
                 ->cascadeOnUpdate();
-            $table
-                ->foreignId("payment_method_id")
-                ->constrained("payment_methods")
-                ->restrictOnDelete()
-                ->cascadeOnUpdate();
             $table->enum("status", Order::$status_enum);
             $table->decimal("shipping_amount", 10, 2)->default(0);
             $table->boolean("is_delivery")->default(false);

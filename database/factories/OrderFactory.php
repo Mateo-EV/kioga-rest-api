@@ -22,7 +22,6 @@ class OrderFactory extends Factory
         return [
             "amount" => 300.0,
             "user_id" => 1,
-            "payment_method_id" => 1,
             "status" => fake()->randomElement(Order::$status_enum),
             "shipping_amount" => $isDelivery ? 5 : 0,
             "is_delivery" => $isDelivery,
