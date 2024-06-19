@@ -47,6 +47,7 @@ class OrderController extends Controller
                 ],
                 "address"
             ])
+            ->orderBy("id", "desc")
             ->lazy();
     }
 
@@ -86,10 +87,33 @@ class OrderController extends Controller
             "email" => $request->user()->email
         ];
 
+        $amount = 0;
+        $details = [];
+
+        foreach ($products as $product) {
+            $amount += $product["quantity"] * $product["unit_price"];
+            $details[] = [
+                "product_id" => $product["id"],
+                "quantity" => $product["quantity"],
+                "unit_amount" => $product["unit_price"]
+            ];
+        }
+
+        $order = [
+            "user_id" => auth()->id(),
+            "amount" => $amount,
+            "shipping_amount" => $data["is_delivery"] ? 5 : 0,
+            "status" => "Pendiente",
+            "details" => $details
+        ];
+
+        $order = array_merge($data, $order);
+
         $preference = $client->createPaymentPreference(
             $products,
             $payer,
-            $data["is_delivery"]
+            $data["is_delivery"],
+            $order
         );
 
         return response()->json($preference);

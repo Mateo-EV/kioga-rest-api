@@ -55,7 +55,7 @@ Route::middleware(["auth:sanctum"])->group(function () {
 Route::post("/webhook/mercadopago", [
     MercadoPagoWebhookController::class,
     "handle"
-]);
+])->name("mercado_pago.webhook");
 
 Route::get("/products", [ProductController::class, "indexForCustomers"]);
 Route::get("/products/utils/top-weekly-bestseller", [

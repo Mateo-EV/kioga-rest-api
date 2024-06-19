@@ -4,6 +4,7 @@ namespace App\Services;
 
 use App\Models\Order;
 use Illuminate\Support\Facades\Log;
+use MercadoPago\Client\Payment\PaymentClient;
 use MercadoPago\MercadoPagoConfig;
 use MercadoPago\Client\Preference\PreferenceClient;
 use MercadoPago\Exceptions\MPApiException;
@@ -18,14 +19,15 @@ class MercadoPagoService
 
     protected function authenticate()
     {
-        MercadoPagoConfig::setAccessToken(config("mercadopago.token"));
+        MercadoPagoConfig::setAccessToken(config("mercadopago.access_token"));
         MercadoPagoConfig::setRuntimeEnviroment(MercadoPagoConfig::LOCAL);
     }
 
     protected function createPreferenceRequest(
         array $products,
         $payer,
-        bool $isDelivery
+        bool $isDelivery,
+        $metadata
     ) {
         $paymentMethods = [
             "excluded_payment_methods" => [],
@@ -53,24 +55,40 @@ class MercadoPagoService
             "payer" => $payer,
             "payment_methods" => $paymentMethods,
             "back_urls" => $backUrls,
-            "statement_descriptor" => "NAME_DISPLAYED_IN_USER_BILLING",
-            "external_reference" => "1234567890",
             "expires" => false,
+            "metadata" => $metadata,
+            "notification_url" => route("mercado_pago.webhook"),
             "auto_return" => "approved"
         ];
 
         return $request;
     }
 
+    public function getPaymentDetails($paymentId)
+    {
+        try {
+            $payment = new PaymentClient();
+            return $payment->get($paymentId);
+        } catch (MPApiException $error) {
+            Log::error("MercadoPago API error", [
+                "message" => $error->getMessage(),
+                "response" => $error->getApiResponse()->getContent()
+            ]);
+            return null;
+        }
+    }
+
     public function createPaymentPreference(
         array $products,
         $payer,
-        bool $isDelivery
+        bool $isDelivery,
+        $metadata
     ): ?Preference {
         $request = $this->createPreferenceRequest(
             $products,
             $payer,
-            $isDelivery
+            $isDelivery,
+            $metadata
         );
 
         $client = new PreferenceClient();
