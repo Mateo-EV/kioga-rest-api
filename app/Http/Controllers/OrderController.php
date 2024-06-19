@@ -72,6 +72,7 @@ class OrderController extends Controller
                     "description" => $product->description,
                     "quantity" => $data["details"][$key]["quantity"],
                     "unit_price" => doubleval($product->price_discounted),
+                    "picture_url" => $product->image,
                     "currency_id" => "PEN"
                 ]
             )
