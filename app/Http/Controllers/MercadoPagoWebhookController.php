@@ -44,9 +44,9 @@ class MercadoPagoWebhookController extends Controller
     {
         $mercado_pago_webhook = new MercadoPagoWebhook($request);
 
-        if ($mercado_pago_webhook->action !== "payment.created") {
-            return response()->noContent(status: 400);
-        }
+        // if ($mercado_pago_webhook->action !== "payment.created") {
+        //     return response()->noContent(status: 400);
+        // }
         Log::info($request->all());
         Log::info($request->input("data_id"));
         Log::info($mercado_pago_webhook->data_id);
@@ -59,7 +59,7 @@ class MercadoPagoWebhookController extends Controller
             return response()->noContent(status: 400);
         }
 
-        $this->createOrder($payment);
+        // $this->createOrder($payment);
 
         return response()->json(["success" => true]);
 
