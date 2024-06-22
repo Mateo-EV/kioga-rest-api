@@ -16,17 +16,13 @@ class VerifyEmailController extends Controller
         EmailVerificationRequest $request
     ): RedirectResponse {
         if ($request->user()->hasVerifiedEmail()) {
-            return redirect()->intended(
-                config("app.frontend_url") . "/?verified=1"
-            );
+            return redirect()->intended(config("app.frontend_url") . "/login");
         }
 
         if ($request->user()->markEmailAsVerified()) {
             event(new Verified($request->user()));
         }
 
-        return redirect()->intended(
-            config("app.frontend_url") . "/?verified=1"
-        );
+        return redirect()->intended(config("app.frontend_url") . "/login");
     }
 }
