@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\CategoryRequest;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Database\Query\JoinClause;
-use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Validation\ValidationException;
 
 class CategoryController extends Controller
 {
@@ -132,17 +135,36 @@ class CategoryController extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function index()
     {
-        //
+        return Category::withCount(["products", "subcategories"])->get();
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(CategoryRequest $request)
     {
-        //
+        $category = $request->validated();
+
+        $category["slug"] = Str::slug($category["name"]);
+
+        if (Category::where("slug", $category["slug"])->exists()) {
+            throw ValidationException::withMessages([
+                "slug" => "El slug generado ya existe, eliga otro nombre"
+            ]);
+        }
+
+        $category["image"] =
+            $category["slug"] .
+            "." .
+            $request->file("image")->getClientOriginalExtension();
+
+        $request
+            ->file("image")
+            ->storePubliclyAs("categories", $category["image"]);
+
+        return Category::create($category);
     }
 
     /**
@@ -150,23 +172,43 @@ class CategoryController extends Controller
      */
     public function show(Category $category)
     {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Category $category)
-    {
-        //
+        return $category;
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Category $category)
+    public function update(CategoryRequest $request, Category $category)
     {
-        //
+        $category_updated = $request->validated();
+        $category_updated["slug"] = Str::slug($category_updated["name"]);
+
+        if (
+            Category::where("slug", $category_updated["slug"])
+                ->where("id", "!=", $category->id)
+                ->exists()
+        ) {
+            throw ValidationException::withMessages([
+                "slug" => "El slug generado ya existe, eliga otro nombre"
+            ]);
+        }
+
+        if ($request->hasFile("image")) {
+            Storage::delete("categories/" . $category->original_image_url);
+
+            $category_updated["image"] =
+                $category_updated["slug"] .
+                "." .
+                $request->file("image")->getClientOriginalExtension();
+
+            $request
+                ->file("image")
+                ->storePubliclyAs("categories", $category_updated["image"]);
+        }
+
+        $category->update($category_updated);
+
+        return $category;
     }
 
     /**
@@ -174,6 +216,10 @@ class CategoryController extends Controller
      */
     public function destroy(Category $category)
     {
-        //
+        $category->delete();
+
+        Storage::delete("categories/" . $category->original_image_url);
+
+        return $category;
     }
 }

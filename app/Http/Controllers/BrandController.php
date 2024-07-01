@@ -7,15 +7,21 @@ use App\Models\Brand;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use Illuminate\Validation\ValidationException;
 
 class BrandController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function indexForCustomers()
     {
         return Brand::all(["id", "name", "slug", "image"]);
+    }
+
+    /**
+     * Display a listing of the resource.
+     */
+    public function index()
+    {
+        return Brand::all();
     }
 
     /**
@@ -25,7 +31,17 @@ class BrandController extends Controller
     {
         $brand = $request->validated();
         $brand["slug"] = Str::slug($brand["name"]);
-        $brand["image"] = $brand["slug"] . $request->file("image")->getType();
+
+        if (Brand::where("slug", $brand["slug"])->exists()) {
+            throw ValidationException::withMessages([
+                "slug" => "El slug generado ya existe, eliga otro nombre"
+            ]);
+        }
+
+        $brand["image"] =
+            $brand["slug"] .
+            "." .
+            $request->file("image")->getClientOriginalExtension();
 
         $request->file("image")->storePubliclyAs("brands", $brand["image"]);
 
@@ -48,11 +64,23 @@ class BrandController extends Controller
         $brand_updated = $request->validated();
         $brand_updated["slug"] = Str::slug($brand_updated["name"]);
 
+        if (
+            Brand::where("slug", $brand_updated["slug"])
+                ->where("id", "!=", $brand->id)
+                ->exists()
+        ) {
+            throw ValidationException::withMessages([
+                "slug" => "El slug generado ya existe, eliga otro nombre"
+            ]);
+        }
+
         if ($request->hasFile("image")) {
             Storage::delete("brands/" . $brand->original_image_url);
 
             $brand_updated["image"] =
-                $brand["slug"] . $request->file("image")->getType();
+                $brand_updated["slug"] .
+                "." .
+                $request->file("image")->getClientOriginalExtension();
 
             $request
                 ->file("image")

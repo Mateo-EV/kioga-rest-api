@@ -75,10 +75,13 @@ class BrandSeeder extends Seeder
         ];
 
         foreach ($brands as $key => $brand_name) {
+            $now = now();
             $brands[$key] = [
                 "name" => $brand_name,
                 "slug" => Str::slug($brand_name),
-                "image" => Str::slug($brand_name) . ".png"
+                "image" => Str::slug($brand_name) . ".png",
+                "created_at" => $now,
+                "updated_at" => $now
             ];
         }
 

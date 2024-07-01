@@ -35,6 +35,7 @@ class MakeOrderRequest extends FormRequest
                     return $query->where("user_id", auth()->id());
                 })
             ],
+            "details" => ["required", "array"],
             "details.*.quantity" => ["required", "integer", "min:1", "max:10"],
             "details.*.product_id" => [
                 "required",

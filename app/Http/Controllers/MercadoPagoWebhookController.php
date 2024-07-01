@@ -25,7 +25,6 @@ class MercadoPagoWebhookController extends Controller
             function (Request $request, Closure $next) {
                 $signature = $request->header("x-signature");
                 $payload = $request->getContent();
-
                 if (
                     static::isValidSignature(
                         $signature,
@@ -48,8 +47,6 @@ class MercadoPagoWebhookController extends Controller
             return response()->noContent(status: 400);
         }
         Log::info($request->all());
-        Log::info($request->input("data_id"));
-        Log::info($mercado_pago_webhook->data_id);
 
         $payment = $this->mercado_pago->getPaymentDetails(
             $mercado_pago_webhook->data_id
@@ -73,6 +70,7 @@ class MercadoPagoWebhookController extends Controller
     protected function createOrder($payment)
     {
         $order = (array) $payment->metadata;
+        $order["payment_id"] = $payment->id;
         if (isset($order["address"])) {
             $order["address_id"] = Address::create(
                 array_merge($order["address"], ["user_id" => $order["user_id"]])

@@ -23,25 +23,38 @@ class OrderRequest extends FormRequest
      */
     public function rules(): array
     {
+        $order = $this->route()->parameter("order");
+
         return [
-            "user_id" => ["required", "integer", "min:1", "exists:users,id"],
-            "status" => [
-                "required",
-                "int",
-                "between:0," . count(Order::$status_enum)
-            ],
+            "user_id" => ["required", "integer", "exists:users,id"],
+            "status" => ["required", "string", Rule::in(Order::$status_enum)],
             "is_delivery" => ["required", "boolean"],
             "address_id" => [
-                "nullable",
+                $order ? "required" : "nullable",
                 "integer",
-                Rule::exists("addresses")->where(function (
-                    \Illuminate\Database\Query\Builder $query,
-                    int $value
+                Rule::exists("addresses", "id")->where(function (
+                    \Illuminate\Database\Query\Builder $query
                 ) {
-                    return $query
-                        ->where("address_id", $value)
-                        ->where("user_id", $this->input("user_id"));
+                    return $query->where("user_id", $this->input("user_id"));
                 })
+            ],
+            "details" => ["required", "array"],
+            "details.*.quantity" => ["required", "integer", "min:1", "max:10"],
+            "details.*.product_id" => [
+                "required",
+                "integer",
+                "exists:products,id",
+                function ($attribute, $value, $fail) {
+                    $productIds = array_column(
+                        $this->input("details"),
+                        "product_id"
+                    );
+                    if (
+                        count($productIds) !== count(array_unique($productIds))
+                    ) {
+                        $fail("Los ids de los productos deben ser únicos");
+                    }
+                }
             ],
             "notes" => ["nullable", "string"],
 
@@ -63,40 +76,40 @@ class OrderRequest extends FormRequest
             "address.phone" => [
                 "required_without:address_id",
                 "string",
-                "phone"
+                "phone:PE,INTERNATIONAL"
             ],
-            "address.departement" => [
-                "required_if:is_delivery,true",
+            "address.department" => [
                 "exclude_with:address_id",
+                "required_if:is_delivery,true",
                 "string",
                 "max:255"
             ],
             "address.province" => [
-                "required_if:is_delivery,true",
                 "exclude_with:address_id",
+                "required_if:is_delivery,true",
                 "string",
                 "max:255"
             ],
             "address.district" => [
-                "required_if:is_delivery,true",
                 "exclude_with:address_id",
+                "required_if:is_delivery,true",
                 "string",
                 "max:255"
             ],
             "address.street_address" => [
-                "required_if:is_delivery,true",
                 "exclude_with:address_id",
+                "required_if:is_delivery,true",
                 "string",
                 "max:255"
             ],
             "address.zip_code" => [
-                "required_if:is_delivery,true",
+                "nullable",
                 "exclude_with:address_id",
                 "string",
                 "max:255"
             ],
             "address.reference" => [
-                "required_if:is_delivery,true",
+                "nullable",
                 "exclude_with:address_id",
                 "string",
                 "max:255"

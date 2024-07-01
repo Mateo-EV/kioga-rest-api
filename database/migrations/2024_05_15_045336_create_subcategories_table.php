@@ -21,7 +21,7 @@ return new class extends Migration {
                 ->cascadeOnUpdate();
             $table->timestamps();
 
-            $table->unique(["id", "slug"]);
+            $table->unique(["category_id", "slug"]);
         });
     }
 

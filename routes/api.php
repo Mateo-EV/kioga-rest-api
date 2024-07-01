@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\AddressController;
-use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\MercadoPagoWebhookController;
@@ -23,34 +23,28 @@ Route::middleware(["auth:sanctum"])->group(function () {
     Route::get("/admin", function () {
         $auth = auth();
 
-        if ($auth->guard("admins")->check()) {
+        if (
+            $auth->guard("admins")->check() ||
+            $auth->guard("admins_desktop")->check()
+        ) {
             return $auth->user();
         }
 
         return response()->noContent(status: 401);
     });
-    Route::prefix("admin")
-        ->middleware("is_admin")
-        ->group(function () {
-            Route::apiResource("manage", AdminController::class);
-            Route::apiResource("brands", BrandController::class);
-        });
 
-    Route::get("/orders", [
-        OrderController::class,
-        "showForCustomer"
-    ])->middleware("is_customer");
+    Route::middleware("is_customer")->group(function () {
+        Route::get("/orders", [OrderController::class, "showForCustomer"]);
 
-    Route::post("/orders/store", [
-        OrderController::class,
-        "storeForCustomer"
-    ])->middleware("is_customer");
+        Route::post("/orders/store", [
+            OrderController::class,
+            "storeForCustomer"
+        ]);
 
-    Route::get("/addresses", [
-        AddressController::class,
-        "showForCustomer"
-    ])->middleware("is_customer");
+        Route::get("/addresses", [AddressController::class, "showForCustomer"]);
+    });
 });
+// PUBLIC API
 
 Route::post("/webhook/mercadopago", [
     MercadoPagoWebhookController::class,

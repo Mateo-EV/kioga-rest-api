@@ -2,27 +2,26 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\AdminRequest;
-use App\Models\Admin;
+use App\Http\Requests\CustomerRequest;
+use App\Models\User;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Log;
 
-class AdminController extends Controller
+class CustomerController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return Admin::all();
+        return User::with("addresses")->get();
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store(AdminRequest $request)
+    public function store(CustomerRequest $request)
     {
-        return Admin::create([
+        return User::create([
             "name" => $request->name,
             "email" => $request->email,
             "password" => Hash::make($request->password)
@@ -32,32 +31,32 @@ class AdminController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show($admin)
+    public function show(User $user)
     {
-        return Admin::find($admin);
+        return $user;
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(AdminRequest $request, Admin $admin)
+    public function update(CustomerRequest $request, User $user)
     {
-        $admin->update([
+        $user->update([
             "name" => $request->name,
             "email" => $request->email,
             "password" => Hash::make($request->password)
         ]);
 
-        return $admin;
+        return $user;
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy($admin)
+    public function destroy(User $user)
     {
-        $admin = Admin::find($admin);
-        $admin->delete();
-        return $admin;
+        $user->delete();
+
+        return $user;
     }
 }

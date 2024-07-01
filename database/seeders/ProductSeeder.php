@@ -4338,7 +4338,9 @@ class ProductSeeder extends Seeder
 
             $product["discount"] = mt_rand(0, 50) / 100;
             $product["stock"] = mt_rand(0, 50);
-
+            $now = now();
+            $product["created_at"] = $now;
+            $product["updated_at"] = $now;
             $products[$key] = $product;
         }
 

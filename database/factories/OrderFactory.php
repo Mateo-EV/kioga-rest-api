@@ -22,10 +22,11 @@ class OrderFactory extends Factory
         return [
             "amount" => 300.0,
             "user_id" => 1,
-            "status" => fake()->randomElement(Order::$status_enum),
+            "status" => "Pendiente",
             "shipping_amount" => $isDelivery ? 5 : 0,
             "is_delivery" => $isDelivery,
-            "address_id" => $isDelivery ? 2 : 1
+            "address_id" => $isDelivery ? 2 : 1,
+            "payment_id" => strval(fake()->numberBetween(10000, 99999))
         ];
     }
 }

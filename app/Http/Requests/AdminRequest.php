@@ -33,7 +33,7 @@ class AdminRequest extends FormRequest
                 "lowercase",
                 "email",
                 "max:255",
-                "unique:" . Admin::class . "email," . $admin->id
+                "unique:" . Admin::class . ",email," . $admin?->id
             ],
             "password" => [
                 "required",

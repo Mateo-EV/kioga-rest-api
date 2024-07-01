@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\LoginRequest;
-use App\Models\User;
+use App\Models\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
@@ -77,6 +77,20 @@ class AuthenticatedSessionController extends Controller
         $request->session()->regenerate();
 
         return response()->noContent();
+    }
+
+    /**
+     * Handle an incoming authentication request for admins in desktop applications.
+     */
+    public function store_admin_desktop(LoginRequest $request)
+    {
+        $request->authenticate("admins");
+        $admin = Admin::where("email", $request->get("email"))->first();
+        $admin->tokens()->delete();
+
+        $token = $admin->createToken("unique_admin_auth_token")->plainTextToken;
+
+        return response()->json(["token" => $token]);
     }
 
     /**

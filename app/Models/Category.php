@@ -30,4 +30,11 @@ class Category extends Model
                 $value
         );
     }
+
+    protected function originalImageUrl(): Attribute
+    {
+        return Attribute::get(
+            fn(mixed $_, array $attributes) => $attributes["image"]
+        );
+    }
 }

@@ -2,15 +2,17 @@
 
 namespace App\Http\Controllers;
 
-use App\Helpers\QueryHelper;
+use App\Http\Requests\ProductRequest;
 use App\Models\Brand;
 use App\Models\Category;
 use App\Models\Product;
+use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Validation\ValidationException;
 
 class ProductController extends Controller
 {
@@ -207,7 +209,12 @@ class ProductController extends Controller
 
     public function searchForCustomer(string $search)
     {
-        $categoriesSearchResult = Category::select(["id", "name", "image", "slug"])
+        $categoriesSearchResult = Category::select([
+            "id",
+            "name",
+            "image",
+            "slug"
+        ])
             ->addSelect(DB::raw("'categories' as type"))
             ->where("name", "LIKE", "%{$search}%")
             ->limit(3);
@@ -240,5 +247,92 @@ class ProductController extends Controller
         }
 
         return $response;
+    }
+    /**
+     * Display a listing of the resource.
+     */
+    public function index()
+    {
+        return Product::addSelect(["*"])->get();
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     */
+    public function store(ProductRequest $request)
+    {
+        $product = $request->validated();
+        $product["slug"] = Str::slug($product["name"]);
+
+        if (Product::where("slug", $product["slug"])->exists()) {
+            throw ValidationException::withMessages([
+                "slug" => "El slug generado ya existe, eliga otro nombre"
+            ]);
+        }
+
+        $product["image"] =
+            $product["slug"] .
+            "." .
+            $request->file("image")->getClientOriginalExtension();
+
+        $request->file("image")->storePubliclyAs("products", $product["image"]);
+
+        return Product::create($product);
+    }
+
+    /**
+     * Display the specified resource.
+     */
+    public function show(Product $product)
+    {
+        return $product;
+    }
+
+    /**
+     * Update the specified resource in storage.
+     */
+    public function update(ProductRequest $request, Product $product)
+    {
+        $product_updated = $request->validated();
+        $product_updated["slug"] = Str::slug($product_updated["name"]);
+
+        if (
+            Product::where("slug", $product_updated["slug"])
+                ->where("id", "!=", $product->id)
+                ->exists()
+        ) {
+            throw ValidationException::withMessages([
+                "slug" => "El slug generado ya existe, eliga otro nombre"
+            ]);
+        }
+
+        if ($request->hasFile("image")) {
+            Storage::delete("products/" . $product->original_image_url);
+
+            $product_updated["image"] =
+                $product_updated["slug"] .
+                "." .
+                $request->file("image")->getClientOriginalExtension();
+
+            $request
+                ->file("image")
+                ->storePubliclyAs("products", $product_updated["image"]);
+        }
+
+        $product->update($product_updated);
+
+        return $product;
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     */
+    public function destroy(Product $product)
+    {
+        $product->delete();
+
+        Storage::delete("products/" . $product->original_image_url);
+
+        return $product;
     }
 }

@@ -15,7 +15,7 @@ class EnsureUserIsAdmin
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (auth("admins")->check()) {
+        if (auth("admins")->check() || auth("admins_desktop")->check()) {
             return $next($request);
         }
 

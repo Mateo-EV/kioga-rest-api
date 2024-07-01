@@ -8,36 +8,9 @@ use App\Models\Address;
 use App\Models\Order;
 use App\Models\Product;
 use App\Services\MercadoPagoService;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Support\Facades\Log;
 
 class OrderController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        return Order::paginate(10);
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(OrderRequest $request)
-    {
-        $order = $request->validated();
-
-        if (!isset($order["address_id"])) {
-            $address = Address::create(
-                $order["address"] + ["user_id" => $order["user_id"]]
-            );
-            $order["address_id"] = $address->id;
-        }
-
-        return Order::create($order);
-    }
-
     public function showForCustomer()
     {
         return Order::where("user_id", auth()->id())
@@ -48,7 +21,7 @@ class OrderController extends Controller
                 "address"
             ])
             ->orderBy("id", "desc")
-            ->lazy();
+            ->get();
     }
 
     public function storeForCustomer(MakeOrderRequest $request)
@@ -120,47 +93,103 @@ class OrderController extends Controller
         return response()->json($preference);
     }
 
-    // /**
-    //  * Display the specified resource.
-    //  */
-    // public function show(Brand $brand)
-    // {
-    //     return $brand;
-    // }
+    /**
+     * Display a listing of the resource.
+     */
+    public function index()
+    {
+        return Order::orderBy("created_at", "desc")->get();
+    }
 
-    // /**
-    //  * Update the specified resource in storage.
-    //  */
-    // public function update(BrandRequest $request, Brand $brand)
-    // {
-    //     $brand_updated = $request->validated();
-    //     $brand_updated["slug"] = Str::slug($brand_updated["name"]);
+    /**
+     * Store a newly created resource in storage.
+     */
+    public function store(OrderRequest $request)
+    {
+        $order = $request->validated();
+        $order["shipping_amount"] = $order["is_delivery"] ? 5 : 0;
 
-    //     if ($request->hasFile("image")) {
-    //         Storage::delete("brands/" . $brand->original_image_url);
+        if (!isset($order["address_id"])) {
+            $address = Address::create(
+                array_merge($order["address"], ["user_id" => $order["user_id"]])
+            );
+            $order["address_id"] = $address->id;
+        }
 
-    //         $brand_updated["image"] =
-    //             $brand["slug"] . $request->file("image")->getType();
+        $ids = array_column($order["details"], "product_id");
+        $products = Product::whereIn("id", $ids)->get();
 
-    //         $request
-    //             ->file("image")
-    //             ->storePubliclyAs("brands", $brand_updated["image"]);
-    //     }
+        $amount = 0;
+        $details = [];
+        foreach ($order["details"] as $key => $detail) {
+            $amount += $detail["quantity"] * $products[$key]->price_discounted;
+            $details[] = array_merge($detail, [
+                "unit_amount" => $products[$key]->price_discounted
+            ]);
+        }
 
-    //     $brand->update($brand_updated);
+        $order["amount"] = $amount;
+        $order = Order::create($order);
 
-    //     return $brand;
-    // }
+        $order->details()->createMany($details);
 
-    // /**
-    //  * Remove the specified resource from storage.
-    //  */
-    // public function destroy(Brand $brand)
-    // {
-    //     $brand->delete();
+        return $order->load([
+            "details" => ["product:*"],
+            "address"
+        ]);
+    }
+    /**
+     * Display the specified resource.
+     */
+    public function show(Order $order)
+    {
+        return $order->load([
+            "details" => ["product:*"],
+            "address"
+        ]);
+    }
 
-    //     Storage::delete("brands/" . $brand->original_image_url);
+    /**
+     * Update the specified resource in storage.
+     */
+    public function update(OrderRequest $request, Order $order)
+    {
+        $order_updated = $request->validated();
+        $order_updated["shipping_amount"] = $order_updated["is_delivery"]
+            ? 5
+            : 0;
 
-    //     return $brand;
-    // }
+        $order->update($order_updated);
+
+        $order->details()->delete();
+
+        $ids = array_column($order_updated["details"], "product_id");
+        $products = Product::whereIn("id", $ids)->get();
+
+        $amount = 0;
+        $details = [];
+        foreach ($order_updated["details"] as $key => $detail) {
+            $amount += $detail["quantity"] * $products[$key]->price_discounted;
+            $details[] = array_merge($detail, [
+                "unit_amount" => $products[$key]->price_discounted
+            ]);
+        }
+
+        $order->details()->createMany($details);
+
+        return $order->load([
+            "details" => ["product:*"],
+            "address"
+        ]);
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     */
+    public function destroy(Order $order)
+    {
+        $order->delete();
+
+        return $order;
+    }
 }

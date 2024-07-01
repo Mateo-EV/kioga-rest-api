@@ -2,13 +2,10 @@
 
 namespace App\Http\Requests;
 
-use App\Models\Brand;
+use App\Models\Category;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Validation\Rule;
-use Illuminate\Validation\Rules\File;
-use Illuminate\Support\Str;
 
-class BrandRequest extends FormRequest
+class SubcategoryRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,17 +22,12 @@ class BrandRequest extends FormRequest
      */
     public function rules(): array
     {
-        $brand = $this->route()->parameter("brand");
-
         return [
             "name" => ["required", "string", "max:255"],
-            "image" => [
-                $brand ? "nullable" : "required",
-                File::image()
-                    ->max(516)
-                    ->dimensions(
-                        Rule::dimensions()->maxWidth(1024)->maxHeight(1024)
-                    )
+            "category_id" => [
+                "required",
+                "integer",
+                "exists:" . Category::class . ",id"
             ]
         ];
     }

@@ -17,7 +17,8 @@ class Order extends Model
         "shipping_amount",
         "is_delivery",
         "address_id",
-        "notes"
+        "notes",
+        "payment_id"
     ];
 
     public static $status_enum = [
@@ -25,8 +26,7 @@ class Order extends Model
         "En Espera", // En espera para ser recogido
         "Enviado", // Enviado al cliente
         "Entregado", // Entregado al cliente
-        "Cancelado", // Pedido cancelado por el cliente
-        "Reembolsado" // Reembolsado por el cliente
+        "Cancelado" // Pedido cancelado por el cliente
     ];
 
     protected $appends = ["code"];

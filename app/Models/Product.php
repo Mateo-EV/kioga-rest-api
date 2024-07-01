@@ -39,6 +39,33 @@ class Product extends Model
         "brand_id"
     ];
 
+    // public static $fields_for_admins = [
+    //     "id",
+    //     "name",
+    //     "slug",
+    //     "description",
+    //     "price",
+    //     "discount",
+    //     "image",
+    //     "stock",
+    //     "category_id",
+    //     "subcategory_id",
+    //     "brand_id",
+    //     "created_at",
+    //     "updated_at",
+    //     "is_active"
+    // ];
+
+    protected function casts(): array
+    {
+        return [
+            "is_active" => "boolean",
+            "price" => "double",
+            "discount" => "double",
+            "price_discounted" => "double"
+        ];
+    }
+
     protected function image(): Attribute
     {
         return Attribute::get(
@@ -80,5 +107,12 @@ class Product extends Model
     public function orders()
     {
         return $this->belongsToMany(Order::class);
+    }
+
+    protected function originalImageUrl(): Attribute
+    {
+        return Attribute::get(
+            fn(mixed $_, array $attributes) => $attributes["image"]
+        );
     }
 }

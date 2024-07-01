@@ -7,6 +7,7 @@ use App\Http\Controllers\Auth\PasswordResetLinkController;
 use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
+use Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful;
 
 Route::post("/register", [RegisteredUserController::class, "store"])
     ->middleware("guest")
@@ -42,15 +43,3 @@ Route::post("/email/verification-notification", [
 Route::post("/logout", [AuthenticatedSessionController::class, "destroy"])
     ->middleware("auth")
     ->name("logout");
-
-Route::prefix("admin")->group(function () {
-    Route::post("/logout", [
-        AuthenticatedSessionController::class,
-        "destroy_admin"
-    ])->middleware("auth");
-
-    Route::post("/login", [
-        AuthenticatedSessionController::class,
-        "store_admin"
-    ])->middleware("guest");
-});
