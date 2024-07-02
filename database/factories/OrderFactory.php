@@ -20,7 +20,7 @@ class OrderFactory extends Factory
         $isDelivery = fake()->randomElement([true, false]);
 
         return [
-            "amount" => 300.0,
+            "amount" => $isDelivery ? 305 : 300,
             "user_id" => 1,
             "status" => "Pendiente",
             "shipping_amount" => $isDelivery ? 5 : 0,

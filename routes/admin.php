@@ -35,4 +35,8 @@ Route::middleware("is_admin")->group(function () {
     Route::apiResource("users", CustomerController::class);
     Route::post("/brands/update/{brand}", [BrandController::class, "update"]);
     Route::post("/orders/update/{order}", [OrderController::class, "update"]);
+    Route::post("/orders/status/{order}", [
+        OrderController::class,
+        "updateStatus"
+    ]);
 });

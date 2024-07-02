@@ -137,7 +137,9 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return Category::withCount(["products", "subcategories"])->get();
+        return Category::withCount(["products"])
+            ->with(["subcategories"])
+            ->get();
     }
 
     /**

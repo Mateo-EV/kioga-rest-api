@@ -39,23 +39,6 @@ class Product extends Model
         "brand_id"
     ];
 
-    // public static $fields_for_admins = [
-    //     "id",
-    //     "name",
-    //     "slug",
-    //     "description",
-    //     "price",
-    //     "discount",
-    //     "image",
-    //     "stock",
-    //     "category_id",
-    //     "subcategory_id",
-    //     "brand_id",
-    //     "created_at",
-    //     "updated_at",
-    //     "is_active"
-    // ];
-
     protected function casts(): array
     {
         return [

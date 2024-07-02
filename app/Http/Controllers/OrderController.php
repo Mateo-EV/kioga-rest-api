@@ -8,6 +8,8 @@ use App\Models\Address;
 use App\Models\Order;
 use App\Models\Product;
 use App\Services\MercadoPagoService;
+use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
 
 class OrderController extends Controller
 {
@@ -145,7 +147,8 @@ class OrderController extends Controller
     {
         return $order->load([
             "details" => ["product:*"],
-            "address"
+            "address",
+            "user"
         ]);
     }
 
@@ -189,6 +192,17 @@ class OrderController extends Controller
     public function destroy(Order $order)
     {
         $order->delete();
+
+        return $order;
+    }
+
+    public function updateStatus(Request $request, Order $order)
+    {
+        $request->validate([
+            "status" => ["required", "string", Rule::in(Order::$status_enum)]
+        ]);
+
+        $order->update(["status" => $request->status]);
 
         return $order;
     }

@@ -22,4 +22,11 @@ class OrderProduct extends Model
     {
         return $this->belongsTo(Product::class);
     }
+
+    protected function casts()
+    {
+        return [
+            "unit_amount" => "double"
+        ];
+    }
 }

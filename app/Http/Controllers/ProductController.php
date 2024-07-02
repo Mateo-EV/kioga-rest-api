@@ -283,9 +283,12 @@ class ProductController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Product $product)
+    public function show($product)
     {
-        return $product;
+        return Product::where("id", $product)
+            ->addSelect(["*"])
+            ->with(["brand", "category", "subcategory"])
+            ->get();
     }
 
     /**
