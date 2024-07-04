@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\CategoryRequest;
+use App\Http\Requests\EditCategoryRequest;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Database\Query\JoinClause;
@@ -139,6 +140,7 @@ class CategoryController extends Controller
     {
         return Category::withCount(["products"])
             ->with(["subcategories"])
+            ->orderBy("id", "desc")
             ->get();
     }
 
@@ -180,7 +182,7 @@ class CategoryController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(CategoryRequest $request, Category $category)
+    public function update(EditCategoryRequest $request, Category $category)
     {
         $category_updated = $request->validated();
         $category_updated["slug"] = Str::slug($category_updated["name"]);

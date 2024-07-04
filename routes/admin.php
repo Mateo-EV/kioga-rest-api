@@ -33,8 +33,16 @@ Route::middleware("is_admin")->group(function () {
     Route::apiResource("products", ProductController::class);
     Route::apiResource("orders", OrderController::class);
     Route::apiResource("users", CustomerController::class);
-    Route::post("/brands/update/{brand}", [BrandController::class, "update"]);
+    Route::post("/products/update/{product}", [
+        ProductController::class,
+        "update"
+    ]);
     Route::post("/orders/update/{order}", [OrderController::class, "update"]);
+    Route::post("/brands/update/{brand}", [BrandController::class, "update"]);
+    Route::post("/categories/update/{category}", [
+        CategoryController::class,
+        "update"
+    ]);
     Route::post("/orders/status/{order}", [
         OrderController::class,
         "updateStatus"

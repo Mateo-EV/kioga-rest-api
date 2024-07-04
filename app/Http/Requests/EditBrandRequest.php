@@ -3,11 +3,10 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\Rules\File;
 
-class CategoryRequest extends FormRequest
+class EditBrandRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -27,7 +26,7 @@ class CategoryRequest extends FormRequest
         return [
             "name" => ["required", "string", "max:255"],
             "image" => [
-                "required",
+                "nullable",
                 File::image()
                     ->max(516)
                     ->dimensions(

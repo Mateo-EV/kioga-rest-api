@@ -5,11 +5,10 @@ namespace App\Http\Requests;
 use App\Models\Brand;
 use App\Models\Category;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\Rules\File;
 
-class ProductRequest extends FormRequest
+class EditProductRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -56,7 +55,7 @@ class ProductRequest extends FormRequest
             ],
             "is_active" => ["required", "boolean"],
             "image" => [
-                "required",
+                "nullable",
                 File::image()
                     ->max(516)
                     ->dimensions(

@@ -9,6 +9,7 @@ use App\Models\Order;
 use App\Models\Product;
 use App\Services\MercadoPagoService;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\Rule;
 
 class OrderController extends Controller
@@ -162,10 +163,6 @@ class OrderController extends Controller
             ? 5
             : 0;
 
-        $order->update($order_updated);
-
-        $order->details()->delete();
-
         $ids = array_column($order_updated["details"], "product_id");
         $products = Product::whereIn("id", $ids)->get();
 
@@ -177,6 +174,11 @@ class OrderController extends Controller
                 "unit_amount" => $products[$key]->price_discounted
             ]);
         }
+
+        $order_updated["amount"] = $amount;
+        $order->update($order_updated);
+
+        $order->details()->delete();
 
         $order->details()->createMany($details);
 

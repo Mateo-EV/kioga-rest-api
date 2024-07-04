@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\EditProductRequest;
 use App\Http\Requests\ProductRequest;
 use App\Models\Brand;
 use App\Models\Category;
@@ -253,7 +254,9 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return Product::addSelect(["*"])->get();
+        return Product::addSelect(["*"])
+            ->orderBy("id", "desc")
+            ->get();
     }
 
     /**
@@ -276,8 +279,15 @@ class ProductController extends Controller
             $request->file("image")->getClientOriginalExtension();
 
         $request->file("image")->storePubliclyAs("products", $product["image"]);
+        $now = now();
+        $product["created_at"] = $now;
+        $product["updated_at"] = $now;
+        $id = DB::table("products")->insertGetId($product);
 
-        return Product::create($product);
+        return Product::where("id", $id)
+            ->addSelect(["*"])
+            ->with(["brand", "category", "subcategory"])
+            ->first();
     }
 
     /**
@@ -288,15 +298,23 @@ class ProductController extends Controller
         return Product::where("id", $product)
             ->addSelect(["*"])
             ->with(["brand", "category", "subcategory"])
-            ->get();
+            ->first();
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(ProductRequest $request, Product $product)
+    public function update(EditProductRequest $request, $product)
     {
         $product_updated = $request->validated();
+        $product = Product::where("id", $product)
+            ->addSelect(["*"])
+            ->first();
+
+        if (is_null($product)) {
+            return abort(404);
+        }
+
         $product_updated["slug"] = Str::slug($product_updated["name"]);
 
         if (
@@ -323,15 +341,19 @@ class ProductController extends Controller
         }
 
         $product->update($product_updated);
-
+        Log::info($product);
         return $product;
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Product $product)
+    public function destroy(int $product)
     {
+        $product = Product::where("id", $product)
+            ->addSelect(["*"])
+            ->first();
+
         $product->delete();
 
         Storage::delete("products/" . $product->original_image_url);

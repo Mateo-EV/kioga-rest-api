@@ -45,7 +45,8 @@ class Product extends Model
             "is_active" => "boolean",
             "price" => "double",
             "discount" => "double",
-            "price_discounted" => "double"
+            "price_discounted" => "double",
+            "stock" => "integer"
         ];
     }
 

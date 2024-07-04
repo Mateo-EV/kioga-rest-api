@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\BrandRequest;
+use App\Http\Requests\EditBrandRequest;
 use App\Models\Brand;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
@@ -59,7 +60,7 @@ class BrandController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(BrandRequest $request, Brand $brand)
+    public function update(EditBrandRequest $request, Brand $brand)
     {
         $brand_updated = $request->validated();
         $brand_updated["slug"] = Str::slug($brand_updated["name"]);
