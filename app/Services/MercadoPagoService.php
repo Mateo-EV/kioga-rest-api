@@ -59,9 +59,9 @@ class MercadoPagoService
             "back_urls" => $backUrls,
             "expires" => false,
             "metadata" => $metadata,
-            "notification_url" =>
-                "https://c176-2800-200-f488-914a-accb-6f1f-9845-d938.ngrok-free.app/api/webhook/mercadopago",
-            // "notification_url" => route("mercado_pago.webhook"),
+            // "notification_url" =>
+            // "https://c176-2800-200-f488-914a-accb-6f1f-9845-d938.ngrok-free.app/api/webhook/mercadopago",
+            "notification_url" => route("mercado_pago.webhook"),
             "auto_return" => "approved"
         ];
 
