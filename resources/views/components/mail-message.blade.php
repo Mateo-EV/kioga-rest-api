@@ -36,8 +36,9 @@
       color: #ffffff;
       text-decoration: none;
       border-radius: 5px;
-      align-self: center;
       margin: 20px auto;
+      text-align: center;
+      width: 100%;
     }
 
     .footerbox {
@@ -56,9 +57,8 @@
     }
 
     .content {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
+      margin: 0 auto,
+      text-align: center;
     }
 
   </style>
@@ -68,7 +68,7 @@
     <div class="headerbox">
       <img src="{{ asset('images/kioga.png') }}" alt="Kioga Logo">
     </div>
-    <div class="content">
+    <div class="content" style="jus">
       {{ $slot }}
     </div>
     @isset($subcopy)

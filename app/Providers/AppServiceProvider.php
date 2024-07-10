@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Models\Order;
+use App\Models\User;
 use App\Policies\OrderPolicy;
 use Illuminate\Auth\Notifications\ResetPassword;
 use Illuminate\Auth\Notifications\VerifyEmail;
@@ -40,29 +41,25 @@ class AppServiceProvider extends ServiceProvider
                 ->salutation("");
         });
 
-        ResetPassword::toMailUsing(function (object $notifiable, string $url) {
+        ResetPassword::toMailUsing(function (
+            object $notifiable,
+            string $token
+        ) {
             return (new MailMessage())
                 ->subject("Restablecer contraseña")
                 ->line(
                     "Está recibiendo este correo electrónico porque recibimos una solicitud de restablecimiento de contraseña para su cuenta"
                 )
-                ->action("Restablecer contraseña", $url)
+                ->action(
+                    "Restablecer contraseña",
+                    config("app.frontend_url") .
+                        "/password-reset/$token?email={$notifiable->getEmailForPasswordReset()}"
+                )
                 ->line("Este enlace caducará en 60 minutos.")
                 ->line(
                     "Si no solicitó un restablecimiento de contraseña, no es necesario realizar ninguna otra acción"
                 )
                 ->salutation("");
-        });
-    }
-
-    public function createUrlToResetPassword(): void
-    {
-        ResetPassword::createUrlUsing(function (
-            object $notifiable,
-            string $token
-        ) {
-            return config("app.frontend_url") .
-                "/password-reset/$token?email={$notifiable->getEmailForPasswordReset()}";
         });
     }
 
@@ -76,7 +73,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->createUrlToResetPassword();
         $this->customizeMails();
         $this->setUpPolicies();
         // $this->createRateLimiters();
