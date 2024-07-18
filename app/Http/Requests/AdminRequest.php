@@ -36,8 +36,7 @@ class AdminRequest extends FormRequest
                 "unique:" . Admin::class . ",email," . $admin?->id
             ],
             "password" => [
-                "required",
-                "confirmed",
+                $admin ? "nullable" : "required",
                 Password::min(10)->letters()->mixedCase()->numbers()->symbols()
             ]
         ];

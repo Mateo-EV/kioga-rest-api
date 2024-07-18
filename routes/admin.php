@@ -47,4 +47,5 @@ Route::middleware("is_admin")->group(function () {
         OrderController::class,
         "updateStatus"
     ]);
+    Route::get("/dashboard", [AdminController::class, "getDashboardData"]);
 });

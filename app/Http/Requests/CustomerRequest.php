@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use App\Models\User;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Support\Facades\Password;
+use Illuminate\Validation\Rules\Password;
 
 class CustomerRequest extends FormRequest
 {
@@ -37,7 +37,6 @@ class CustomerRequest extends FormRequest
             ],
             "password" => [
                 $customer ? "nullable" : "required",
-                "confirmed",
                 Password::defaults()
             ]
         ];
